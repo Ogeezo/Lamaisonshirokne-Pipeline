@@ -1,0 +1,1047 @@
+{
+  "current": {
+    "color_announcement_bg": "#8d6b3d",
+    "color_announcement_text": "#ffffff",
+    "color_header_bg": "#ffffff",
+    "color_header_text": "#333333",
+    "color_nav_border": "#ededed",
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#000000",
+    "color_primary": "#1391a4",
+    "color_secondary": "#285056",
+    "color_bg_light": "#f7f7f7",
+    "color_bg_inverse": "#333333",
+    "color_text_inverse": "#ffffff",
+    "color_primary_inverse": "#70ccda",
+    "color_secondary_inverse": "#497178",
+    "color_bg_accent_inverse": "#000810",
+    "product_background_color": "#fcfcfc",
+    "color_footer_bg": "#f7f7f7",
+    "color_footer_text": "#333333",
+    "type_header_font": "bembo_book_n7",
+    "type_heading_size": 100,
+    "font_title_capitalize": false,
+    "type_accent_font": "avenir_next_n5",
+    "type_accent_size": 100,
+    "type_base_font": "avenir_next_n4",
+    "type_body_size": 100,
+    "button_radius": 5,
+    "animations_enable": true,
+    "parallax_enable": true,
+    "collection_text_alignment": "text-left",
+    "product_grid_style": "under",
+    "image_hover_enable": true,
+    "image_autoheight_enable": true,
+    "product_grid_aspect_ratio": 1,
+    "swatches_enable": false,
+    "swatches_collection_enable": false,
+    "tag_sellout": true,
+    "tag_sale": true,
+    "tag_new": true,
+    "tag_new_limit": 90,
+    "social_twitter_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/%E3%83%A9%E3%83%A1%E3%82%BE%E3%83%B3%E7%99%BD%E9%87%91La-Maison-Shirokane-243452076198455",
+    "social_instagram_link": "https:\/\/www.instagram.com\/lamaisonshirokane_official\/",
+    "social_pinterest_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_tumblr_link": "",
+    "social_medium_link": "",
+    "social_snapchat_link": "",
+    "share_enable_facebook": true,
+    "share_enable_pinterest": false,
+    "share_enable_twitter": true,
+    "favicon": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#1391a4",
+    "checkout_button_color": "#1391a4",
+    "checkout_error_color": "#de7878",
+    "color_account_bg": "#f3f3f3",
+    "color_account_text": "#656565",
+    "color_splash": "#f4a482",
+    "color_border": "#dddddd",
+    "homepage_background_light": "#f7f7f7",
+    "homepage_background_dark": "#2e3438",
+    "product_slideshow_arrows": "#cccccc",
+    "color_footer_social_link": "#a9a9a9",
+    "padding": 32,
+    "checkout_use_body_background_image": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "3dc014b1-ca80-4eca-bdd8-158a3a0af34d": {
+            "type": "collection",
+            "settings": {
+              "position": "2",
+              "collection": "ガトー-タブレット",
+              "limit": 4
+            }
+          }
+        },
+        "block_order": [
+          "3dc014b1-ca80-4eca-bdd8-158a3a0af34d"
+        ],
+        "settings": {
+          "header_style": "menu_center",
+          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo_max_limit": 160,
+          "main_menu_linklist": "mainmenu2",
+          "enable_search": false,
+          "enable_account": true,
+          "use_icons": false,
+          "header_sticky": "directional",
+          "transparent_home": false,
+          "transparent_collection": false,
+          "transparent_blog": false,
+          "transparent_article": false,
+          "transparent_page": false,
+          "transparent_text_color": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "linklist": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "main-menu"
+            }
+          },
+          "474e52b9-a19a-4de4-a89e-4ff15f5e5a79": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "link-list-1"
+            }
+          },
+          "text": {
+            "type": "text",
+            "settings": {
+              "title": "Text column",
+              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "richtext": "<p>Join to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "linklist",
+          "474e52b9-a19a-4de4-a89e-4ff15f5e5a79",
+          "text",
+          "newsletter"
+        ],
+        "settings": {
+          "footer_image": "shopify:\/\/shop_images\/logo.png",
+          "footer_secondary_linklist": "link-list-1",
+          "footer_payment_enable": true,
+          "footer_social_enable": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "product": {
+        "type": "product",
+        "blocks": {
+          "9b612e1b-af80-4351-88da-a5b4a236cba3": {
+            "type": "tab_description",
+            "settings": {}
+          },
+          "edac1059-d134-4adb-aa56-ffeb36dd5cf7": {
+            "type": "tab_page",
+            "settings": {
+              "title": "Page tab",
+              "raw_content": "about"
+            }
+          }
+        },
+        "block_order": [
+          "9b612e1b-af80-4351-88da-a5b4a236cba3",
+          "edac1059-d134-4adb-aa56-ffeb36dd5cf7"
+        ],
+        "settings": {
+          "image_width": "narrow",
+          "align": "product__align-left",
+          "variant_form": "button",
+          "form_position": "below",
+          "product_breadcrumbs": true,
+          "show_quantity": true,
+          "show_remaining": true,
+          "enable_payment_button": false,
+          "product_show_vendor": false,
+          "social_enable": true,
+          "product_reviews_enable": false,
+          "enable_video_looping": true,
+          "zoom_enable": true,
+          "info_page": "about",
+          "tabs_position": "below"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "grid_setting_large": 4,
+          "grid_setting_small": 2,
+          "product_limit": 12,
+          "enable_layout_toggle": false,
+          "collection_sorting": false,
+          "text_align": "align--bottom-left",
+          "show_title": true,
+          "show_title_below": false,
+          "show_description": true,
+          "show_description_below": true,
+          "show_image": true,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 20,
+          "color": "palette--contrast--dark",
+          "hide_sidebar": true,
+          "collection_custom_nav_list": "",
+          "collection_standard_nav": true,
+          "collection_tag_nav": true
+        }
+      },
+      "blog": {
+        "type": "blog",
+        "settings": {
+          "layout": "grid",
+          "blog_show_meta": false,
+          "overlay_opacity": 0,
+          "image_height": "use_screen_one_third",
+          "color": "palette--contrast--dark",
+          "tags": false
+        }
+      },
+      "article": {
+        "type": "article",
+        "settings": {
+          "blog_show_meta": false,
+          "tags": false,
+          "social": true,
+          "image_height": "use_image",
+          "sidebar_tags": false,
+          "recent": true
+        }
+      },
+      "index-product": {
+        "type": "index-product",
+        "settings": {}
+      },
+      "index-collection": {
+        "type": "index-collection",
+        "settings": {
+          "title": "seasonal recommend",
+          "collection": "seasonal-recommend",
+          "grid": 4,
+          "rows": 1,
+          "bg": "section bg--accent",
+          "show_view_all": false
+        }
+      },
+      "index-video": {
+        "type": "index-video",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/TOP.jpg",
+          "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+          "height": "use_screen_two_thirds",
+          "overlay_opacity": 15,
+          "autoplay": false,
+          "show_play": true,
+          "title": "Featured video",
+          "description": "This area is used to describe your video’s details.",
+          "text_align": "align--middle-center",
+          "color": "palette--contrast--dark"
+        }
+      },
+      "index-collection-grid": {
+        "type": "index-collection-grid",
+        "blocks": {
+          "index-collection-grid-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "ガトー-タブレット",
+              "title": "ガトー&タブレット",
+              "link_text": "View products",
+              "image": "shopify:\/\/shop_images\/about-content3.jpg",
+              "button_link": "shopify:\/\/collections\/ガトー-タブレット"
+            }
+          },
+          "index-collection-grid-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "ショコラサンド",
+              "title": "ショコラサンド",
+              "link_text": "View products",
+              "image": "shopify:\/\/shop_images\/about-content2.jpg",
+              "button_link": "shopify:\/\/collections\/ショコラサンド"
+            }
+          },
+          "94077afc-85db-4eef-80ec-e475e2944c56": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "タブレットショコラ",
+              "title": "タブレットショコラ",
+              "link_text": "View products",
+              "image": "shopify:\/\/shop_images\/about-content5.jpg"
+            }
+          },
+          "f0be0545-741b-4b51-afc7-39762ffc4ee5": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "季節のゼリー",
+              "title": "季節のゼリー",
+              "link_text": "View products",
+              "image": "shopify:\/\/shop_images\/about-content6.jpg"
+            }
+          },
+          "6c2207ee-8a12-4441-abf2-79113c9d6603": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "クリームチーズケーキ",
+              "title": "クリームチーズケーキ",
+              "link_text": "View products",
+              "image": "shopify:\/\/shop_images\/about-content4.jpg"
+            }
+          },
+          "5b567920-68c0-47f9-95a4-dc76fe74c6ce": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "",
+              "title": "Featured collection",
+              "link_text": "View products"
+            }
+          }
+        },
+        "block_order": [
+          "index-collection-grid-1",
+          "index-collection-grid-2",
+          "94077afc-85db-4eef-80ec-e475e2944c56",
+          "f0be0545-741b-4b51-afc7-39762ffc4ee5",
+          "6c2207ee-8a12-4441-abf2-79113c9d6603",
+          "5b567920-68c0-47f9-95a4-dc76fe74c6ce"
+        ],
+        "settings": {
+          "title": "カテゴリー",
+          "grid": 3,
+          "bg": "section bg--accent",
+          "color": "palette--contrast--dark",
+          "button_style": "btn--outline",
+          "overlay_opacity": 20,
+          "aspect_ratio": 1
+        }
+      },
+      "index-double": {
+        "type": "index-double",
+        "blocks": {
+          "index-double-1": {
+            "type": "text",
+            "settings": {
+              "title": "大人の味わいで上質なひとときを。",
+              "richtext": "<p>高級住宅やレストランそして和と洋が融合する街、<br\/>東京・白金の洋菓子ブランド「ラ・メゾン白金」。<br\/><br\/>食材や季節感にこだわったショコラや焼き菓子など\"上質なカジュアル\"をテーマに、<br\/>自分へのご褒美や様々なギフトシーンに対応できるラインナップでお届けいたします。<\/p>",
+              "text_align": "align--middle-left",
+              "bg": "section",
+              "link_text": "",
+              "button_style": "btn"
+            }
+          },
+          "index-double-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/lamaison-card.jpg",
+              "overlay_opacity": 5,
+              "title": "",
+              "description": "",
+              "text_align": "align--middle-center",
+              "color": "palette--contrast--dark",
+              "link_text": "",
+              "button_style": "btn"
+            }
+          }
+        },
+        "block_order": [
+          "index-double-1",
+          "index-double-0"
+        ],
+        "settings": {
+          "height": "use_screen_two_thirds"
+        }
+      },
+      "index-columns": {
+        "type": "index-columns",
+        "disabled": true,
+        "blocks": {
+          "index-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/02.jpg",
+              "title": "クリームチーズケーキ",
+              "text": "<p>厳選チーズを使用した、こだわりのチーズケーキ<\/p>",
+              "button_label": "VIEW ITEM",
+              "button_link": "shopify:\/\/products\/クリームチーズケーキ-タルト",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          },
+          "index-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/TOP-sp.jpg",
+              "title": "ガトー&タブレット",
+              "text": "<p>人気の焼き菓子と色鮮やかな板チョコレートの詰め合わせ<\/p>",
+              "button_label": "詳しくはこちら",
+              "button_link": "shopify:\/\/collections\/ガトー-タブレット",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          },
+          "index-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/2.jpg",
+              "title": "2層のフルーツゼリー",
+              "text": "<p>2種類のフルーツを使用したゼリーにフルーツの果肉を入れた、見た目にも華やかな2層のフルーツゼリー。<\/p>",
+              "button_label": "詳しくはこちら",
+              "button_link": "shopify:\/\/collections\/季節のゼリー",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          }
+        },
+        "block_order": [
+          "index-columns-0",
+          "index-columns-1",
+          "index-columns-2"
+        ],
+        "settings": {
+          "title": "お中元におすすめのアイテム",
+          "bg": "section",
+          "align_text": "text-left",
+          "scale_image": true,
+          "aspect_ratio": 1
+        }
+      },
+      "index-slideshow": {
+        "type": "index-slideshow",
+        "blocks": {
+          "index-slideshow-0": {
+            "type": "image",
+            "settings": {
+              "overlay_opacity": 15,
+              "title": "Image slide",
+              "description": "Tell your brand's story through images.",
+              "text_align": "align--middle-center",
+              "link_text": "View products",
+              "button_style": "btn"
+            }
+          },
+          "index-slideshow-1": {
+            "type": "image",
+            "settings": {
+              "overlay_opacity": 15,
+              "title": "Image slide",
+              "description": "Tell your brand's story through images.",
+              "text_align": "align--middle-center",
+              "link_text": "View products",
+              "button_style": "btn"
+            }
+          }
+        },
+        "block_order": [
+          "index-slideshow-0",
+          "index-slideshow-1"
+        ],
+        "settings": {
+          "autoplay": false,
+          "autoplay_speed": 8,
+          "height": "use_screen_two_thirds",
+          "color": "palette--contrast--dark"
+        }
+      },
+      "index-blog": {
+        "type": "index-blog",
+        "settings": {
+          "title": "recent information",
+          "homepage_blog": "ニュース",
+          "homepage_blog_count": 3,
+          "bg": "section",
+          "color": "palette--contrast--dark",
+          "aspect_ratio": 1
+        }
+      },
+      "index-logos": {
+        "type": "index-logos",
+        "blocks": {
+          "index-logos-0": {
+            "type": "logo_image",
+            "settings": {}
+          },
+          "index-logos-1": {
+            "type": "logo_image",
+            "settings": {}
+          },
+          "index-logos-2": {
+            "type": "logo_image",
+            "settings": {}
+          },
+          "index-logos-3": {
+            "type": "logo_image",
+            "settings": {}
+          },
+          "index-logos-4": {
+            "type": "logo_image",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "index-logos-0",
+          "index-logos-1",
+          "index-logos-2",
+          "index-logos-3",
+          "index-logos-4"
+        ],
+        "settings": {
+          "title": "",
+          "bg": "section"
+        }
+      },
+      "index-map": {
+        "type": "index-map",
+        "disabled": true,
+        "settings": {
+          "height": "use_screen_one_third",
+          "heading": "ラ・メゾン白金 グラン本店",
+          "address": "<p>〒108-0072<br\/>東京都港区白金 1-27-6 <br\/>白金高輪ステーションビル1階<br\/><br\/><\/p>",
+          "button": "MAPを見る",
+          "button_style": "btn",
+          "style": "light",
+          "zoom": 11,
+          "bg": "section bg--accent",
+          "api_key": "",
+          "map_address": "〒108-0072 東京都港区白金 1-27-6 白金高輪ステーションビル1階",
+          "image": "shopify:\/\/shop_images\/a8b2ddcaf0f61649c220e770c97335d5.jpg"
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "enable": true,
+          "message": "税込10,800円以上で送料無料",
+          "more": "",
+          "enable_account": true,
+          "enable_search": true
+        }
+      },
+      "1621835711df2bab4e": {
+        "type": "index-hero",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/TOP.jpg",
+          "height": "use_image",
+          "overlay_opacity": 15,
+          "title": "",
+          "description": "",
+          "text_align": "align--bottom-center",
+          "color": "palette--contrast--dark",
+          "link_text": "View products",
+          "button_style": "btn"
+        }
+      },
+      "related": {
+        "type": "related",
+        "settings": {
+          "related_products_enable": true,
+          "limit": 4,
+          "product_recommendations_heading": "Related products"
+        }
+      },
+      "list-collections": {
+        "type": "list-collections",
+        "blocks": {
+          "f75a436d-504f-467c-b182-824195bb9683": {
+            "type": "collection",
+            "settings": {
+              "collection": "ガトー-タブレット"
+            }
+          },
+          "ea9fe798-7bf6-4806-8666-fd4af5290690": {
+            "type": "collection",
+            "settings": {
+              "collection": "ショコラサンド"
+            }
+          },
+          "34621d0f-7c36-4a47-b86d-8f26841b7a70": {
+            "type": "collection",
+            "settings": {
+              "collection": "タブレットショコラ"
+            }
+          },
+          "96dec44d-23f3-4d11-8c08-434570785c36": {
+            "type": "collection",
+            "settings": {
+              "collection": "季節のゼリー"
+            }
+          },
+          "934d6f1d-2e71-4fb6-b42e-893b8138d0b3": {
+            "type": "collection",
+            "settings": {
+              "collection": "クリームチーズケーキ"
+            }
+          }
+        },
+        "block_order": [
+          "f75a436d-504f-467c-b182-824195bb9683",
+          "ea9fe798-7bf6-4806-8666-fd4af5290690",
+          "34621d0f-7c36-4a47-b86d-8f26841b7a70",
+          "96dec44d-23f3-4d11-8c08-434570785c36",
+          "934d6f1d-2e71-4fb6-b42e-893b8138d0b3"
+        ],
+        "settings": {
+          "style": "product",
+          "aspect_ratio": 0.3,
+          "grid_collection": 1,
+          "grid": 4,
+          "rows": 5
+        }
+      },
+      "page-images": {
+        "type": "page-images",
+        "settings": {
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 30,
+          "palette": "palette--contrast--dark",
+          "text_align": "align--middle-center"
+        }
+      },
+      "1622702964211cac9f": {
+        "type": "index-slideshow",
+        "blocks": {
+          "1622702964211cac9f-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/TOP.jpg",
+              "overlay_opacity": 15,
+              "title": "Image slide",
+              "description": "Tell your brand's story through images.",
+              "text_align": "align--middle-center",
+              "link_text": "View products",
+              "button_style": "btn"
+            }
+          },
+          "1622702964211cac9f-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/croissant-coffee.jpg",
+              "overlay_opacity": 15,
+              "title": "Image slide",
+              "description": "Tell your brand's story through images.",
+              "text_align": "align--middle-center",
+              "link_text": "View products",
+              "button_style": "btn"
+            }
+          }
+        },
+        "block_order": [
+          "1622702964211cac9f-0",
+          "1622702964211cac9f-1"
+        ],
+        "settings": {
+          "autoplay": true,
+          "autoplay_speed": 8,
+          "height": "use_screen_full",
+          "color": "palette--contrast--dark"
+        }
+      },
+      "1622704990738191c6": {
+        "type": "index-hero",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/lamaison-card.jpg",
+          "height": "use_image",
+          "overlay_opacity": 15,
+          "title": "大人の味わいで上質なひとときを。",
+          "description": "高級住宅やレストランそして和と洋が融合する街、\n東京・白金の洋菓子ブランド「ラ・メゾン白金」。",
+          "text_align": "align--middle-left",
+          "color": "palette--secondary",
+          "link_text": "ABOUT",
+          "link": "shopify:\/\/pages\/about",
+          "button_style": "btn--outline"
+        }
+      },
+      "cart": {
+        "type": "cart",
+        "settings": {
+          "enable_ajax": true,
+          "cart_vendor_enable": false,
+          "cart_notes_enable": false,
+          "cart_show_quantity": true,
+          "cart_show_additional_buttons": false
+        }
+      },
+      "1622772826406acd0e": {
+        "type": "index-blog",
+        "disabled": true,
+        "settings": {
+          "title": "店舗からのお知らせ",
+          "homepage_blog": "テスト",
+          "homepage_blog_count": 3,
+          "bg": "section",
+          "color": "",
+          "aspect_ratio": 1
+        }
+      },
+      "1623032475b2bd1d7b": {
+        "type": "index-product",
+        "disabled": true,
+        "settings": {
+          "title": "Featured product",
+          "home_product": "2層のフルーツゼリー-5個",
+          "bg": "section bg--accent",
+          "image_width": "narrow",
+          "align": "product__align-left",
+          "variant_form": "button",
+          "form_position": "below",
+          "show_quantity": true,
+          "show_remaining": true,
+          "enable_payment_button": false,
+          "product_show_vendor": false,
+          "enable_video_looping": true,
+          "zoom_enable": true,
+          "info_page": "",
+          "tabs_position": "below"
+        }
+      },
+      "162303272338f86a0d": {
+        "type": "index-icons",
+        "blocks": {
+          "162303272338f86a0d-0": {
+            "type": "icon_block",
+            "settings": {
+              "icon_name": "icon-lock-card",
+              "icon_color": "#aaaaaa",
+              "title": "Free returns",
+              "text": "<p>Returns within 30 days receive a full refund.<\/p>"
+            }
+          },
+          "162303272338f86a0d-1": {
+            "type": "icon_block",
+            "settings": {
+              "icon_name": "icon-shipment-world",
+              "icon_color": "#aaaaaa",
+              "title": "Wordwide shipping",
+              "text": "<p>Ship anywhere, rates available at checkout.<\/p>"
+            }
+          },
+          "162303272338f86a0d-2": {
+            "type": "icon_block",
+            "settings": {
+              "icon_name": "icon-phone",
+              "icon_color": "#aaaaaa",
+              "title": "24\/7 support",
+              "text": "<p>Call us anytime at 1(800) 555-1234.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "162303272338f86a0d-0",
+          "162303272338f86a0d-1",
+          "162303272338f86a0d-2"
+        ],
+        "settings": {
+          "title": "",
+          "bg": "section",
+          "icon_size": "icon--small",
+          "icon_alignment": "icon--top",
+          "align_text": "text-center"
+        }
+      },
+      "1623034326000e266c": {
+        "type": "index-double",
+        "disabled": true,
+        "blocks": {
+          "383dfe3a-399c-4599-81b2-9bd1a9b6bebe": {
+            "type": "text",
+            "settings": {
+              "title": "クリームチーズケーキ",
+              "richtext": "<p>厳選したチーズを使用したこだわりのチーズケーキ<\/p>",
+              "text_align": "align--middle-left",
+              "bg": "section",
+              "link_text": "詳しくはこちら",
+              "button_style": "btn"
+            }
+          },
+          "1623034326000e266c-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/02.jpg",
+              "overlay_opacity": 15,
+              "title": "クリームチーズケーキ",
+              "description": "厳選したチーズを使用したこだわりのチーズケーキ",
+              "text_align": "align--middle-left",
+              "color": "palette--contrast--dark",
+              "link_text": "詳しく見る",
+              "button_style": "btn"
+            }
+          }
+        },
+        "block_order": [
+          "383dfe3a-399c-4599-81b2-9bd1a9b6bebe",
+          "1623034326000e266c-0"
+        ],
+        "settings": {
+          "height": "use_screen_three_quarters"
+        }
+      },
+      "1623051101873eb332": {
+        "type": "index-slideshow",
+        "disabled": true,
+        "blocks": {
+          "1623051101873eb332-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/content.jpg",
+              "overlay_opacity": 20,
+              "title": "クリームチーズケーキ",
+              "description": "厳選したチーズを使用した、こだわりのチーズケーキ",
+              "text_align": "align--middle-left",
+              "link_text": "View products",
+              "link": "shopify:\/\/collections\/クリームチーズケーキ",
+              "button_style": "btn"
+            }
+          }
+        },
+        "block_order": [
+          "1623051101873eb332-0"
+        ],
+        "settings": {
+          "autoplay": false,
+          "autoplay_speed": 8,
+          "height": "use_screen_two_thirds",
+          "color": "palette--contrast--dark"
+        }
+      },
+      "1623051814b95c8448": {
+        "type": "index-collection",
+        "disabled": true,
+        "settings": {
+          "title": "",
+          "collection": "クリームチーズケーキ",
+          "grid": 4,
+          "rows": 1,
+          "bg": "section",
+          "show_view_all": false
+        }
+      },
+      "1623206196a5249098": {
+        "type": "index-columns",
+        "blocks": {
+          "1623206196a5249098-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/TOP-sp.jpg",
+              "title": "ABOUT",
+              "text": "<p>大人の味わいで上質なひとときを。<\/p><p>高級住宅やレストランそして和と洋が融合する街、<br\/>東京・白金の洋菓子ブランド「<strong>ラ・メゾン白金<\/strong>」<\/p>",
+              "button_label": "VIEWMORE",
+              "button_link": "shopify:\/\/pages\/about",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          },
+          "fb61e7d4-b54c-42b1-9109-bff2a9073af0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/top_shop.jpg",
+              "title": "SHOP",
+              "text": "",
+              "button_label": "VIEWMORE",
+              "button_link": "shopify:\/\/pages\/shop",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          }
+        },
+        "block_order": [
+          "1623206196a5249098-0",
+          "fb61e7d4-b54c-42b1-9109-bff2a9073af0"
+        ],
+        "settings": {
+          "title": "",
+          "bg": "section",
+          "align_text": "text-center",
+          "scale_image": true,
+          "aspect_ratio": 1
+        }
+      }
+    },
+    "content_for_index": [
+      "1622702964211cac9f",
+      "1621835711df2bab4e",
+      "index-collection",
+      "index-blog",
+      "index-collection-grid",
+      "1623051101873eb332",
+      "1623051814b95c8448",
+      "index-columns",
+      "index-video",
+      "index-double",
+      "1622704990738191c6",
+      "index-map",
+      "1622772826406acd0e",
+      "1623032475b2bd1d7b",
+      "162303272338f86a0d",
+      "1623034326000e266c",
+      "1623206196a5249098"
+    ]
+  },
+  "presets": {
+    "Light": {
+      "color_announcement_bg": "#f7f7f7",
+      "color_announcement_text": "#656565",
+      "color_header_bg": "#ffffff",
+      "color_header_text": "#656565",
+      "color_nav_border": "#f7f7f7",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#656565",
+      "color_primary": "#f4a482",
+      "color_secondary": "#585e71",
+      "color_bg_light": "#f7f7f7",
+      "color_bg_inverse": "#2e3438",
+      "color_text_inverse": "#ffffff",
+      "color_primary_inverse": "#fcd8c8",
+      "color_secondary_inverse": "#c6dae5",
+      "color_bg_accent_inverse": "#222324",
+      "product_background_color": "#ffffff",
+      "color_footer_bg": "#ffffff",
+      "color_footer_text": "#656565",
+      "color_account_bg": "#f3f3f3",
+      "color_account_text": "#656565",
+      "color_splash": "#f4a482",
+      "color_border": "#dddddd",
+      "homepage_background_light": "#f7f7f7",
+      "homepage_background_dark": "#2e3438",
+      "product_slideshow_arrows": "#cccccc",
+      "color_footer_social_link": "#a9a9a9",
+      "type_header_font": "ovo_n4",
+      "type_heading_size": 100,
+      "font_title_capitalize": false,
+      "type_accent_font": "itc_johnston_n5",
+      "type_accent_size": 100,
+      "type_base_font": "harmonia_sans_n4",
+      "type_body_size": 100,
+      "animations_enable": true,
+      "parallax_enable": true,
+      "padding": 32,
+      "button_radius": 0,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "hover",
+      "image_hover_enable": true,
+      "image_autoheight_enable": true,
+      "product_grid_aspect_ratio": 1,
+      "swatches_enable": true,
+      "tag_sellout": false,
+      "tag_sale": true,
+      "tag_new": false,
+      "tag_new_limit": 14,
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#E37648",
+      "checkout_button_color": "#f4a482",
+      "checkout_error_color": "#585e71"
+    },
+    "Bright": {
+      "color_announcement_bg": "#333333",
+      "color_announcement_text": "#ffffff",
+      "color_header_bg": "#ffffff",
+      "color_header_text": "#333333",
+      "color_nav_border": "#ededed",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_primary": "#1391a4",
+      "color_secondary": "#285056",
+      "color_bg_inverse": "#333333",
+      "color_primary_inverse": "#70ccda",
+      "color_secondary_inverse": "#497178",
+      "color_bg_accent_inverse": "#000810",
+      "product_background_color": "#fcfcfc",
+      "color_footer_bg": "#f7f7f7",
+      "color_footer_text": "#333333",
+      "type_header_font": "bembo_book_n7",
+      "type_heading_size": 100,
+      "font_title_capitalize": false,
+      "type_accent_font": "avenir_next_n5",
+      "type_accent_size": 100,
+      "type_base_font": "avenir_next_n4",
+      "type_body_size": 100,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "hover",
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#1391a4",
+      "checkout_button_color": "#1391a4",
+      "checkout_error_color": "#DE7878"
+    },
+    "Dark": {
+      "color_announcement_bg": "#212121",
+      "color_announcement_text": "#d4d4d4",
+      "color_header_bg": "#353535",
+      "color_header_text": "#ffffff",
+      "color_nav_border": "#000000",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#3c3c3c",
+      "color_primary": "#C73535",
+      "color_secondary": "#000000",
+      "color_bg_light": "#f7f7f7",
+      "color_bg_inverse": "#2e3438",
+      "color_text_inverse": "#e6e6e6",
+      "color_primary_inverse": "#e3baba",
+      "color_secondary_inverse": "#ffffff",
+      "color_bg_accent_inverse": "#222324",
+      "product_background_color": "#ffffff",
+      "color_footer_bg": "#383838",
+      "color_footer_text": "#e3e3e3",
+      "type_header_font": "basic_commercial_n7",
+      "type_heading_size": 100,
+      "font_title_capitalize": false,
+      "type_accent_font": "karla_n4",
+      "type_accent_size": 115,
+      "type_base_font": "basic_commercial_n4",
+      "type_body_size": 125,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "under",
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Open Sans",
+      "checkout_body_font": "Open Sans",
+      "checkout_accent_color": "#8b1e1e",
+      "checkout_button_color": "#e73131",
+      "checkout_error_color": "#ff862b"
+    }
+  }
+}

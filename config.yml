@@ -1,0 +1,6 @@
+development:
+  password: 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
+  theme_id: "123918581957"
+  store: xn-4ck9cxa6bxb1900gh8tb.myshopify.com
+  ignore_files:
+  - .git
