@@ -205,7 +205,9 @@
         <span class="h5--body strong cart__subtotal money">{{ cart.total_price | money }}</span>
       </p>
       <p class="cart__footer__text"><em>{{ 'cart.general.shipping_at_checkout' | t }}</em></p>
-
+      {%- comment -%}jw-add deliverydateandtime {%- endcomment -%}
+      {% render 'cart-attributes' %}
+      {%- comment -%}jw-add end{%- endcomment -%}
       <div class="cart__footer__buttons">
         <span class="cart__update" data-update>
           <span class="cart__update__icon">{% render 'icon-sync' %}</span>
