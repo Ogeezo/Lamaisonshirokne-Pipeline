@@ -119,7 +119,42 @@
       </p>
 
       <div data-product-add-popdown-wrapper class="product-add-popdown"></div>
-
+      {%- comment -%}jw-add {%- endcomment -%}
+      <p class="line-item-property__field">
+        <label>掛け紙・熨斗</label>
+        <select id="" name="properties[掛け紙・熨斗]">
+          <option value="なし">なし</option>
+          <option value="無地（紅白蝶結び）">無地（紅白蝶結び）</option>
+          <option value="御礼（紅白蝶結び）">御礼（紅白蝶結び）</option>
+          <option value="御祝（紅白蝶結び）">御祝（紅白蝶結び）</option>
+          <option value="内祝（紅白蝶結び）">内祝（紅白蝶結び）</option>
+          <option value="御中元（紅白蝶結び）">御中元（紅白蝶結び）</option>
+          <option value="御歳暮（紅白蝶結び）">御歳暮（紅白蝶結び）</option>
+          <option value="御年賀（紅白蝶結び）">御年賀（紅白蝶結び）</option>
+          <option value="残暑御見舞（紅白蝶結び）">残暑御見舞（紅白蝶結び）</option>
+          <option value="無地（紅白結び切り10本）※婚礼用">無地（紅白結び切り10本）※婚礼用</option>
+          <option value="寿（紅白結び切り10本）※婚礼用">寿（紅白結び切り10本）※婚礼用</option>
+          <option value="内祝（紅白結び切り10本）※婚礼用">内祝（紅白結び切り10本）※婚礼用</option>
+          <option value="無地（紅白結び切り5本）">無地（紅白結び切り5本）</option>
+          <option value="御見舞（紅白結び切り5本）">御見舞（紅白結び切り5本）</option>
+          <option value="御見舞御礼（紅白結び切り5本）">御見舞御礼（紅白結び切り5本）</option>
+          <option value="快気祝（紅白結び切り5本）">快気祝（紅白結び切り5本）</option>
+          <option value="無地（白黒結び切り）">無地（白黒結び切り）</option>
+          <option value="御霊前（白黒結び切り）">御霊前（白黒結び切り）</option>
+          <option value="御仏前（白黒結び切り）">御仏前（白黒結び切り）</option>
+          <option value="志（白黒結び切り）">志（白黒結び切り）</option>
+          <option value="御供（白黒結び切り）">御供（白黒結び切り）</option>
+        </select>
+      </p>
+      <p class="line-item-property__field">
+        <label>メッセージカード</label>
+        <select id="" name="properties[メッセージカード]">
+          <option value="なし">なし</option>
+          <option value="ありがとう/Thank you">ありがとう/Thank you</option>
+          <option value="おめでとう/Congratulations">おめでとう/Congratulations</option>
+        </select>
+      </p>
+      {%- comment -%}jw-add end{%- endcomment -%}
       <div class="add-to-cart__wrapper">
         <button type="submit" name="add" data-add-to-cart class="btn--outline btn--large btn--full btn--primary uppercase btn--add-to-cart {% if sold_out %} disabled{% endif %}" {% if sold_out %}disabled="true"{% endif %}>
           <span data-add-to-cart-text>{% if sold_out %}{{ 'products.product.sold_out' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}</span>
