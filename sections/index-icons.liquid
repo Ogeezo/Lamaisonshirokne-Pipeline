@@ -26,7 +26,7 @@
         {%- assign delay = forloop.index | times: 100 | plus: 100 -%}
         <div class="grid__item {{ column_width }} {{ section.settings.align_text }}" {{ block.shopify_attributes }}>
           <div class="icon__column icon__column--{{ block.id }} {{ block.settings.icon_alignment }} {{ block.settings.icon_size }}">
-            <style>.icon__column--{{ block.id }} .icon__column__icon svg g { stroke: {{ block.settings.icon_color }}; }</style>
+            <style>.icon__column--{{ block.id }} .icon__column__icon svg path { stroke: {{ block.settings.icon_color }}; }</style>
             <div class="icon__column__icon" data-aos-delay="{{ delay }}" data-aos="svg-dash">{% include block.settings.icon_name %}</div>
             <div class="icon__column__text">
               {% if block.settings.title != blank %}

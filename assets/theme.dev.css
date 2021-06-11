@@ -12191,6 +12191,86 @@ html:not(.no-js) body:not(.focus-enabled) *:focus {
   margin-bottom: 30px;
 }
 
+/* ================ Policy Page ================ */
+body .shopify-policy__container,
+body .shopify-email-marketing-confirmation__container {
+  position: relative;
+  text-align: left;
+  margin: 64px auto;
+  max-width: 670px;
+  padding: 0px var(--outer);
+}
+
+.shopify-policy__title h1,
+body .shopify-email-marketing-confirmation__container h1 {
+  font-size: calc(25.4837912045px * var(---font-adjust-heading));
+  text-align: center;
+  margin: 0 0 var(--outer);
+}
+@media (min-width: 480px) {
+  .shopify-policy__title h1,
+body .shopify-email-marketing-confirmation__container h1 {
+    font-size: calc( ( 25.4837912045px + 6.6978954363 * (100vw - 480px) / 920 ) * var(---font-adjust-heading) );
+  }
+}
+@media (min-width: 1400px) {
+  .shopify-policy__title h1,
+body .shopify-email-marketing-confirmation__container h1 {
+    font-size: calc(32.1816866409px * var(---font-adjust-heading));
+  }
+}
+
+body .shopify-email-marketing-confirmation__container {
+  text-align: center;
+}
+
+/* ================ Marketing unsub  ================ */
+.shopify-email-marketing-confirmation__container p {
+  font-size: calc(18.3020620544px * var(---font-adjust-body));
+}
+@media (min-width: 480px) {
+  .shopify-email-marketing-confirmation__container p {
+    font-size: calc( ( 18.3020620544px + 3.3196032512 * (100vw - 480px) / 920 ) * var(---font-adjust-body) );
+  }
+}
+@media (min-width: 1400px) {
+  .shopify-email-marketing-confirmation__container p {
+    font-size: calc(21.6216653056px * var(---font-adjust-body));
+  }
+}
+
+.shopify-email-marketing-confirmation__container a {
+  font-size: calc(11.1392px * var(---font-adjust-body));
+  position: relative;
+  text-decoration: none;
+}
+@media (min-width: 480px) {
+  .shopify-email-marketing-confirmation__container a {
+    font-size: calc( ( 11.1392px + 0.768 * (100vw - 480px) / 920 ) * var(---font-adjust-body) );
+  }
+}
+@media (min-width: 1400px) {
+  .shopify-email-marketing-confirmation__container a {
+    font-size: calc(11.9072px * var(---font-adjust-body));
+  }
+}
+.shopify-email-marketing-confirmation__container a:after {
+  content: "";
+  right: 0;
+  position: absolute;
+  bottom: -1px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.25;
+  transition: width 0.2s ease;
+}
+.shopify-email-marketing-confirmation__container a:after {
+  width: 100%;
+}
+.shopify-email-marketing-confirmation__container a:hover:after {
+  width: 0;
+}
+
 /* ============================================================================
   #Site Header
 ============================================================================== */
@@ -13760,6 +13840,8 @@ body {
   background: var(--bg);
   color: var(--text);
   font-size: calc(15.51022208px * var(---font-adjust-body));
+  white-space: normal;
+  text-align: left;
 }
 @media (min-width: 480px) {
   .faq__button {
@@ -14838,6 +14920,9 @@ Collection grid section
   column-gap: var(--gutter);
   row-gap: var(--gutter);
 }
+.js-grid > * {
+  min-width: 0;
+}
 
 .js-grid__full-row {
   grid-column-start: 1;
@@ -14949,6 +15034,7 @@ Collection grid section
   font-weight: var(---font-weight-accent-bold);
   font-size: calc(11.1392px * var(---font-adjust-accent) );
   margin: 12px 0 8px 0;
+  word-break: break-word;
 }
 .grid__title .strong, .grid__title.strong {
   font-weight: var(---font-weight-accent-bold);
@@ -15540,6 +15626,19 @@ label.quatity-selector {
 
 .product__form__outer.product__form--buybutton {
   margin-bottom: 10px;
+}
+
+.shop-pay-terms {
+  --payment-terms-background-color: var(---color-bg-product);
+  margin: 12px 0 20px 0;
+}
+
+.shop-pay-terms:empty {
+  margin: 0;
+}
+
+.shopify-payment-button .shopify-payment-button__more-options.shopify-payment-button__button--hidden {
+  display: none;
 }
 
 .form__selectors {

@@ -2,21 +2,21 @@
   "current": {
     "color_announcement_bg": "#8d6b3d",
     "color_announcement_text": "#ffffff",
-    "color_header_bg": "#ffffff",
-    "color_header_text": "#333333",
+    "color_header_bg": "#f2f2f2",
+    "color_header_text": "#8d6b3d",
     "color_nav_border": "#ededed",
     "color_body_bg": "#ffffff",
     "color_body_text": "#000000",
-    "color_primary": "#1391a4",
+    "color_primary": "#8d6b3d",
     "color_secondary": "#285056",
-    "color_bg_light": "#f7f7f7",
+    "color_bg_light": "#f2f2f2",
     "color_bg_inverse": "#333333",
     "color_text_inverse": "#ffffff",
     "color_primary_inverse": "#70ccda",
     "color_secondary_inverse": "#497178",
     "color_bg_accent_inverse": "#000810",
     "product_background_color": "#fcfcfc",
-    "color_footer_bg": "#f7f7f7",
+    "color_footer_bg": "#dde2de",
     "color_footer_text": "#333333",
     "type_header_font": "bembo_book_n7",
     "type_heading_size": 100,
@@ -84,7 +84,7 @@
             "type": "collection",
             "settings": {
               "position": "2",
-              "collection": "ガトー-タブレット",
+              "collection": "季節のゼリー",
               "limit": 4
             }
           }
@@ -96,7 +96,7 @@
           "header_style": "menu_center",
           "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_max_limit": 160,
-          "main_menu_linklist": "mainmenu2",
+          "main_menu_linklist": "globalmenu",
           "enable_search": false,
           "enable_account": true,
           "use_icons": false,
@@ -118,7 +118,7 @@
               "linklist": "main-menu"
             }
           },
-          "474e52b9-a19a-4de4-a89e-4ff15f5e5a79": {
+          "4e8ab478-7f55-4b75-97e4-af4c335061be": {
             "type": "linklist",
             "settings": {
               "linklist": "link-list-1"
@@ -140,17 +140,17 @@
         },
         "block_order": [
           "linklist",
-          "474e52b9-a19a-4de4-a89e-4ff15f5e5a79",
+          "4e8ab478-7f55-4b75-97e4-af4c335061be",
           "text",
           "newsletter"
         ],
         "settings": {
           "footer_image": "shopify:\/\/shop_images\/logo.png",
           "footer_secondary_linklist": "link-list-1",
-          "footer_payment_enable": true,
+          "footer_payment_enable": false,
           "footer_social_enable": true,
-          "show_locale_selector": true,
-          "show_currency_selector": true
+          "show_locale_selector": false,
+          "show_currency_selector": false
         }
       },
       "product": {
@@ -166,14 +166,22 @@
               "title": "Page tab",
               "raw_content": "about"
             }
+          },
+          "89e6b343-a3d8-4813-97d8-397718c97474": {
+            "type": "tab_richtext",
+            "settings": {
+              "title": "Text tab",
+              "raw_content": "<p>This tab content type will accept <strong>rich text<\/strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.<\/p>"
+            }
           }
         },
         "block_order": [
           "9b612e1b-af80-4351-88da-a5b4a236cba3",
-          "edac1059-d134-4adb-aa56-ffeb36dd5cf7"
+          "edac1059-d134-4adb-aa56-ffeb36dd5cf7",
+          "89e6b343-a3d8-4813-97d8-397718c97474"
         ],
         "settings": {
-          "image_width": "narrow",
+          "image_width": "half",
           "align": "product__align-left",
           "variant_form": "button",
           "form_position": "below",
@@ -315,14 +323,6 @@
               "link_text": "View products",
               "image": "shopify:\/\/shop_images\/about-content4.jpg"
             }
-          },
-          "5b567920-68c0-47f9-95a4-dc76fe74c6ce": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "",
-              "title": "Featured collection",
-              "link_text": "View products"
-            }
           }
         },
         "block_order": [
@@ -330,21 +330,21 @@
           "index-collection-grid-2",
           "94077afc-85db-4eef-80ec-e475e2944c56",
           "f0be0545-741b-4b51-afc7-39762ffc4ee5",
-          "6c2207ee-8a12-4441-abf2-79113c9d6603",
-          "5b567920-68c0-47f9-95a4-dc76fe74c6ce"
+          "6c2207ee-8a12-4441-abf2-79113c9d6603"
         ],
         "settings": {
-          "title": "カテゴリー",
+          "title": "category",
           "grid": 3,
           "bg": "section bg--accent",
           "color": "palette--contrast--dark",
           "button_style": "btn--outline",
-          "overlay_opacity": 20,
+          "overlay_opacity": 30,
           "aspect_ratio": 1
         }
       },
       "index-double": {
         "type": "index-double",
+        "disabled": true,
         "blocks": {
           "index-double-1": {
             "type": "text",
@@ -476,7 +476,7 @@
       "index-blog": {
         "type": "index-blog",
         "settings": {
-          "title": "recent information",
+          "title": "information",
           "homepage_blog": "ニュース",
           "homepage_blog_count": 3,
           "bg": "section",
@@ -544,7 +544,7 @@
           "message": "税込10,800円以上で送料無料",
           "more": "",
           "enable_account": true,
-          "enable_search": true
+          "enable_search": false
         }
       },
       "1621835711df2bab4e": {
@@ -567,7 +567,7 @@
         "settings": {
           "related_products_enable": true,
           "limit": 4,
-          "product_recommendations_heading": "Related products"
+          "product_recommendations_heading": "関連商品"
         }
       },
       "list-collections": {
@@ -621,6 +621,17 @@
       },
       "page-images": {
         "type": "page-images",
+        "blocks": {
+          "4a70c76b-ffa1-45c3-9970-e68c476b9174": {
+            "type": "page_image",
+            "settings": {
+              "block_page": ""
+            }
+          }
+        },
+        "block_order": [
+          "4a70c76b-ffa1-45c3-9970-e68c476b9174"
+        ],
         "settings": {
           "image_height": "use_screen_one_third",
           "overlay_opacity": 30,
@@ -635,23 +646,25 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/TOP.jpg",
-              "overlay_opacity": 15,
-              "title": "Image slide",
-              "description": "Tell your brand's story through images.",
-              "text_align": "align--middle-center",
-              "link_text": "View products",
+              "overlay_opacity": 20,
+              "title": "大人の味わいで上質なひとときを。",
+              "description": "",
+              "text_align": "align--middle-left",
+              "link_text": "VIEW PRODUCTs",
+              "link": "shopify:\/\/collections",
               "button_style": "btn"
             }
           },
           "1622702964211cac9f-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/croissant-coffee.jpg",
+              "image": "shopify:\/\/shop_images\/content.jpg",
               "overlay_opacity": 15,
-              "title": "Image slide",
-              "description": "Tell your brand's story through images.",
-              "text_align": "align--middle-center",
+              "title": "クリームチーズケーキ",
+              "description": "厳選したチーズを使用したこだわりのチーズケーキ",
+              "text_align": "align--middle-left",
               "link_text": "View products",
+              "link": "shopify:\/\/collections\/クリームチーズケーキ",
               "button_style": "btn"
             }
           }
@@ -732,28 +745,28 @@
           "162303272338f86a0d-0": {
             "type": "icon_block",
             "settings": {
-              "icon_name": "icon-lock-card",
+              "icon_name": "icon-cart-check",
               "icon_color": "#aaaaaa",
-              "title": "Free returns",
-              "text": "<p>Returns within 30 days receive a full refund.<\/p>"
+              "title": "10,800円(税込)以上のご購入で送料無料",
+              "text": ""
             }
           },
           "162303272338f86a0d-1": {
             "type": "icon_block",
             "settings": {
-              "icon_name": "icon-shipment-world",
+              "icon_name": "icon-shipment",
               "icon_color": "#aaaaaa",
-              "title": "Wordwide shipping",
-              "text": "<p>Ship anywhere, rates available at checkout.<\/p>"
+              "title": "全国配送承ります",
+              "text": ""
             }
           },
           "162303272338f86a0d-2": {
             "type": "icon_block",
             "settings": {
-              "icon_name": "icon-phone",
+              "icon_name": "icon-basket-like",
               "icon_color": "#aaaaaa",
-              "title": "24\/7 support",
-              "text": "<p>Call us anytime at 1(800) 555-1234.<\/p>"
+              "title": "ラッピング・熨斗掛け可能",
+              "text": ""
             }
           }
         },
@@ -772,36 +785,38 @@
       },
       "1623034326000e266c": {
         "type": "index-double",
-        "disabled": true,
         "blocks": {
-          "383dfe3a-399c-4599-81b2-9bd1a9b6bebe": {
-            "type": "text",
-            "settings": {
-              "title": "クリームチーズケーキ",
-              "richtext": "<p>厳選したチーズを使用したこだわりのチーズケーキ<\/p>",
-              "text_align": "align--middle-left",
-              "bg": "section",
-              "link_text": "詳しくはこちら",
-              "button_style": "btn"
-            }
-          },
           "1623034326000e266c-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/02.jpg",
+              "image": "shopify:\/\/shop_images\/TOP-sp.jpg",
               "overlay_opacity": 15,
-              "title": "クリームチーズケーキ",
-              "description": "厳選したチーズを使用したこだわりのチーズケーキ",
-              "text_align": "align--middle-left",
+              "title": "ABOUT",
+              "description": "",
+              "text_align": "align--middle-center",
               "color": "palette--contrast--dark",
-              "link_text": "詳しく見る",
+              "link_text": "VIEW MORE",
+              "button_style": "btn"
+            }
+          },
+          "f3312da2-95e1-4e00-9f88-3c412af6299c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/a8b2ddcaf0f61649c220e770c97335d5.jpg",
+              "overlay_opacity": 20,
+              "title": "SHOP",
+              "description": "",
+              "text_align": "align--middle-center",
+              "color": "palette--contrast--dark",
+              "link_text": "VIEW MORE",
+              "link": "shopify:\/\/pages\/shop",
               "button_style": "btn"
             }
           }
         },
         "block_order": [
-          "383dfe3a-399c-4599-81b2-9bd1a9b6bebe",
-          "1623034326000e266c-0"
+          "1623034326000e266c-0",
+          "f3312da2-95e1-4e00-9f88-3c412af6299c"
         ],
         "settings": {
           "height": "use_screen_three_quarters"
@@ -849,6 +864,7 @@
       },
       "1623206196a5249098": {
         "type": "index-columns",
+        "disabled": true,
         "blocks": {
           "1623206196a5249098-0": {
             "type": "text_block",
@@ -888,6 +904,163 @@
           "scale_image": true,
           "aspect_ratio": 1
         }
+      },
+      "16233715025e341f62": {
+        "type": "index-collection",
+        "settings": {
+          "title": "ALL ITEMS",
+          "collection": "全てのアイテム",
+          "grid": 4,
+          "rows": 8,
+          "bg": "section",
+          "show_view_all": true
+        }
+      },
+      "page-faq": {
+        "type": "page-faq",
+        "blocks": {
+          "page-faq-0": {
+            "type": "text",
+            "settings": {
+              "title": "ギフト用にしたいのですが包装やリボン、熨斗紙など対応していますか？",
+              "content": "<p>ラ・メゾン白金の商品は全て包装紙でお包みしてお届けいたします。リボン掛けは対応しておりません。熨斗紙やメッセージカードをお付けすることが可能ですので、ご注文時にプルダウンよりご選択ください。<\/p>"
+            }
+          },
+          "page-faq-1": {
+            "type": "text",
+            "settings": {
+              "title": "会員にならないとお買い物はできないのでしょうか？",
+              "content": "<p>ご登録いただかなくてもお買い物をしていただけます。<\/p><p>会員登録をしていただきますと、次回からご住所のご入力をせずにご注文することができます。<\/p>"
+            }
+          },
+          "page-faq-2": {
+            "type": "text",
+            "settings": {
+              "title": "新規会員登録で仮登録しましたが、メールが届きません",
+              "content": "<p>新規会員登録画面でメールアドレスを入力し、送信を押して頂くと仮登録されます。入力頂いたメールアドレス宛に本登録を行うurlが記載されたメールが届きます。<\/p><p>メールが届かない場合は、アドレスの入力間違いもしくは、メール設定により受信されなかった可能性がございます。「@lamaisonshirokane.jp」を受信できるよう、メール設定をお願い致します。<\/p><p>お手数をおかけしますが、メール設定後に再度、仮登録からお試しください。<\/p>"
+            }
+          },
+          "adad5ab0-6f7b-4141-badc-ab8fefde3c65": {
+            "type": "text",
+            "settings": {
+              "title": "注文ができたかわかりません。",
+              "content": "<p>ご注文完了後、ご入力いただきましたメールアドレスに確認メールを送信させていただきます。<br\/>確認メールが届かない場合、アドレスの入力間違いもしくは、メール設定により受信されなかった可能性がございます。「@lamaisonshirokane.jp」を受信できるよう、メール設定をお願い致します。<\/p><p>なお、メールアドレスの間違いにより注文確認メールが届いていない場合でも、決済処理が既にお済みの際は、ご注文いただいた内容で商品を発送させていただきますので、予めご了承ください。<\/p><p><strong>オンラインショップ専用お問い合わせ窓口<\/strong><br\/><a href=\"tel:03-4500-4375\">03-4500-4375<\/a>（土日祝除く10:00〜12:00 13:00~17:00）<\/p><p><br\/><br\/><\/p>"
+            }
+          },
+          "8287d3c7-f67d-4f7c-b02d-0755154c6eb6": {
+            "type": "text",
+            "settings": {
+              "title": "注文内容の変更・キャンセルをしたいのですが…",
+              "content": "<p>ご注文完了後のお客様都合によるご注文内容の変更、キャンセル、配送日指定の変更等は受け付けておりません。あらかじめご了承ください。<\/p>"
+            }
+          },
+          "c2861038-6f97-4387-ac20-93f2f3171f49": {
+            "type": "text",
+            "settings": {
+              "title": "オンラインショップで購入する際、商品の詰め合わせ内容を変更することは可能でしょうか？",
+              "content": "<p>大変申し訳ございませんが、現在、オンラインショップにてそのようなご要望にはお応えできませんので何卒御了承くださいませ。<\/p>"
+            }
+          },
+          "4c0c286e-a3db-42f9-852f-7c28b53e229b": {
+            "type": "text",
+            "settings": {
+              "title": "法人宛ですが、会社名や部署名を入力できますか？",
+              "content": "<p>ご注文画面で、お名前の項目へご入力をお願い致します。<br\/>文字数制限で入力エラーとなる場合は、備考欄にご記入をお願い致します。<\/p>"
+            }
+          },
+          "531c40d7-2e98-42a3-9ef5-943677ad3e4a": {
+            "type": "text",
+            "settings": {
+              "title": "支払方法は何がありますか？銀行振込は可能ですか？",
+              "content": "<p>クレジットカード払い、Amazon Payの支払い方法をご利用頂けます。銀行振込には、対応しておりません。お支払い方法の詳細は、<a href=\"https:\/\/www.lamaisonshirokane.jp\/onlineshop\/guide\/\">ご利用ガイド<\/a>にてご確認くださいませ。<\/p>"
+            }
+          },
+          "6889dc38-e452-4f3c-9612-8fe5c643e150": {
+            "type": "text",
+            "settings": {
+              "title": "手提げ袋をつけていただきたいのですがどのようにすれば良いでしょうか？",
+              "content": "<p>商品1点につき手提げ袋を1枚お付けしております。<\/p>"
+            }
+          },
+          "94f4b630-1361-4ef0-b78b-3d77352d6724": {
+            "type": "text",
+            "settings": {
+              "title": "納品書・領収書を発行してもらえますか？",
+              "content": "<p>当店は2020年12月15日よりエコ（自然環境保全）の観点から納品書・領収書を電子化にし、必要なお客様自身がダウンロード出来るシステムを採用いたしました。<br\/>発送完了メールにダウンロードのurlを記載いたします。<\/p><p>※宛名・但し書きはお客様自身でご変更頂けます。ご希望の宛名・但し書きにご変更後、「発行」ボタンよりダウンロードをお願い致します。<br\/>※ダウンロードは1回まで可能です。<\/p>"
+            }
+          },
+          "09e53c44-52de-4727-8b67-0ef4d4a74ed3": {
+            "type": "text",
+            "settings": {
+              "title": "届いたときにチョコレートが溶けていないか心配です。",
+              "content": "<p>4月中旬頃から10月中旬頃は、一部商品を除きクール便にてお届けしております。送料は、クール便料金となります。<\/p><p>上記以外の時期でも、沖縄県など温暖な地域への配送や、25度を超える気温の高い日のある期間にチョコレートを含む商品をお届け希望の場合は、品質を守るためクール便でのご利用をおすすめしております。ご注文画面でクール便が選択可能です。<\/p><p>ご注文画面でクール便の選択が表示されない場合は、クール便料金がかかることをご了承いただければ個別対応させていただきますので、備考欄にクール便をご希望と記載の上、ご注文をお願いいたします。<\/p>"
+            }
+          },
+          "6d3a7586-0503-4029-a662-47e6574cd572": {
+            "type": "text",
+            "settings": {
+              "title": "大口での注文は可能でしょうか？",
+              "content": "<p>大口でのご注文も承っております。<\/p><p>商品の数量によっては在庫を確保させて頂く必要があるため、ご希望納品日の2週間前までを目安にご連絡、及びお支払いを済ませて頂く必要がございます。<\/p><p>お問い合わせフォームまたはお電話にてご相談ください。<\/p><p>オンラインショップ専用お問い合わせ窓口<br\/>03-4500-4375（土日祝除く10:00〜12:00 13:00~17:00）<\/p>"
+            }
+          },
+          "f9e5cee2-42f2-466e-89c0-868d64d6f46c": {
+            "type": "text",
+            "settings": {
+              "title": "複数へ配送したい場合は、どのように注文すればいいですか？",
+              "content": "<p>複数へ配送される場合は、お手数をおかけしますが、配送先ごとにご注文をお願い致します。<br\/>配送先ごとに、10,800円以上（税込）お買い上げの場合、送料無料になります。<\/p>"
+            }
+          },
+          "f21756dc-503b-4ea7-b0d9-8baea451d52d": {
+            "type": "text",
+            "settings": {
+              "title": "贈答用でお送りしたいので、送り先に金額がわからないようにしてほしいのですが…",
+              "content": "<p>商品自体に金額の表記はございません。また、贈り物の場合に金額の入った明細書が同梱されることもございませんので、ご安心下さいませ。<\/p><p>当店は2020年12月15日よりエコ（自然環境保全）の観点から納品書・領収書を電子化にし、必要なお客様自身がダウンロード出来るシステムを採用しております。<\/p>"
+            }
+          },
+          "58742be8-9c8d-4c6b-aa0f-9b9798438d59": {
+            "type": "text",
+            "settings": {
+              "title": "メールアドレスが変わったのですがどこで変更したら良いですか？",
+              "content": "<p>メールアドレスが変更になった場合は、マイアカウントページへログイン後「会員情報」よりメールアドレスの変更を行ってください。<\/p>"
+            }
+          },
+          "c35c2a4f-2480-4c91-9849-45d476433eb4": {
+            "type": "text",
+            "settings": {
+              "title": "海外に送ることは可能ですか？",
+              "content": "<p>申し訳ございませんが海外へのご配送は行っておりません。<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-0",
+          "page-faq-1",
+          "page-faq-2",
+          "adad5ab0-6f7b-4141-badc-ab8fefde3c65",
+          "8287d3c7-f67d-4f7c-b02d-0755154c6eb6",
+          "c2861038-6f97-4387-ac20-93f2f3171f49",
+          "4c0c286e-a3db-42f9-852f-7c28b53e229b",
+          "531c40d7-2e98-42a3-9ef5-943677ad3e4a",
+          "6889dc38-e452-4f3c-9612-8fe5c643e150",
+          "94f4b630-1361-4ef0-b78b-3d77352d6724",
+          "09e53c44-52de-4727-8b67-0ef4d4a74ed3",
+          "6d3a7586-0503-4029-a662-47e6574cd572",
+          "f9e5cee2-42f2-466e-89c0-868d64d6f46c",
+          "f21756dc-503b-4ea7-b0d9-8baea451d52d",
+          "58742be8-9c8d-4c6b-aa0f-9b9798438d59",
+          "c35c2a4f-2480-4c91-9849-45d476433eb4"
+        ],
+        "settings": {
+          "title": "Frequently Asked Questions"
+        }
+      },
+      "1623387947d2162b6d": {
+        "type": "index-newsletter",
+        "settings": {
+          "title": "Newsletter",
+          "richtext": "<p>Join to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+          "bg": "section"
+        }
       }
     },
     "content_for_index": [
@@ -896,18 +1069,20 @@
       "index-collection",
       "index-blog",
       "index-collection-grid",
+      "index-double",
       "1623051101873eb332",
       "1623051814b95c8448",
       "index-columns",
       "index-video",
-      "index-double",
       "1622704990738191c6",
       "index-map",
       "1622772826406acd0e",
       "1623032475b2bd1d7b",
-      "162303272338f86a0d",
       "1623034326000e266c",
-      "1623206196a5249098"
+      "16233715025e341f62",
+      "162303272338f86a0d",
+      "1623206196a5249098",
+      "1623387947d2162b6d"
     ]
   },
   "presets": {

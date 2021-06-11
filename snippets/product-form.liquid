@@ -132,6 +132,9 @@
         {{ form | payment_button }}
       {% endif %}
 
+      {% comment %} Shop pay split payment terms {% endcomment %} 
+      <div class="shop-pay-terms">{{ form | payment_terms }}</div>
+
     {% endform %}
   </div>
   {% if section.settings.info_page != blank %}

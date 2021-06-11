@@ -22,7 +22,7 @@
           </div>
           <div class="image-overlay image-overlay-{{ block.settings.overlay_opacity }}"></div>
 
-          {% render 'hero', img_object: block.settings.image, frame_height_class: section.settings.height %}
+          {% render 'hero-slideshow', img_object: block.settings.image, frame_height_class: section.settings.height %}
 
           {% if block.settings.link_text == '' and block.settings.link %}
             <a class="link-over-image" href="{{ section.settings.link }}" aria-label="{{ block.settings.title }}"></a>
