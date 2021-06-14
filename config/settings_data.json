@@ -21,7 +21,7 @@
     "type_header_font": "serif",
     "type_heading_size": 80,
     "font_title_capitalize": false,
-    "type_accent_font": "avenir_next_n5",
+    "type_accent_font": "serif",
     "type_accent_size": 100,
     "type_base_font": "serif",
     "type_body_size": 100,
@@ -80,17 +80,32 @@
       "header": {
         "type": "header",
         "blocks": {
-          "3dc014b1-ca80-4eca-bdd8-158a3a0af34d": {
-            "type": "collection",
+          "8cf90fea-dd60-4bf3-a16a-4ee9a6cdb470": {
+            "type": "product",
             "settings": {
               "position": "2",
-              "collection": "季節のゼリー",
-              "limit": 4
+              "product": "ガトー-タブレット-12個入"
+            }
+          },
+          "fb7c1121-6533-4365-b4d7-2564afbfa69d": {
+            "type": "product",
+            "settings": {
+              "position": "2",
+              "product": "ショコラサンドアソート-10個"
+            }
+          },
+          "642a100d-67ea-4756-ba42-db9a6ffc1e3c": {
+            "type": "product",
+            "settings": {
+              "position": "2",
+              "product": "タブレット-10枚"
             }
           }
         },
         "block_order": [
-          "3dc014b1-ca80-4eca-bdd8-158a3a0af34d"
+          "8cf90fea-dd60-4bf3-a16a-4ee9a6cdb470",
+          "fb7c1121-6533-4365-b4d7-2564afbfa69d",
+          "642a100d-67ea-4756-ba42-db9a6ffc1e3c"
         ],
         "settings": {
           "header_style": "menu_center",
@@ -912,7 +927,7 @@
           "collection": "全てのアイテム",
           "grid": 4,
           "rows": 8,
-          "bg": "section",
+          "bg": "section bg--accent",
           "show_view_all": true
         }
       },
@@ -1057,9 +1072,9 @@
       "1623387947d2162b6d": {
         "type": "index-newsletter",
         "settings": {
-          "title": "Newsletter",
-          "richtext": "<p>Join to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-          "bg": "section"
+          "title": "メールマガジンに登録",
+          "richtext": "<p>季節のおすすめや、お得な情報をお届けします。<\/p>",
+          "bg": "section bg--accent"
         }
       }
     },
