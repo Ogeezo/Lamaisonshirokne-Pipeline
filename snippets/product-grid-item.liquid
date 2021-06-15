@@ -129,7 +129,19 @@
           {% if product.price_varies %}{{ 'products.general.from' | t }} {% endif %}
           {{ product.price | money }}
         </span>
-        {% if sold_out %}
+        {% comment %}
+          商品タイプのテキスト出力と、商品タイプが「常温」「冷蔵」かによって出力するクラスの出し分け
+        {% endcomment %}
+        {% case product.type %}
+        {% when '冷蔵' %}
+            {% assign productTemp = 'product-temp-cold' %}
+        {% when '常温' %}
+            {% assign productTemp = 'product-temp-hot' %}
+        {% endcase %}
+        <span class="product__type {{ productTemp }}"><span>{{ product.type }}</span></span>
+        {% comment %} jw-add {% endcomment %}
+        {% comment %} jw-add end {% endcomment %}
+        {% comment %} {% if sold_out %}
         <br /><em>{{ 'products.product.sold_out' | t }}</em>
         {% endif %}
         {% if on_sale %}
@@ -156,7 +168,8 @@
           <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
         {% endif %}
 
-        {{ swatches }}
+        {{ swatches }} {% endcomment %}
+
       </div>
     </a>
   </div>

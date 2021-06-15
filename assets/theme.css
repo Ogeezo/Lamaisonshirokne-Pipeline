@@ -45,3 +45,18 @@
 .product__details .product__price span{
   font-size: 12px;
 }
+
+/* product-list */
+.price_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.product-grid-item .product__grid__info {
+  padding-top: 0;
+}
+
+.product-grid-item .product-temp-hot span{
+  border: 1px solid #aaa;
+}
