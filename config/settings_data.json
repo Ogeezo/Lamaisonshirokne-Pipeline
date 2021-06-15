@@ -1076,6 +1076,43 @@
           "richtext": "<p>季節のおすすめや、お得な情報をお届けします。<\/p>",
           "bg": "section bg--accent"
         }
+      },
+      "product-jw": {
+        "type": "product-jw",
+        "blocks": {
+          "d3dca6f1-53c8-4128-aaba-80489f79dd20": {
+            "type": "tab_description",
+            "settings": {}
+          },
+          "8e726af5-4ac1-489f-ae05-e8a1ceae470e": {
+            "type": "tab_page",
+            "settings": {
+              "title": "Page tab",
+              "raw_content": "about"
+            }
+          }
+        },
+        "block_order": [
+          "d3dca6f1-53c8-4128-aaba-80489f79dd20",
+          "8e726af5-4ac1-489f-ae05-e8a1ceae470e"
+        ],
+        "settings": {
+          "image_width": "half",
+          "align": "product__align-left",
+          "variant_form": "button",
+          "form_position": "below",
+          "product_breadcrumbs": true,
+          "show_quantity": true,
+          "show_remaining": true,
+          "enable_payment_button": false,
+          "product_show_vendor": false,
+          "social_enable": true,
+          "product_reviews_enable": false,
+          "enable_video_looping": false,
+          "zoom_enable": false,
+          "info_page": "about",
+          "tabs_position": "below"
+        }
       }
     },
     "content_for_index": [

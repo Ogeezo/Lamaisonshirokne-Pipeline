@@ -66,8 +66,19 @@
       <div class="grid__item {{ product_description_width }}">
         <div class="product__details">
           <div class="product__headline">
-            <div class="product__price uppercase h6{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
-              <span data-product-price>{{ current_variant.price | money }}</span>
+          {% comment %}
+              商品タイプのテキスト出力と、商品タイプが「常温」「冷蔵」かによって出力するクラスの出し分け
+          {% endcomment %}
+          {% case product.type %}
+          {% when '冷蔵' %}
+              {% assign productTemp = 'product-temp-cold' %}
+          {% when '常温' %}
+              {% assign productTemp = 'product-temp-hot' %}
+          {% endcase %}
+            <p class="product__type {{ productTemp }}"><span>{{ product.type }}</span></p>
+            <h1 class="product__title">{{ product.title }}</h1>
+            <p class="product__price" data-product-price>{{ product.price | money }}<span>(税込)</span></p>
+            {% comment %} <div class="product__price uppercase h6{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
               <p class="small compare-at em" {% unless current_variant.compare_at_price > current_variant.price %}style="display: none"{% endunless %}>
                 <span data-compare-price>{{ current_variant.compare_at_price | money }}</span>
               </p>
@@ -105,8 +116,7 @@
                 </p>
               {% endif %}
 
-            </div>
-            <h1 class="product__title">{{ product.title }}</h1>
+            </div> {% endcomment %}
           </div>
 
           {% if section.settings.product_show_vendor and product.vendor %}
