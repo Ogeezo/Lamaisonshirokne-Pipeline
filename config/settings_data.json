@@ -239,7 +239,7 @@
       "blog": {
         "type": "blog",
         "settings": {
-          "layout": "grid",
+          "layout": "list",
           "blog_show_meta": false,
           "overlay_opacity": 0,
           "image_height": "use_screen_one_third",
@@ -352,8 +352,8 @@
           "grid": 3,
           "bg": "section bg--accent",
           "color": "palette--contrast--dark",
-          "button_style": "btn--outline",
-          "overlay_opacity": 30,
+          "button_style": "btn",
+          "overlay_opacity": 25,
           "aspect_ratio": 1
         }
       },
@@ -490,6 +490,7 @@
       },
       "index-blog": {
         "type": "index-blog",
+        "disabled": true,
         "settings": {
           "title": "information",
           "homepage_blog": "ニュース",
@@ -805,7 +806,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/TOP-sp.jpg",
-              "overlay_opacity": 15,
+              "overlay_opacity": 30,
               "title": "ABOUT",
               "description": "",
               "text_align": "align--middle-center",
@@ -818,7 +819,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/a8b2ddcaf0f61649c220e770c97335d5.jpg",
-              "overlay_opacity": 20,
+              "overlay_opacity": 30,
               "title": "SHOP",
               "description": "",
               "text_align": "align--middle-center",
@@ -834,7 +835,7 @@
           "f3312da2-95e1-4e00-9f88-3c412af6299c"
         ],
         "settings": {
-          "height": "use_screen_three_quarters"
+          "height": "use_screen_two_thirds"
         }
       },
       "1623051101873eb332": {
@@ -922,6 +923,7 @@
       },
       "16233715025e341f62": {
         "type": "index-collection",
+        "disabled": true,
         "settings": {
           "title": "ALL ITEMS",
           "collection": "全てのアイテム",
@@ -1113,12 +1115,25 @@
           "info_page": "about",
           "tabs_position": "below"
         }
+      },
+      "162382233125ff061c": {
+        "type": "index-blog-jw",
+        "settings": {
+          "title": "Information",
+          "homepage_blog": "ニュース",
+          "homepage_blog_count": 3,
+          "bg": "section",
+          "color": "palette--contrast--dark",
+          "aspect_ratio": 0.7,
+          "show_view_all": true
+        }
       }
     },
     "content_for_index": [
       "1622702964211cac9f",
       "1621835711df2bab4e",
       "index-collection",
+      "162382233125ff061c",
       "index-blog",
       "index-collection-grid",
       "index-double",
