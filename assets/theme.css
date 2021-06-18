@@ -10,6 +10,10 @@
 
 }
 
+@media only screen and (min-width: 480px) {
+
+}
+
 /* product */
 .product__details .product__headline {
   display: block;
@@ -112,4 +116,63 @@
 /* double block  */
 .double__block .home__subtitle {
   font-size: 22px;
+}
+
+/* page-faq-jw */
+
+.page-faq-jw .page__title span {
+  border-bottom: 2px solid #8d6b3d;
+  padding: 0 15px 10px;
+}
+
+.page-faq-jw {
+  
+}
+
+.page-faq-jw-section .faq-jw__subtitle {
+  /* color: #8d6b3d; */
+  font-weight: bold;
+  text-align: left;
+}
+
+@media only screen and (min-width: 480px) {
+  .page-faq-jw-section .accordion__title {
+    font-size: 90%;
+  }
+}
+
+.page-faq-jw-section .faq__wrapper {
+  border-color: #8d6b3d;
+}
+
+.faq__wrapper+.faq__wrapper {
+  border-top: 1px solid hsla(0,0%,100%,0);
+}
+
+.faq__button {
+
+}
+
+.page-faq-jw-section .icon-arrow-medium-right {
+  color: #8d6b3d;
+}
+
+/* page.lookbook-jw */
+
+.page-lookbook-jw h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.page-lookbook-jw h2 span{
+  border-bottom: 2px solid #8d6b3d;
+  display: inline-block;
+  padding: 0 20px 15px;
+}
+.page-lookbook-jw .lookbook__rte p {
+  font-size: 16px;
+  max-width: 900px;
+  margin: 20px auto;
 }

@@ -64,7 +64,7 @@
     "checkout_heading_font": "Helvetica Neue",
     "checkout_body_font": "Helvetica Neue",
     "checkout_accent_color": "#1391a4",
-    "checkout_button_color": "#1391a4",
+    "checkout_button_color": "#8d6b3d",
     "checkout_error_color": "#de7878",
     "color_account_bg": "#f3f3f3",
     "color_account_text": "#656565",
@@ -253,9 +253,9 @@
           "blog_show_meta": false,
           "tags": false,
           "social": true,
-          "image_height": "use_image",
+          "image_height": "use_screen_three_quarters",
           "sidebar_tags": false,
-          "recent": true
+          "recent": false
         }
       },
       "index-product": {
@@ -638,18 +638,19 @@
       "page-images": {
         "type": "page-images",
         "blocks": {
-          "4a70c76b-ffa1-45c3-9970-e68c476b9174": {
+          "0bbccf66-ca0b-40ef-b3f6-b462e837478a": {
             "type": "page_image",
             "settings": {
-              "block_page": ""
+              "block_page": "about",
+              "image": "shopify:\/\/shop_images\/about_TOP02.jpg"
             }
           }
         },
         "block_order": [
-          "4a70c76b-ffa1-45c3-9970-e68c476b9174"
+          "0bbccf66-ca0b-40ef-b3f6-b462e837478a"
         ],
         "settings": {
-          "image_height": "use_screen_one_third",
+          "image_height": "use_screen_two_thirds",
           "overlay_opacity": 30,
           "palette": "palette--contrast--dark",
           "text_align": "align--middle-center"
@@ -1126,6 +1127,331 @@
           "color": "palette--contrast--dark",
           "aspect_ratio": 0.7,
           "show_view_all": true
+        }
+      },
+      "page-lookbook-1-image": {
+        "type": "page-lookbook-1-image",
+        "blocks": {
+          "page-lookbook-1-image-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about_TOP03.jpg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "page-lookbook-1-image-0"
+        ],
+        "settings": {
+          "show": false,
+          "full_width": false,
+          "padding": false,
+          "scale_image": true,
+          "aspect_ratio": 0.5
+        }
+      },
+      "page-lookbook-1-text": {
+        "type": "page-lookbook-1-text",
+        "blocks": {
+          "page-lookbook-1-text-0": {
+            "type": "text",
+            "settings": {
+              "title": "大人の味わいで上質なひとときを",
+              "text": "<p>高級住宅やレストランそして和と洋が融合する街、<br\/>東京・白金の洋菓子ブランド「ラ・メゾン白金」。<\/p><p><\/p><p><br\/>食材や季節感にこだわったショコラや焼き菓子など\"上質なカジュアル\"をテーマに、<br\/>自分へのご褒美や様々なギフトシーンに対応できるラインナップでお届けいたします。<br\/><br\/><br\/><br\/><\/p>",
+              "text_align": "align--top-left",
+              "width_desktop": "auto",
+              "width_mobile": "auto"
+            }
+          }
+        },
+        "block_order": [
+          "page-lookbook-1-text-0"
+        ],
+        "settings": {
+          "show": false
+        }
+      },
+      "page-lookbook-2-image": {
+        "type": "page-lookbook-2-image",
+        "blocks": {
+          "page-lookbook-2-image-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about_TOP01.jpg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "page-lookbook-2-image-0"
+        ],
+        "settings": {
+          "show": false,
+          "full_width": false,
+          "padding": false,
+          "scale_image": true,
+          "aspect_ratio": 0.5
+        }
+      },
+      "page-lookbook-2-text": {
+        "type": "page-lookbook-2-text",
+        "blocks": {
+          "page-lookbook-2-text-0": {
+            "type": "text",
+            "settings": {
+              "title": "Custom Text",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "text_align": "align--top-left",
+              "width_desktop": "auto",
+              "width_mobile": "auto"
+            }
+          }
+        },
+        "block_order": [
+          "page-lookbook-2-text-0"
+        ],
+        "settings": {
+          "show": false
+        }
+      },
+      "page-lookbook-3-image": {
+        "type": "page-lookbook-3-image",
+        "blocks": {
+          "page-lookbook-3-image-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about_TOP02.jpg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "page-lookbook-3-image-0"
+        ],
+        "settings": {
+          "show": false,
+          "full_width": false,
+          "padding": false,
+          "scale_image": true,
+          "aspect_ratio": 0.5
+        }
+      },
+      "page-lookbook-3-text": {
+        "type": "page-lookbook-3-text",
+        "blocks": {
+          "page-lookbook-3-text-0": {
+            "type": "text",
+            "settings": {
+              "title": "Custom Text",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "text_align": "align--top-left",
+              "width_desktop": "auto",
+              "width_mobile": "auto"
+            }
+          }
+        },
+        "block_order": [
+          "page-lookbook-3-text-0"
+        ],
+        "settings": {
+          "show": false
+        }
+      },
+      "page-lookbook-4-image": {
+        "type": "page-lookbook-4-image",
+        "blocks": {
+          "page-lookbook-4-image-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about-content5.jpg",
+              "link": ""
+            }
+          },
+          "page-lookbook-4-image-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about-content2.jpg",
+              "link": ""
+            }
+          },
+          "43f7eb09-3436-4300-94c1-0e431e172434": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about-content4.jpg",
+              "link": ""
+            }
+          },
+          "607acca0-0a2d-4f2b-af84-fedaa28d7603": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about-content3.jpg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "page-lookbook-4-image-1",
+          "page-lookbook-4-image-0",
+          "43f7eb09-3436-4300-94c1-0e431e172434",
+          "607acca0-0a2d-4f2b-af84-fedaa28d7603"
+        ],
+        "settings": {
+          "show": true,
+          "full_width": false,
+          "padding": false,
+          "scale_image": true,
+          "aspect_ratio": 1
+        }
+      },
+      "page-lookbook-4-text": {
+        "type": "page-lookbook-4-text",
+        "blocks": {
+          "page-lookbook-4-text-0": {
+            "type": "text",
+            "settings": {
+              "title": "Custom Text",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "text_align": "align--top-left",
+              "width_desktop": "auto",
+              "width_mobile": "auto"
+            }
+          }
+        },
+        "block_order": [
+          "page-lookbook-4-text-0"
+        ],
+        "settings": {
+          "show": false
+        }
+      },
+      "page-lookbook-5-image": {
+        "type": "page-lookbook-5-image",
+        "blocks": {
+          "page-lookbook-5-image-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about_TOP03.jpg",
+              "link": ""
+            }
+          },
+          "page-lookbook-5-image-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about_TOP01.jpg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "page-lookbook-5-image-0",
+          "page-lookbook-5-image-1"
+        ],
+        "settings": {
+          "show": false,
+          "full_width": false,
+          "padding": false,
+          "scale_image": true,
+          "aspect_ratio": 0.5
+        }
+      },
+      "page-lookbook-5-text": {
+        "type": "page-lookbook-5-text",
+        "blocks": {
+          "page-lookbook-5-text-0": {
+            "type": "text",
+            "settings": {
+              "title": "Custom Text",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "text_align": "align--top-left",
+              "width_desktop": "auto",
+              "width_mobile": "auto"
+            }
+          }
+        },
+        "block_order": [
+          "page-lookbook-5-text-0"
+        ],
+        "settings": {
+          "show": false
+        }
+      },
+      "page-faq-jw1": {
+        "type": "page-faq-jw1",
+        "blocks": {
+          "page-faq-jw1-0": {
+            "type": "text",
+            "settings": {
+              "title": "ギフト用にしたいのですが包装やリボン、熨斗紙など対応していますか？",
+              "content": "<p>ラ・メゾン白金の商品は全て包装紙でお包みしてお届けいたします。リボン掛けは対応しておりません。<\/p><p>熨斗紙やメッセージカードをお付けすることが可能ですので、ご注文時にプルダウンよりご選択ください。<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-jw1-0"
+        ],
+        "settings": {
+          "title": "商品について"
+        }
+      },
+      "page-faq-jw2": {
+        "type": "page-faq-jw2",
+        "blocks": {
+          "page-faq-jw2-0": {
+            "type": "text",
+            "settings": {
+              "title": "会員にならないとお買い物はできないのでしょうか？",
+              "content": "<p>ご登録いただかなくてもお買い物をしていただけます。<br\/>会員登録をしていただきますと、次回からご住所のご入力をせずにご注文することができます。<br\/><\/p>"
+            }
+          },
+          "page-faq-jw2-1": {
+            "type": "text",
+            "settings": {
+              "title": "新規会員登録で仮登録しましたが、メールが届きません",
+              "content": "<p>新規会員登録画面でメールアドレスを入力し、送信を押して頂くと仮登録されます。入力頂いたメールアドレス宛に本登録を行うurlが記載されたメールが届きます。<\/p><p>メールが届かない場合は、アドレスの入力間違いもしくは、メール設定により受信されなかった可能性がございます。「@lamaisonshirokane.jp」を受信できるよう、メール設定をお願い致します。<\/p><p>お手数をおかけしますが、メール設定後に再度、仮登録からお試しください。<\/p>"
+            }
+          },
+          "page-faq-jw2-2": {
+            "type": "text",
+            "settings": {
+              "title": "注文ができたかわかりません。",
+              "content": "<p>ご注文完了後、ご入力いただきましたメールアドレスに確認メールを送信させていただきます。<\/p><p>確認メールが届かない場合、アドレスの入力間違いもしくは、メール設定により受信されなかった可能性がございます。「@lamaisonshirokane.jp」を受信できるよう、メール設定をお願い致します。<\/p><p>なお、メールアドレスの間違いにより注文確認メールが届いていない場合でも、決済処理が既にお済みの際は、ご注文いただいた内容で商品を発送させていただきますので、予めご了承ください。<\/p><p><strong>オンラインショップ専用お問い合わせ窓口<\/strong><br\/><a href=\"tel:03-4500-4375\">03-4500-4375<\/a>（土日祝除く10:00〜12:00 13:00~17:00）<br\/><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-jw2-0",
+          "page-faq-jw2-1",
+          "page-faq-jw2-2"
+        ],
+        "settings": {
+          "title": "ご注文について"
+        }
+      },
+      "page-faq-jw3": {
+        "type": "page-faq-jw3",
+        "blocks": {
+          "page-faq-jw3-0": {
+            "type": "text",
+            "settings": {
+              "title": "贈答用でお送りしたいので、送り先に金額がわからないようにしてほしいのですが…",
+              "content": "<p>商品自体に金額の表記はございません。また、贈り物の場合に金額の入った明細書が同梱されることもございませんので、ご安心下さいませ。<\/p><p>当店は2020年12月15日よりエコ（自然環境保全）の観点から納品書・領収書を電子化にし、必要なお客様自身がダウンロード出来るシステムを採用しております。<\/p>"
+            }
+          },
+          "53cd4aec-a5b6-4ed3-a6a1-61d8a1f5576a": {
+            "type": "text",
+            "settings": {
+              "title": "メールアドレスが変わったのですがどこで変更したら良いですか？",
+              "content": "<p>メールアドレスが変更になった場合は、マイアカウントページへログイン後「会員情報」よりメールアドレスの変更を行ってください。<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-jw3-0",
+          "53cd4aec-a5b6-4ed3-a6a1-61d8a1f5576a"
+        ],
+        "settings": {
+          "title": "その他"
         }
       }
     },
