@@ -1,0 +1,11 @@
+/* カレンダーマスター スタイル上書き用CSS */
+.app-deliverydate__calendar > div:nth-child(2) {
+    display: none;
+}
+
+/* // 日付のスタイル */
+/* .calendar__item--date // 全ての日付のスタイル */
+/* .calendar__item--date.is-today // 今日 */
+/* .calendar__item--date.is-active // 選択可能日 */
+/* .calendar__item--date.is-selected // 選択した日 */
+/* .calendarMaster__is-disable // 「お届け不可日」で設定した日 */

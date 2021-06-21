@@ -130,23 +130,16 @@
           "linklist": {
             "type": "linklist",
             "settings": {
-              "linklist": "main-menu"
+              "linklist": "footer-menu"
             }
           },
-          "4e8ab478-7f55-4b75-97e4-af4c335061be": {
+          "e660938c-a697-476f-a80a-4dce377d346e": {
             "type": "linklist",
             "settings": {
-              "linklist": "link-list-1"
+              "linklist": "category"
             }
           },
-          "text": {
-            "type": "text",
-            "settings": {
-              "title": "Text column",
-              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
-            }
-          },
-          "newsletter": {
+          "c13085df-f1df-41b7-8853-101e00f8312e": {
             "type": "newsletter",
             "settings": {
               "richtext": "<p>Join to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
@@ -155,13 +148,12 @@
         },
         "block_order": [
           "linklist",
-          "4e8ab478-7f55-4b75-97e4-af4c335061be",
-          "text",
-          "newsletter"
+          "e660938c-a697-476f-a80a-4dce377d346e",
+          "c13085df-f1df-41b7-8853-101e00f8312e"
         ],
         "settings": {
           "footer_image": "shopify:\/\/shop_images\/logo.png",
-          "footer_secondary_linklist": "link-list-1",
+          "footer_secondary_linklist": "footet-policy",
           "footer_payment_enable": false,
           "footer_social_enable": true,
           "show_locale_selector": false,
@@ -241,10 +233,11 @@
         "settings": {
           "layout": "list",
           "blog_show_meta": false,
-          "overlay_opacity": 0,
+          "image": "shopify:\/\/shop_images\/about_TOP02.jpg",
+          "overlay_opacity": 30,
           "image_height": "use_screen_one_third",
           "color": "palette--contrast--dark",
-          "tags": false
+          "tags": true
         }
       },
       "article": {
@@ -1121,7 +1114,7 @@
         "type": "index-blog-jw",
         "settings": {
           "title": "Information",
-          "homepage_blog": "ニュース",
+          "homepage_blog": "information",
           "homepage_blog_count": 3,
           "bg": "section",
           "color": "palette--contrast--dark",
@@ -1452,6 +1445,18 @@
         ],
         "settings": {
           "title": "その他"
+        }
+      },
+      "blog-jw": {
+        "type": "blog-jw",
+        "settings": {
+          "layout": "list",
+          "blog_show_meta": true,
+          "image": "shopify:\/\/shop_images\/about_TOP01.jpg",
+          "overlay_opacity": 30,
+          "image_height": "use_screen_one_half",
+          "color": "palette--contrast--dark",
+          "tags": true
         }
       }
     },

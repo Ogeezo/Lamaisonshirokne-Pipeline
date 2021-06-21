@@ -138,7 +138,7 @@
           <li><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
         <!-- Remove the following line to remove 'Powered by Shopify' from your footer -->
-          <li data-powered-link>{{ powered_by_link }}</li>
+          {% comment %} <li data-powered-link>{{ powered_by_link }}</li> {% endcomment %}
         <!-- Do not delete below this line -->
       </ul>
 
