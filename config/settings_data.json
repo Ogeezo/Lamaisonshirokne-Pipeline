@@ -247,8 +247,8 @@
           "tags": false,
           "social": true,
           "image_height": "use_screen_three_quarters",
-          "sidebar_tags": false,
-          "recent": false
+          "sidebar_tags": true,
+          "recent": true
         }
       },
       "index-product": {
@@ -1457,6 +1457,17 @@
           "image_height": "use_screen_one_half",
           "color": "palette--contrast--dark",
           "tags": true
+        }
+      },
+      "article-jw": {
+        "type": "article-jw",
+        "settings": {
+          "blog_show_date": true,
+          "tags": false,
+          "social": true,
+          "image_height": "use_screen_one_third",
+          "sidebar_tags": true,
+          "recent": false
         }
       }
     },
