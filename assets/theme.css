@@ -320,3 +320,159 @@ ul.column_2 li {
     font-size: 14px;
   } */
 }
+
+/* shop */
+div.page-shop-jw-wrapper.page__template {
+  max-width: none;
+  margin-bottom: -64px;
+  padding: 64px 0 0;
+}
+
+.page-shop-jw-wrapper .page__title {
+  margin-bottom: 40px;
+}
+
+
+.page-shop-jw__wrapper .grid__item {
+
+}
+
+/* shop page-shop-jw*/
+.page-shop-jw-section__wrapper {
+  float: none;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.page-shop-jw__ttl {
+  font-size: 18px;
+  margin-bottom: 60px;
+  text-align: center;  
+}
+
+.page-shop-jw__ttl span{
+  border-bottom: 2px solid #8d6b3d;
+  display: inline-block;
+  line-height: 1;
+  padding: 0 20px 15px;
+}
+
+.page-shop-jw__list-wrapper {
+  
+}
+
+.page-shop-jw__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.page-shop-jw__list-item {
+  width: 48%;
+  margin-bottom: 30px;
+}
+
+.page-shop-jw__image-wrap {
+  margin-bottom: 10px;
+}
+
+.page-shop-jw__image {
+  
+}
+
+.page-shop-jw__shop-name {
+  color: #8d6b3d;
+  font-size: 14px;
+}
+
+.page-shop-jw__shop-meta {
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+@media only screen and (min-width: 480px) {
+  .page-shop-jw-section__wrapper {
+    padding: 0;
+  }
+
+  .page-shop-jw__list {
+    justify-content: space-around;
+  }
+
+  .page-shop-jw__list-item {
+    width: 22%;
+    min-width: 200px;
+  }
+}
+
+/* shop page-shop-jw-other*/
+.page-shop-jw-other-section__bg {
+  background-color: #F2F2F2;
+  padding: 6.8em 16px;
+}
+
+.page-shop-jw-other-section__wrapper {
+  float: none;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page-shop-jw-other__ttl {
+  font-size: 18px;
+  margin-bottom: 60px;
+  text-align: center;  
+}
+
+.page-shop-jw-other__ttl span{
+  border-bottom: 2px solid #8d6b3d;
+  display: inline-block;
+  line-height: 1;
+  padding: 0 20px 15px;
+}
+
+.page-shop-jw-other__list-wrapper {
+  
+}
+
+.page-shop-jw-other__image-wrap {
+  margin-bottom: 10px;
+}
+
+.page-shop-jw-other__image {
+  
+}
+
+.page-shop-jw-other__info {
+
+}
+
+.page-shop-jw-other__shop-name {
+  color: #8d6b3d;
+  font-size: 14px;
+}
+
+.page-shop-jw-other__shop-meta {
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+@media only screen and (min-width: 480px) {
+  .page-shop-jw-other__list {
+  }
+  .page-shop-jw-other__list-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .page-shop-jw-other__image-wrap {
+    max-width: 500px;
+    width: 48%;
+    margin-bottom: 10px;
+  }
+  .page-shop-jw-other__info {
+    max-width: 480px;
+    width: 48%;
+  }
+}
