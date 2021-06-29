@@ -91,7 +91,7 @@
   },
   "cart": {
     "general": {
-      "title": "あなたのカート",
+      "title": "ショッピングカート",
       "remove": "削除する",
       "note": "備考欄",
       "subtotal": "合計",
@@ -120,7 +120,7 @@
       "grid_view": "グリッド表示",
       "list_view": "リスト表示",
       "sort": "並び替え",
-      "catalog": "カタログ",
+      "catalog": "ITEMS",
       "items_with_count": {
         "one": "個",
         "other": "個"
@@ -130,8 +130,8 @@
       "more": "MORE",
       "types": "商品タイプ",
       "vendors": "ベンダー",
-      "filter": "フィルター",
-      "hide_filters": "フィルターを隠す",
+      "filter": "カテゴリーリスト",
+      "hide_filters": "リストを隠す",
       "collections": "コレクション",
       "all_types": "全ての商品タイプ",
       "all_vendors": "全てのベンダー",
@@ -173,7 +173,7 @@
     },
     "addresses": {
       "title": "あなたの住所",
-      "default": "Default",
+      "default": "デフォルト",
       "add_new": "新しい住所を追加",
       "edit_address": "住所を編集",
       "first_name": "名",
@@ -237,7 +237,7 @@
     "recover_password": {
       "title": "パスワードをリセット",
       "email": "メールアドレス",
-      "submit": "",
+      "submit": "登録",
       "cancel": "キャンセル",
       "subtext": "パスワードをリセットするためにメールを送信します。",
       "success": "パスワードをリセットするためのメールを送信しました。"

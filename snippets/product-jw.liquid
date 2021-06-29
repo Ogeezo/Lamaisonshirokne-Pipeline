@@ -78,7 +78,7 @@
             <p class="product__type {{ productTemp }}"><span>{{ product.type }}</span></p>
             <h1 class="product__title">{{ product.title }}</h1>
             <p class="product__price" data-product-price>{{ product.price | money }}<span>(税込)</span></p>
-            {% comment %} <div class="product__price uppercase h6{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
+            <div class="product__price uppercase h6{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
               <p class="small compare-at em" {% unless current_variant.compare_at_price > current_variant.price %}style="display: none"{% endunless %}>
                 <span data-compare-price>{{ current_variant.compare_at_price | money }}</span>
               </p>
@@ -116,7 +116,7 @@
                 </p>
               {% endif %}
 
-            </div> {% endcomment %}
+            </div>
           </div>
 
           {% if section.settings.product_show_vendor and product.vendor %}
@@ -154,7 +154,7 @@
 
         {%- if section.blocks.size > 0 and section.settings.tabs_position == 'sidebar'-%}
           <div class="tabs-wrapper tabs-wrapper--above  productTabsWrapper">
-            {% render 'product-tabs', product: product, section: section %}
+            {% render 'product-tabs-jw', product: product, section: section %}
           </div>
         {%- endif -%}
         {%- if section.settings.form_position == 'below' -%}
@@ -179,7 +179,7 @@
 
 {%- if section.blocks.size > 0 and section.settings.tabs_position == 'below' -%}
   <div class="wrapper tabs-wrapper productTabsWrapper">
-    {% render 'product-tabs', product: product, section: section %}
+    {% render 'product-tabs-jw', product: product, section: section %}
   </div>
 {%- endif -%}
 

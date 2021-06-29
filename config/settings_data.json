@@ -18,12 +18,12 @@
     "product_background_color": "#fcfcfc",
     "color_footer_bg": "#dde2de",
     "color_footer_text": "#333333",
-    "type_header_font": "serif",
+    "type_header_font": "avenir_next_n5",
     "type_heading_size": 80,
     "font_title_capitalize": false,
-    "type_accent_font": "serif",
-    "type_accent_size": 100,
-    "type_base_font": "serif",
+    "type_accent_font": "avenir_next_rounded_n5",
+    "type_accent_size": 110,
+    "type_base_font": "avenir_next_n4",
     "type_body_size": 100,
     "button_radius": 5,
     "animations_enable": true,
@@ -213,7 +213,7 @@
           "product_limit": 12,
           "enable_layout_toggle": false,
           "collection_sorting": false,
-          "text_align": "align--bottom-left",
+          "text_align": "align--middle-left",
           "show_title": true,
           "show_title_below": false,
           "show_description": true,
@@ -223,9 +223,9 @@
           "overlay_opacity": 20,
           "color": "palette--contrast--dark",
           "hide_sidebar": true,
-          "collection_custom_nav_list": "",
-          "collection_standard_nav": true,
-          "collection_tag_nav": true
+          "collection_custom_nav_list": "category",
+          "collection_standard_nav": false,
+          "collection_tag_nav": false
         }
       },
       "blog": {
@@ -345,8 +345,8 @@
           "grid": 3,
           "bg": "section bg--accent",
           "color": "palette--contrast--dark",
-          "button_style": "btn",
-          "overlay_opacity": 25,
+          "button_style": "btn--outline",
+          "overlay_opacity": 20,
           "aspect_ratio": 1
         }
       },
@@ -399,7 +399,7 @@
               "title": "クリームチーズケーキ",
               "text": "<p>厳選チーズを使用した、こだわりのチーズケーキ<\/p>",
               "button_label": "VIEW ITEM",
-              "button_link": "shopify:\/\/products\/クリームチーズケーキ-タルト",
+              "button_link": "shopify:\/\/products\/cheesecake-tartelette",
               "enable_video": false,
               "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
             }
@@ -486,11 +486,11 @@
         "disabled": true,
         "settings": {
           "title": "information",
-          "homepage_blog": "ニュース",
+          "homepage_blog": "information",
           "homepage_blog_count": 3,
           "bg": "section",
           "color": "palette--contrast--dark",
-          "aspect_ratio": 1
+          "aspect_ratio": 1.1
         }
       },
       "index-logos": {
@@ -558,17 +558,17 @@
       },
       "1621835711df2bab4e": {
         "type": "index-hero",
-        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/TOP.jpg",
-          "height": "use_image",
+          "height": "use_screen_three_quarters",
           "overlay_opacity": 15,
-          "title": "",
-          "description": "",
-          "text_align": "align--bottom-center",
+          "title": "ABOUT",
+          "description": "ラ・メゾン白金について",
+          "text_align": "align--middle-center",
           "color": "palette--contrast--dark",
-          "link_text": "View products",
-          "button_style": "btn"
+          "link_text": "View more",
+          "link": "shopify:\/\/pages\/about",
+          "button_style": "btn--outline"
         }
       },
       "related": {
@@ -637,14 +637,22 @@
               "block_page": "about",
               "image": "shopify:\/\/shop_images\/about_TOP02.jpg"
             }
+          },
+          "128176b4-0c52-4da0-b5fa-92b71d75469f": {
+            "type": "page_image",
+            "settings": {
+              "block_page": "shop",
+              "image": "shopify:\/\/shop_images\/shop-isetanshinjuku.jpg"
+            }
           }
         },
         "block_order": [
-          "0bbccf66-ca0b-40ef-b3f6-b462e837478a"
+          "0bbccf66-ca0b-40ef-b3f6-b462e837478a",
+          "128176b4-0c52-4da0-b5fa-92b71d75469f"
         ],
         "settings": {
-          "image_height": "use_screen_two_thirds",
-          "overlay_opacity": 30,
+          "image_height": "use_screen_one_half",
+          "overlay_opacity": 20,
           "palette": "palette--contrast--dark",
           "text_align": "align--middle-center"
         }
@@ -656,7 +664,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/TOP.jpg",
-              "overlay_opacity": 20,
+              "overlay_opacity": 15,
               "title": "大人の味わいで上質なひとときを。",
               "description": "",
               "text_align": "align--middle-left",
@@ -677,15 +685,29 @@
               "link": "shopify:\/\/collections\/クリームチーズケーキ",
               "button_style": "btn"
             }
+          },
+          "0f31543d-71ed-40e9-9ca5-5990ebb4fb98": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2_914b3bc1-8641-46f0-a060-57f694a009fe.jpg",
+              "overlay_opacity": 15,
+              "title": "2層のフルーツゼリー",
+              "description": "常温でお届け可能。\n暑い時期の贈り物にぴったり",
+              "text_align": "align--middle-left",
+              "link_text": "View products",
+              "link": "shopify:\/\/collections\/季節のゼリー",
+              "button_style": "btn"
+            }
           }
         },
         "block_order": [
           "1622702964211cac9f-0",
-          "1622702964211cac9f-1"
+          "1622702964211cac9f-1",
+          "0f31543d-71ed-40e9-9ca5-5990ebb4fb98"
         ],
         "settings": {
           "autoplay": true,
-          "autoplay_speed": 8,
+          "autoplay_speed": 6,
           "height": "use_screen_full",
           "color": "palette--contrast--dark"
         }
@@ -795,6 +817,7 @@
       },
       "1623034326000e266c": {
         "type": "index-double",
+        "disabled": true,
         "blocks": {
           "1623034326000e266c-0": {
             "type": "image",
@@ -1080,17 +1103,17 @@
             "type": "tab_description",
             "settings": {}
           },
-          "8e726af5-4ac1-489f-ae05-e8a1ceae470e": {
+          "4acf1311-ef1c-426a-a86e-f6abd3b070bf": {
             "type": "tab_page",
             "settings": {
-              "title": "Page tab",
-              "raw_content": "about"
+              "title": "父の日の贈り物に",
+              "raw_content": "fathers-day-gift2021"
             }
           }
         },
         "block_order": [
           "d3dca6f1-53c8-4128-aaba-80489f79dd20",
-          "8e726af5-4ac1-489f-ae05-e8a1ceae470e"
+          "4acf1311-ef1c-426a-a86e-f6abd3b070bf"
         ],
         "settings": {
           "image_width": "half",
@@ -1103,10 +1126,10 @@
           "enable_payment_button": false,
           "product_show_vendor": false,
           "social_enable": true,
-          "product_reviews_enable": false,
+          "product_reviews_enable": true,
           "enable_video_looping": false,
           "zoom_enable": false,
-          "info_page": "about",
+          "info_page": "noshi-messagecard",
           "tabs_position": "below"
         }
       },
@@ -1452,7 +1475,6 @@
         "settings": {
           "layout": "list",
           "blog_show_meta": true,
-          "image": "shopify:\/\/shop_images\/about_TOP01.jpg",
           "overlay_opacity": 30,
           "image_height": "use_screen_one_half",
           "color": "palette--contrast--dark",
@@ -1465,19 +1487,45 @@
           "blog_show_date": true,
           "tags": false,
           "social": true,
-          "image_height": "use_screen_one_third",
+          "image_height": "use_screen_one_half",
           "sidebar_tags": true,
           "recent": false
         }
+      },
+      "16249464419c827cbd": {
+        "type": "index-hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/shop-isetanshinjuku.jpg",
+          "height": "use_screen_three_quarters",
+          "overlay_opacity": 30,
+          "title": "SHOP",
+          "description": "直営店の一覧はこちら",
+          "text_align": "align--middle-center",
+          "color": "palette--contrast--dark",
+          "link_text": "View more",
+          "link": "shopify:\/\/pages\/shop",
+          "button_style": "btn--outline"
+        }
+      },
+      "page-shop-jw": {
+        "type": "page-shop-jw",
+        "settings": {}
+      },
+      "page-shop-jw-haneda": {
+        "type": "page-shop-jw-haneda",
+        "settings": {}
       }
     },
     "content_for_index": [
       "1622702964211cac9f",
-      "1621835711df2bab4e",
       "index-collection",
       "162382233125ff061c",
       "index-blog",
       "index-collection-grid",
+      "1623034326000e266c",
+      "1621835711df2bab4e",
+      "16249464419c827cbd",
+      "162303272338f86a0d",
       "index-double",
       "1623051101873eb332",
       "1623051814b95c8448",
@@ -1486,12 +1534,10 @@
       "1622704990738191c6",
       "index-map",
       "1622772826406acd0e",
-      "1623032475b2bd1d7b",
-      "1623034326000e266c",
       "16233715025e341f62",
-      "162303272338f86a0d",
       "1623206196a5249098",
-      "1623387947d2162b6d"
+      "1623387947d2162b6d",
+      "1623032475b2bd1d7b"
     ]
   },
   "presets": {
