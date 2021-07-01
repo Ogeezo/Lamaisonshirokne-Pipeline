@@ -139,22 +139,22 @@
               "linklist": "category"
             }
           },
-          "c13085df-f1df-41b7-8853-101e00f8312e": {
-            "type": "newsletter",
+          "a2c14d08-d589-44a6-bc6e-592a267f4985": {
+            "type": "linklist",
             "settings": {
-              "richtext": "<p>Join to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+              "linklist": "footet-policy"
             }
           }
         },
         "block_order": [
           "linklist",
           "e660938c-a697-476f-a80a-4dce377d346e",
-          "c13085df-f1df-41b7-8853-101e00f8312e"
+          "a2c14d08-d589-44a6-bc6e-592a267f4985"
         ],
         "settings": {
           "footer_image": "shopify:\/\/shop_images\/logo.png",
-          "footer_secondary_linklist": "footet-policy",
-          "footer_payment_enable": false,
+          "footer_secondary_linklist": "",
+          "footer_payment_enable": true,
           "footer_social_enable": true,
           "show_locale_selector": false,
           "show_currency_selector": false
@@ -311,7 +311,8 @@
               "collection": "タブレットショコラ",
               "title": "タブレットショコラ",
               "link_text": "View products",
-              "image": "shopify:\/\/shop_images\/about-content5.jpg"
+              "image": "shopify:\/\/shop_images\/about-content5.jpg",
+              "button_link": ""
             }
           },
           "f0be0545-741b-4b51-afc7-39762ffc4ee5": {
@@ -320,7 +321,8 @@
               "collection": "季節のゼリー",
               "title": "季節のゼリー",
               "link_text": "View products",
-              "image": "shopify:\/\/shop_images\/about-content6.jpg"
+              "image": "shopify:\/\/shop_images\/about-content6.jpg",
+              "button_link": ""
             }
           },
           "6c2207ee-8a12-4441-abf2-79113c9d6603": {
@@ -329,7 +331,8 @@
               "collection": "クリームチーズケーキ",
               "title": "クリームチーズケーキ",
               "link_text": "View products",
-              "image": "shopify:\/\/shop_images\/about-content4.jpg"
+              "image": "shopify:\/\/shop_images\/about-content4.jpg",
+              "button_link": ""
             }
           }
         },
@@ -362,6 +365,7 @@
               "text_align": "align--middle-left",
               "bg": "section",
               "link_text": "",
+              "link": "",
               "button_style": "btn"
             }
           },
@@ -375,6 +379,7 @@
               "text_align": "align--middle-center",
               "color": "palette--contrast--dark",
               "link_text": "",
+              "link": "",
               "button_style": "btn"
             }
           }
@@ -552,6 +557,7 @@
           "enable": true,
           "message": "税込10,800円以上で送料無料",
           "more": "",
+          "url": "",
           "enable_account": true,
           "enable_search": false
         }
@@ -829,6 +835,7 @@
               "text_align": "align--middle-center",
               "color": "palette--contrast--dark",
               "link_text": "VIEW MORE",
+              "link": "",
               "button_style": "btn"
             }
           },

@@ -782,3 +782,158 @@ div.page-shop-jw-wrapper.page__template {
     margin-top: .55556em;
   }
 }
+
+/* polisy */
+body .shopify-policy__container {
+
+}
+
+.shopify-policy__title {
+}
+
+.shopify-policy__title h1 {
+  margin-bottom: 50px;
+}
+
+.shopify-policy__body {
+  padding: 0 20px;
+}
+
+.shopify-policy__body .rte {
+
+}
+
+.shopify-policy__body .rte h2 {
+  border-bottom: 1px solid rgba(80,58,28,0.5);
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.shopify-policy__body .rte h3,
+.shopify-policy__body .rte h4,
+.shopify-policy__body .rte h5 {
+  font-size: 16px;
+}
+
+.shopify-policy__body .rte p {
+  font-size: 14px;
+}
+
+.shopify-policy__body .rte ul {
+  font-size: 14px;
+}
+
+.shopify-policy__body .rte ol {
+  font-size: 14px;
+}
+
+.shopify-policy__body .polisy-table {
+  display: table;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+.shopify-policy__body .rte dl {
+  display: table-row;
+  margin: 0 auto;
+  flex-wrap: nowrap;
+  font-size: 14px;
+}
+
+.shopify-policy__body .rte dt,
+.shopify-policy__body .rte dd {
+  border: 1px solid #ccc;
+  display: table-cell;
+  padding: 20px 10px;
+  vertical-align: middle;
+}
+
+.shopify-policy__body .rte dt {
+  min-width: 6em;
+}
+
+.shopify-policy__body .rte dd {
+}
+
+.shipping-polisy-table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+.shipping-polisy-table tbody {
+  
+}
+
+.shipping-polisy-table tr:first-child td {
+  text-align: center;
+}
+
+.shipping-polisy-table td {
+  border: 1px solid #ccc;
+  font-size: 12px;
+  padding: 5px 10px;
+  min-width: 4em;
+}
+
+
+@media only screen and (min-width: 480px) { 
+  body .shopify-policy__container {
+
+  }
+  
+  .shopify-policy__title {
+  
+  }
+  
+  .shopify-policy__title h1 {
+  }
+  
+  .shopify-policy__body {
+  }
+  
+  .shopify-policy__body .rte {
+  
+  }
+  
+  .shopify-policy__body .rte h2 {
+  }
+  
+  .shopify-policy__body .rte h3,
+  .shopify-policy__body .rte h4,
+  .shopify-policy__body .rte h5 {
+  }
+  
+  .shopify-policy__body .rte p {
+  }
+  
+  .shopify-policy__body .rte ul {
+  }
+  
+  .shopify-policy__body .rte ol {
+  }
+  
+  .shopify-policy__body .polisy-table {
+  }
+  
+  .shopify-policy__body .rte dl {
+  }
+  
+  .shopify-policy__body .rte dt,
+  .shopify-policy__body .rte dd {
+  }
+  
+  .shopify-policy__body .rte dt {
+    min-width: 10em;
+  }
+  
+  .shopify-policy__body .rte dd {
+  }
+
+  .shipping-polisy-table td {
+    min-width: 7em;
+  }
+}

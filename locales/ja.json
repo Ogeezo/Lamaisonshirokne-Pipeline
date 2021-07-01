@@ -146,9 +146,9 @@
   },
   "contact": {
     "form": {
-      "name": "名前",
-      "email": "メールアドレス",
-      "phone": "電話番号",
+      "name": "お名前（必須）",
+      "email": "メールアドレス（必須）",
+      "phone": "電話番号（任意）",
       "message": "メッセージ",
       "send": "送信",
       "post_success": "お問合せ頂きありがとうございます。内容を確認次第、ご連絡致します。"
@@ -343,5 +343,12 @@
   },
   "date_formats": {
     "month_day_year": "%Y\/%d\/%B"
+  },
+  "shopify": {
+    "checkout": {
+      "shop_policies": {
+        "shipping_policy": "配送について"
+      }
+    }
   }
 }
