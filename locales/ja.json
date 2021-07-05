@@ -323,7 +323,7 @@
       "join_membership": "Join Now"
     },
     "cart_drawer": {
-      "item_added": "カートに追加",
+      "item_added": "カートに追加しました",
       "checkout": "購入画面へ",
       "view_cart": "カートを見る"
     }

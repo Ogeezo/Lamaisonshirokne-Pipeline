@@ -18,7 +18,32 @@
 
 }
 
-/* product */
+/* ============
+  home 
+===============*/
+
+.home__subtitle, 
+.home__subtitle .strong, 
+.home__subtitle.strong {
+  font-family: ;
+}
+
+.home__subtitle:after {
+  background: #8d6b3d;
+  opacity: 1;
+}
+
+.title--overlay {
+  font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
+}
+
+.homepage-slideshow .content--overlay {
+  /* font-family : "Avenir Next",a-otf-futo-go-b101-pr6n,YuGothic,Yu Gothic,sans-serif; */
+}
+
+/* ============
+  product 
+===============*/
 .product__details .product__headline {
   display: block;
 }
@@ -28,20 +53,19 @@
 }
 
 .product__type span{
+  background-color: transparent;
   display: inline-block;
   line-height: 1;
   padding: 5px 8px;
 }
 .product-temp-cold span{
-  color: #fff;
-  background-color: #5BB9EE;
-  border: 1px solid #5BB9EE;
+  color: #4352ab;
+  border: 1px solid #4352ab;
 }
 
 .product-temp-hot span{
-  color: #707070;
-  background-color: #F2F2F2;
-  border: 1px solid #F2F2F2;
+  color: #8d6b3d;
+  border: 1px solid #8d6b3d;
 }
 
 .product__details .product__title {
@@ -58,10 +82,10 @@
   font-size: 12px;
 }
 
-/* product-tabs */
-
+/* ============
+  product-tabs 
+===============*/
 .product-tabs-jw {
-  /* max-width: 960px; */
   margin: 0 auto;
 }
 
@@ -70,12 +94,9 @@
 }
 
 .product-tabs-jw ul.tabs>li {
-  /* margin-right: 10px; */
 }
 
 .product-tabs-jw .tab-content {
-  /* background-color: #F2F2F2; */
-  /* padding: 50px 15px; */
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -123,7 +144,6 @@
 
 @media only screen and (min-width: 480px) {
   .product-tabs-jw .tab-content {
-    /* padding: 50px 120px; */
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -152,8 +172,10 @@
 
 }
 
+/* ============
+  product-list 
+===============*/
 
-/* product-list */
 .price_wrapper {
   display: flex;
   justify-content: space-between;
@@ -164,23 +186,31 @@
   padding-top: 0;
 }
 
-.product-grid-item .product-temp-hot span{
-  border: 1px solid #aaa;
+.sticker--new {
+  background-color: #c44b5b;
+  /* background-color: #8d6b3d; */
 }
 
-/* jw-Blog-posts */
-
+/* ============
+  jw-Blog-posts 
+===============*/
 .info-wrap {
 
 }
 
 .info-list {
   max-width: 660px;
-  margin: 0 auto;
+  margin: 0 auto 40px;
 }
 
 .info-list--items {
   margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.info-list--items:last-child {
+  border: none;
 }
 
 .info-list--items article {
@@ -198,7 +228,7 @@
 
 .info-article__title {
   display: inline-block;
-  font-size: 16px; 
+  font-size: 14px; 
   margin: 0;
 }
 
@@ -213,13 +243,16 @@
   }
 }
 
-/* double block  */
+/* ============
+  double block 
+===============*/
 .double__block .home__subtitle {
   font-size: 22px;
 }
 
-/* page-faq-jw */
-
+/* ============
+  page-faq-jw 
+=============== */
 .page-faq-jw .page__title span {
   border-bottom: 2px solid #8d6b3d;
   padding: 0 15px 10px;
@@ -230,7 +263,6 @@
 }
 
 .page-faq-jw-section .faq-jw__subtitle {
-  /* color: #8d6b3d; */
   font-weight: bold;
   text-align: left;
 }
@@ -257,8 +289,9 @@
   color: #8d6b3d;
 }
 
-/* page.lookbook-jw */
-
+/* ============
+  page.lookbook-jw 
+=============== */
 .page-lookbook-jw h2 {
   font-size: 18px;
   font-weight: bold;
@@ -277,7 +310,9 @@
   margin: 20px auto;
 }
 
-/* blog */
+/* ============
+  blog 
+=============== */
 .jw-blog-wrapper {
   display: flex;
   justify-content: space-between;
@@ -301,8 +336,6 @@
   margin-bottom: 10px;
   overflow: hidden;
   position: relative;
-  /* height: 16.66667em;
-  width: 16.66667em; */
   width: auto;
 }
 
@@ -347,8 +380,9 @@
   }  
 }
 
-/* article */
-
+/* ============
+  article 
+=============== */
 .article-jw {
 
 }
@@ -404,23 +438,11 @@ ul.column_2 li {
 }
 
 @media only screen and (min-width: 480px) {
-  /* .article-jw .article-jw-content h1,
-  .article-jw .article-jw-content h2,
-  .article-jw .article-jw-content h3,
-  .article-jw .article-jw-content h4,
-  .article-jw .article-jw-content h5 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 40px;
-    margin-bottom: 20px;;
-  }
-  
-  .article-jw .article-jw-content p {
-    font-size: 14px;
-  } */
 }
 
-/* shop */
+/* ============
+  shop 
+=============== */
 div.page-shop-jw-wrapper.page__template {
   max-width: none;
   margin-bottom: -64px;
@@ -436,7 +458,9 @@ div.page-shop-jw-wrapper.page__template {
 
 }
 
-/* shop page-shop-jw*/
+/* ============
+  shop page-shop-jw 
+=============== */
 .page-shop-jw-section__wrapper {
   float: none;
   max-width: 1000px;
@@ -507,7 +531,9 @@ div.page-shop-jw-wrapper.page__template {
   }
 }
 
-/* shop page-shop-jw-other*/
+/* ============
+  shop page-shop-jw-other 
+=============== */
 .page-shop-jw-other-section__bg {
   background-color: #F2F2F2;
   padding: 6.8em 16px;
@@ -578,7 +604,9 @@ div.page-shop-jw-wrapper.page__template {
   }
 }
 
-/* noshi ms-card */
+/* ============
+  noshi ms-card 
+=============== */
 .modal__close {
   z-index: 5001;
 }
@@ -782,8 +810,9 @@ div.page-shop-jw-wrapper.page__template {
     margin-top: .55556em;
   }
 }
-
-/* polisy */
+/* ============
+  polisy 
+=============== */
 body .shopify-policy__container {
 
 }
@@ -936,4 +965,24 @@ body .shopify-policy__container {
   .shipping-polisy-table td {
     min-width: 7em;
   }
+}
+
+/* ============
+  contact 
+=============== */
+.page-contact-jw {
+
+}
+
+.page-contact-jw .page__title {
+  margin-bottom: 50px;
+}
+
+.page-contact-jw .page__title span{
+  border-bottom: 2px solid #8d6b3d;
+  padding: 0 15px 10px;
+}
+
+.page-contact-jw .rte p {
+  font-size: 16px;
 }

@@ -21,7 +21,7 @@
     "type_header_font": "avenir_next_n5",
     "type_heading_size": 80,
     "font_title_capitalize": false,
-    "type_accent_font": "avenir_next_rounded_n5",
+    "type_accent_font": "montserrat_n5",
     "type_accent_size": 110,
     "type_base_font": "avenir_next_n4",
     "type_body_size": 100,
@@ -110,7 +110,7 @@
         "settings": {
           "header_style": "menu_center",
           "logo": "shopify:\/\/shop_images\/logo.png",
-          "logo_max_limit": 160,
+          "logo_max_limit": 145,
           "main_menu_linklist": "globalmenu",
           "enable_search": false,
           "enable_account": true,
@@ -564,9 +564,10 @@
       },
       "1621835711df2bab4e": {
         "type": "index-hero",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/TOP.jpg",
-          "height": "use_screen_three_quarters",
+          "height": "use_screen_two_thirds",
           "overlay_opacity": 15,
           "title": "ABOUT",
           "description": "ラ・メゾン白金について",
@@ -673,7 +674,7 @@
               "overlay_opacity": 15,
               "title": "大人の味わいで上質なひとときを。",
               "description": "",
-              "text_align": "align--middle-left",
+              "text_align": "align--middle-center",
               "link_text": "VIEW PRODUCTs",
               "link": "shopify:\/\/collections",
               "button_style": "btn"
@@ -698,8 +699,8 @@
               "image": "shopify:\/\/shop_images\/2_914b3bc1-8641-46f0-a060-57f694a009fe.jpg",
               "overlay_opacity": 15,
               "title": "2層のフルーツゼリー",
-              "description": "常温でお届け可能。\n暑い時期の贈り物にぴったり",
-              "text_align": "align--middle-left",
+              "description": "常温でお届け可能。暑い時期の贈り物にぴったり",
+              "text_align": "align--bottom-left",
               "link_text": "View products",
               "link": "shopify:\/\/collections\/季節のゼリー",
               "button_style": "btn"
@@ -823,7 +824,6 @@
       },
       "1623034326000e266c": {
         "type": "index-double",
-        "disabled": true,
         "blocks": {
           "1623034326000e266c-0": {
             "type": "image",
@@ -1214,7 +1214,7 @@
           "full_width": false,
           "padding": false,
           "scale_image": true,
-          "aspect_ratio": 0.5
+          "aspect_ratio": 0.7
         }
       },
       "page-lookbook-2-text": {
@@ -1501,9 +1501,10 @@
       },
       "16249464419c827cbd": {
         "type": "index-hero",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/shop-isetanshinjuku.jpg",
-          "height": "use_screen_three_quarters",
+          "height": "use_screen_two_thirds",
           "overlay_opacity": 30,
           "title": "SHOP",
           "description": "直営店の一覧はこちら",
@@ -1521,6 +1522,17 @@
       "page-shop-jw-haneda": {
         "type": "page-shop-jw-haneda",
         "settings": {}
+      },
+      "1625207536bb651ab6": {
+        "type": "index-blog",
+        "settings": {
+          "title": "",
+          "homepage_blog": "information",
+          "homepage_blog_count": 2,
+          "bg": "section",
+          "color": "palette--contrast--dark",
+          "aspect_ratio": 0.7
+        }
       }
     },
     "content_for_index": [
@@ -1544,7 +1556,8 @@
       "16233715025e341f62",
       "1623206196a5249098",
       "1623387947d2162b6d",
-      "1623032475b2bd1d7b"
+      "1623032475b2bd1d7b",
+      "1625207536bb651ab6"
     ]
   },
   "presets": {
