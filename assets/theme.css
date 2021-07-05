@@ -41,6 +41,73 @@
   /* font-family : "Avenir Next",a-otf-futo-go-b101-pr6n,YuGothic,Yu Gothic,sans-serif; */
 }
 
+.jw-brand-banner {
+
+}
+
+.jw-brand-banner {
+
+}
+
+.jw-brand-banner {
+
+}
+
+.jw-brand-banner .article__card {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.jw-brand-banner .blog__article__content {
+  padding-bottom: 50%;
+}
+
+.jw-brand-banner .jw-brand-banner-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.jw-brand-banner .jw-brand-banner-image {
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  transition: transform 1.1s ease-out;
+}
+
+.jw-brand-banner-link:hover .jw-brand-banner-image {
+  transform:scale(1.1);
+}
+
+.jw-brand-banner .jw-brand-banner-title {
+  bottom: 0;
+  color: #fff;
+  font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  position: absolute;
+  z-index: 10;
+}
+
+.jw-brand-banner .article__card {
+  padding: 0;
+  position: relative;
+}
+
+.image-overlay--bottom {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  opacity: .65;
+  background: linear-gradient(180deg,hsla(0,0%,100%,0),#000);
+}
 /* ============
   product 
 ===============*/

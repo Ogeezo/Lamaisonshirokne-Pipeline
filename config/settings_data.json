@@ -824,6 +824,7 @@
       },
       "1623034326000e266c": {
         "type": "index-double",
+        "disabled": true,
         "blocks": {
           "1623034326000e266c-0": {
             "type": "image",
@@ -1525,6 +1526,7 @@
       },
       "1625207536bb651ab6": {
         "type": "index-blog",
+        "disabled": true,
         "settings": {
           "title": "",
           "homepage_blog": "information",
@@ -1532,6 +1534,36 @@
           "bg": "section",
           "color": "palette--contrast--dark",
           "aspect_ratio": 0.7
+        }
+      },
+      "1625455352a378773b": {
+        "type": "jw-brand-banner",
+        "blocks": {
+          "33ae1204-6cea-4223-86b0-1ad9a70670e5": {
+            "type": "image",
+            "settings": {
+              "banner-image": "shopify:\/\/shop_images\/top_about.jpg",
+              "banner-title": "ABOUT",
+              "banner-link": "shopify:\/\/pages\/about"
+            }
+          },
+          "70005320-d93a-45f5-8112-366c2fd8e550": {
+            "type": "image",
+            "settings": {
+              "banner-image": "shopify:\/\/shop_images\/top_shop.jpg",
+              "banner-title": "SHOP",
+              "banner-link": "shopify:\/\/pages\/shop"
+            }
+          }
+        },
+        "block_order": [
+          "33ae1204-6cea-4223-86b0-1ad9a70670e5",
+          "70005320-d93a-45f5-8112-366c2fd8e550"
+        ],
+        "settings": {
+          "title": "brand",
+          "homepage_blog_count": 2,
+          "bg": "section"
         }
       }
     },
@@ -1541,10 +1573,11 @@
       "162382233125ff061c",
       "index-blog",
       "index-collection-grid",
+      "1625455352a378773b",
       "1623034326000e266c",
       "1621835711df2bab4e",
-      "16249464419c827cbd",
       "162303272338f86a0d",
+      "16249464419c827cbd",
       "index-double",
       "1623051101873eb332",
       "1623051814b95c8448",
