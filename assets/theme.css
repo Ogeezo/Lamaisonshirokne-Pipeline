@@ -37,20 +37,23 @@
   font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
 }
 
+.homepage-slideshow .title--overlay {
+  font-size: ;
+}
+
 .homepage-slideshow .content--overlay {
+  font-size: 16px;
   /* font-family : "Avenir Next",a-otf-futo-go-b101-pr6n,YuGothic,Yu Gothic,sans-serif; */
 }
 
-.jw-brand-banner {
-
-}
-
-.jw-brand-banner {
-
-}
-
-.jw-brand-banner {
-
+@media only screen and (min-width: 480px) {
+  .homepage-slideshow .title--overlay {
+    font-size: 36px;
+  }
+  
+  .homepage-slideshow .content--overlay {
+    font-size: 20px;
+  }
 }
 
 .jw-brand-banner .article__card {
@@ -107,6 +110,21 @@
   z-index: 2;
   opacity: .65;
   background: linear-gradient(180deg,hsla(0,0%,100%,0),#000);
+}
+
+/* collection-grid */
+.homepage-collection-grid {
+
+}
+
+.homepage-collection-grid .title--overlay {
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .homepage-collection-grid .title--overlay {
+    font-size: 18px;
+  }
 }
 /* ============
   product 
@@ -255,7 +273,6 @@
 
 .sticker--new {
   background-color: #c44b5b;
-  /* background-color: #8d6b3d; */
 }
 
 /* ============
@@ -359,14 +376,14 @@
 /* ============
   page.lookbook-jw 
 =============== */
-.page-lookbook-jw h2 {
+.page-lookbook-jw h1 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 50px;
   text-align: center;
 }
 
-.page-lookbook-jw h2 span{
+.page-lookbook-jw h1 span{
   border-bottom: 2px solid #8d6b3d;
   display: inline-block;
   padding: 0 20px 15px;
@@ -517,6 +534,7 @@ div.page-shop-jw-wrapper.page__template {
 }
 
 .page-shop-jw-wrapper .page__title {
+  font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
   margin-bottom: 40px;
 }
 

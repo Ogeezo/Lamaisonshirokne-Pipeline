@@ -687,7 +687,7 @@
               "overlay_opacity": 15,
               "title": "クリームチーズケーキ",
               "description": "厳選したチーズを使用したこだわりのチーズケーキ",
-              "text_align": "align--middle-left",
+              "text_align": "align--middle-center",
               "link_text": "View products",
               "link": "shopify:\/\/collections\/クリームチーズケーキ",
               "button_style": "btn"
@@ -700,7 +700,7 @@
               "overlay_opacity": 15,
               "title": "2層のフルーツゼリー",
               "description": "常温でお届け可能。暑い時期の贈り物にぴったり",
-              "text_align": "align--bottom-left",
+              "text_align": "align--middle-left",
               "link_text": "View products",
               "link": "shopify:\/\/collections\/季節のゼリー",
               "button_style": "btn"
@@ -713,7 +713,7 @@
           "0f31543d-71ed-40e9-9ca5-5990ebb4fb98"
         ],
         "settings": {
-          "autoplay": true,
+          "autoplay": false,
           "autoplay_speed": 6,
           "height": "use_screen_full",
           "color": "palette--contrast--dark"
@@ -1564,6 +1564,36 @@
           "title": "brand",
           "homepage_blog_count": 2,
           "bg": "section"
+        }
+      },
+      "page-images-jw": {
+        "type": "page-images-jw",
+        "blocks": {
+          "38dd10b4-1e1e-479b-a0dd-e1da63ac63b3": {
+            "type": "page_image",
+            "settings": {
+              "block_page": "about",
+              "block_show_title": false,
+              "image": "shopify:\/\/shop_images\/about_TOP01.jpg"
+            }
+          },
+          "18d204b3-0b18-4562-9906-1c076255d6c5": {
+            "type": "page_image",
+            "settings": {
+              "block_page": "",
+              "block_show_title": true
+            }
+          }
+        },
+        "block_order": [
+          "38dd10b4-1e1e-479b-a0dd-e1da63ac63b3",
+          "18d204b3-0b18-4562-9906-1c076255d6c5"
+        ],
+        "settings": {
+          "image_height": "use_screen_one_half",
+          "overlay_opacity": 20,
+          "palette": "palette--contrast--dark",
+          "text_align": "align--middle-center"
         }
       }
     },

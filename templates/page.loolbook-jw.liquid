@@ -1,6 +1,6 @@
 <!-- /templates/page.lookbook-jw.liquid -->
 
-{% section 'page-images' %}
+{% section 'page-images-jw' %}
 
 {% if page.content != '' %}
   <div class="page__template page__template--gallery page-lookbook-jw">
@@ -9,7 +9,7 @@
         <div class="wrapper">
           <div class="gallery">
             <div class="gallery__item one-whole">
-              <h1 class="text-center h3 page__title" data-page-default-title>{{ page.title }}</h1>
+              {% comment %} <h1 class="text-center h3 page__title" data-page-default-title>{{ page.title }}</h1> {% endcomment %}
               <div class="rte lookbook__rte">
                 {{ page.content }}
               </div>
