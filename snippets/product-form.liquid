@@ -120,6 +120,8 @@
 
       <div data-product-add-popdown-wrapper class="product-add-popdown"></div>
       {%- comment -%}jw-add {%- endcomment -%}
+      {%- unless template == 'product.jw-card_only' -%}
+        
       <p class="line-item-property__field">
         <label>掛け紙・熨斗</label>
         <select id="" name="properties[掛け紙・熨斗]">
@@ -146,6 +148,7 @@
           <option value="御供（白黒結び切り）">御供（白黒結び切り）</option>
         </select>
       </p>
+      {%- endunless -%}
       <p class="line-item-property__field">
         <label>メッセージカード</label>
         <select id="" name="properties[メッセージカード]">

@@ -84,21 +84,21 @@
             "type": "product",
             "settings": {
               "position": "2",
-              "product": "ガトー-タブレット-12個入"
+              "product": "gateauandtablet-s"
             }
           },
           "fb7c1121-6533-4365-b4d7-2564afbfa69d": {
             "type": "product",
             "settings": {
               "position": "2",
-              "product": "ショコラサンドアソート-10個"
+              "product": "chocolatsand-10"
             }
           },
           "642a100d-67ea-4756-ba42-db9a6ffc1e3c": {
             "type": "product",
             "settings": {
               "position": "2",
-              "product": "タブレット-10枚"
+              "product": "tablet_10"
             }
           }
         },
@@ -349,7 +349,7 @@
           "bg": "section bg--accent",
           "color": "palette--contrast--dark",
           "button_style": "btn--outline",
-          "overlay_opacity": 20,
+          "overlay_opacity": 10,
           "aspect_ratio": 1
         }
       },
@@ -562,22 +562,6 @@
           "enable_search": false
         }
       },
-      "1621835711df2bab4e": {
-        "type": "index-hero",
-        "disabled": true,
-        "settings": {
-          "image": "shopify:\/\/shop_images\/TOP.jpg",
-          "height": "use_screen_two_thirds",
-          "overlay_opacity": 15,
-          "title": "ABOUT",
-          "description": "ラ・メゾン白金について",
-          "text_align": "align--middle-center",
-          "color": "palette--contrast--dark",
-          "link_text": "View more",
-          "link": "shopify:\/\/pages\/about",
-          "button_style": "btn--outline"
-        }
-      },
       "related": {
         "type": "related",
         "settings": {
@@ -671,7 +655,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/TOP.jpg",
-              "overlay_opacity": 15,
+              "overlay_opacity": 10,
               "title": "大人の味わいで上質なひとときを。",
               "description": "",
               "text_align": "align--middle-center",
@@ -684,7 +668,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/content.jpg",
-              "overlay_opacity": 15,
+              "overlay_opacity": 10,
               "title": "クリームチーズケーキ",
               "description": "厳選したチーズを使用したこだわりのチーズケーキ",
               "text_align": "align--middle-center",
@@ -697,7 +681,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/2_914b3bc1-8641-46f0-a060-57f694a009fe.jpg",
-              "overlay_opacity": 15,
+              "overlay_opacity": 10,
               "title": "2層のフルーツゼリー",
               "description": "常温でお届け可能。暑い時期の贈り物にぴったり",
               "text_align": "align--middle-left",
@@ -719,63 +703,15 @@
           "color": "palette--contrast--dark"
         }
       },
-      "1622704990738191c6": {
-        "type": "index-hero",
-        "disabled": true,
-        "settings": {
-          "image": "shopify:\/\/shop_images\/lamaison-card.jpg",
-          "height": "use_image",
-          "overlay_opacity": 15,
-          "title": "大人の味わいで上質なひとときを。",
-          "description": "高級住宅やレストランそして和と洋が融合する街、\n東京・白金の洋菓子ブランド「ラ・メゾン白金」。",
-          "text_align": "align--middle-left",
-          "color": "palette--secondary",
-          "link_text": "ABOUT",
-          "link": "shopify:\/\/pages\/about",
-          "button_style": "btn--outline"
-        }
-      },
       "cart": {
         "type": "cart",
         "settings": {
           "enable_ajax": true,
           "cart_vendor_enable": false,
-          "cart_notes_enable": false,
-          "cart_show_quantity": true,
+          "cart_notes_enable": true,
+          "cart_show_quantity": false,
+          "cart_continue_browsing": "",
           "cart_show_additional_buttons": false
-        }
-      },
-      "1622772826406acd0e": {
-        "type": "index-blog",
-        "disabled": true,
-        "settings": {
-          "title": "店舗からのお知らせ",
-          "homepage_blog": "テスト",
-          "homepage_blog_count": 3,
-          "bg": "section",
-          "color": "",
-          "aspect_ratio": 1
-        }
-      },
-      "1623032475b2bd1d7b": {
-        "type": "index-product",
-        "disabled": true,
-        "settings": {
-          "title": "Featured product",
-          "home_product": "2層のフルーツゼリー-5個",
-          "bg": "section bg--accent",
-          "image_width": "narrow",
-          "align": "product__align-left",
-          "variant_form": "button",
-          "form_position": "below",
-          "show_quantity": true,
-          "show_remaining": true,
-          "enable_payment_button": false,
-          "product_show_vendor": false,
-          "enable_video_looping": true,
-          "zoom_enable": true,
-          "info_page": "",
-          "tabs_position": "below"
         }
       },
       "162303272338f86a0d": {
@@ -816,146 +752,10 @@
         ],
         "settings": {
           "title": "",
-          "bg": "section",
+          "bg": "section bg--accent",
           "icon_size": "icon--small",
           "icon_alignment": "icon--top",
           "align_text": "text-center"
-        }
-      },
-      "1623034326000e266c": {
-        "type": "index-double",
-        "disabled": true,
-        "blocks": {
-          "1623034326000e266c-0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/TOP-sp.jpg",
-              "overlay_opacity": 30,
-              "title": "ABOUT",
-              "description": "",
-              "text_align": "align--middle-center",
-              "color": "palette--contrast--dark",
-              "link_text": "VIEW MORE",
-              "link": "",
-              "button_style": "btn"
-            }
-          },
-          "f3312da2-95e1-4e00-9f88-3c412af6299c": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/a8b2ddcaf0f61649c220e770c97335d5.jpg",
-              "overlay_opacity": 30,
-              "title": "SHOP",
-              "description": "",
-              "text_align": "align--middle-center",
-              "color": "palette--contrast--dark",
-              "link_text": "VIEW MORE",
-              "link": "shopify:\/\/pages\/shop",
-              "button_style": "btn"
-            }
-          }
-        },
-        "block_order": [
-          "1623034326000e266c-0",
-          "f3312da2-95e1-4e00-9f88-3c412af6299c"
-        ],
-        "settings": {
-          "height": "use_screen_two_thirds"
-        }
-      },
-      "1623051101873eb332": {
-        "type": "index-slideshow",
-        "disabled": true,
-        "blocks": {
-          "1623051101873eb332-0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/content.jpg",
-              "overlay_opacity": 20,
-              "title": "クリームチーズケーキ",
-              "description": "厳選したチーズを使用した、こだわりのチーズケーキ",
-              "text_align": "align--middle-left",
-              "link_text": "View products",
-              "link": "shopify:\/\/collections\/クリームチーズケーキ",
-              "button_style": "btn"
-            }
-          }
-        },
-        "block_order": [
-          "1623051101873eb332-0"
-        ],
-        "settings": {
-          "autoplay": false,
-          "autoplay_speed": 8,
-          "height": "use_screen_two_thirds",
-          "color": "palette--contrast--dark"
-        }
-      },
-      "1623051814b95c8448": {
-        "type": "index-collection",
-        "disabled": true,
-        "settings": {
-          "title": "",
-          "collection": "クリームチーズケーキ",
-          "grid": 4,
-          "rows": 1,
-          "bg": "section",
-          "show_view_all": false
-        }
-      },
-      "1623206196a5249098": {
-        "type": "index-columns",
-        "disabled": true,
-        "blocks": {
-          "1623206196a5249098-0": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/TOP-sp.jpg",
-              "title": "ABOUT",
-              "text": "<p>大人の味わいで上質なひとときを。<\/p><p>高級住宅やレストランそして和と洋が融合する街、<br\/>東京・白金の洋菓子ブランド「<strong>ラ・メゾン白金<\/strong>」<\/p>",
-              "button_label": "VIEWMORE",
-              "button_link": "shopify:\/\/pages\/about",
-              "enable_video": false,
-              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-            }
-          },
-          "fb61e7d4-b54c-42b1-9109-bff2a9073af0": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/top_shop.jpg",
-              "title": "SHOP",
-              "text": "",
-              "button_label": "VIEWMORE",
-              "button_link": "shopify:\/\/pages\/shop",
-              "enable_video": false,
-              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-            }
-          }
-        },
-        "block_order": [
-          "1623206196a5249098-0",
-          "fb61e7d4-b54c-42b1-9109-bff2a9073af0"
-        ],
-        "settings": {
-          "title": "",
-          "bg": "section",
-          "align_text": "text-center",
-          "scale_image": true,
-          "aspect_ratio": 1
-        }
-      },
-      "16233715025e341f62": {
-        "type": "index-collection",
-        "disabled": true,
-        "settings": {
-          "title": "ALL ITEMS",
-          "collection": "全てのアイテム",
-          "grid": 4,
-          "rows": 8,
-          "bg": "section bg--accent",
-          "show_view_all": true
         }
       },
       "page-faq": {
@@ -1101,7 +901,7 @@
         "settings": {
           "title": "メールマガジンに登録",
           "richtext": "<p>季節のおすすめや、お得な情報をお届けします。<\/p>",
-          "bg": "section bg--accent"
+          "bg": "section"
         }
       },
       "product-jw": {
@@ -1500,22 +1300,6 @@
           "recent": false
         }
       },
-      "16249464419c827cbd": {
-        "type": "index-hero",
-        "disabled": true,
-        "settings": {
-          "image": "shopify:\/\/shop_images\/shop-isetanshinjuku.jpg",
-          "height": "use_screen_two_thirds",
-          "overlay_opacity": 30,
-          "title": "SHOP",
-          "description": "直営店の一覧はこちら",
-          "text_align": "align--middle-center",
-          "color": "palette--contrast--dark",
-          "link_text": "View more",
-          "link": "shopify:\/\/pages\/shop",
-          "button_style": "btn--outline"
-        }
-      },
       "page-shop-jw": {
         "type": "page-shop-jw",
         "settings": {}
@@ -1523,18 +1307,6 @@
       "page-shop-jw-haneda": {
         "type": "page-shop-jw-haneda",
         "settings": {}
-      },
-      "1625207536bb651ab6": {
-        "type": "index-blog",
-        "disabled": true,
-        "settings": {
-          "title": "",
-          "homepage_blog": "information",
-          "homepage_blog_count": 2,
-          "bg": "section",
-          "color": "palette--contrast--dark",
-          "aspect_ratio": 0.7
-        }
       },
       "1625455352a378773b": {
         "type": "jw-brand-banner",
@@ -1595,32 +1367,60 @@
           "palette": "palette--contrast--dark",
           "text_align": "align--middle-center"
         }
+      },
+      "product-guide-jw": {
+        "type": "product-guide-jw",
+        "blocks": {
+          "407b473a-fffa-447f-a2f3-f0f7c6d99ffe": {
+            "type": "icon_block",
+            "settings": {
+              "icon_name": "icon-shipment",
+              "icon_color": "#AAAAAA",
+              "title": "",
+              "text": "<p><a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">配送・送料について<\/a><\/p>"
+            }
+          },
+          "35e508dc-5a26-4058-bd3e-37160ae0089e": {
+            "type": "icon_block",
+            "settings": {
+              "icon_name": "icon-payment",
+              "icon_color": "#AAAAAA",
+              "title": "",
+              "text": "<p>支払い方法について<\/p>"
+            }
+          },
+          "4a1b201e-efc8-4803-8a73-ad3d16c0eee8": {
+            "type": "icon_block",
+            "settings": {
+              "icon_name": "icon-send",
+              "icon_color": "#AAAAAA",
+              "title": "",
+              "text": "<p><a href=\"\/pages\/contact\" target=\"_blank\" title=\"お問合せ\">お問合せ<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "407b473a-fffa-447f-a2f3-f0f7c6d99ffe",
+          "35e508dc-5a26-4058-bd3e-37160ae0089e",
+          "4a1b201e-efc8-4803-8a73-ad3d16c0eee8"
+        ],
+        "settings": {
+          "title": "guide",
+          "bg": "section",
+          "icon_size": "icon--large",
+          "icon_alignment": "icon--top",
+          "align_text": "text-center"
+        }
       }
     },
     "content_for_index": [
       "1622702964211cac9f",
       "index-collection",
       "162382233125ff061c",
-      "index-blog",
       "index-collection-grid",
       "1625455352a378773b",
-      "1623034326000e266c",
-      "1621835711df2bab4e",
       "162303272338f86a0d",
-      "16249464419c827cbd",
-      "index-double",
-      "1623051101873eb332",
-      "1623051814b95c8448",
-      "index-columns",
-      "index-video",
-      "1622704990738191c6",
-      "index-map",
-      "1622772826406acd0e",
-      "16233715025e341f62",
-      "1623206196a5249098",
-      "1623387947d2162b6d",
-      "1623032475b2bd1d7b",
-      "1625207536bb651ab6"
+      "1623387947d2162b6d"
     ]
   },
   "presets": {

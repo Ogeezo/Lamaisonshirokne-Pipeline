@@ -35,15 +35,15 @@
 
 .title--overlay {
   font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
+  text-shadow: 0 0 8px rgb(0 0 0 / 50%);
 }
 
 .homepage-slideshow .title--overlay {
-  font-size: ;
 }
 
 .homepage-slideshow .content--overlay {
-  font-size: 16px;
-  /* font-family : "Avenir Next",a-otf-futo-go-b101-pr6n,YuGothic,Yu Gothic,sans-serif; */
+  font-size: 14px;
+  text-shadow: 0 0 8px rgb(0 0 0 / 50%);
 }
 
 @media only screen and (min-width: 480px) {
@@ -52,7 +52,7 @@
   }
   
   .homepage-slideshow .content--overlay {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -112,6 +112,10 @@
   background: linear-gradient(180deg,hsla(0,0%,100%,0),#000);
 }
 
+/* collection */
+.collection__heading--below.title--overlay {
+  text-shadow: none;
+}
 /* collection-grid */
 .homepage-collection-grid {
 
