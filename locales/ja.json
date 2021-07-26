@@ -177,7 +177,7 @@
       "add_new": "新しい住所を追加",
       "edit_address": "住所を編集",
       "first_name": "名",
-      "last_name": "性",
+      "last_name": "姓",
       "company": "会社名",
       "address1": "住所１",
       "address2": "住所２",
@@ -290,9 +290,9 @@
     "customer": {
       "account": "アカウント",
       "logged_in_as_html": "Logged in as {{ first_name }}",
-      "log_out": "Log out",
-      "log_in": "Log in",
-      "create_account": "Create account"
+      "log_out": "ログアウト",
+      "log_in": "ログイン",
+      "create_account": "アカウントを作成する"
     },
     "footer": {
       "newsletter_title": "Newsletter",
@@ -342,7 +342,7 @@
     }
   },
   "date_formats": {
-    "month_day_year": "%Y\/%d\/%B"
+    "month_day_year": "%Y\/%m\/%d"
   },
   "shopify": {
     "checkout": {

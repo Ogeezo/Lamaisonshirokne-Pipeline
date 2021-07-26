@@ -8,7 +8,7 @@
           <div class="grid pt2">
             <div class="grid__item">
               <h2 class="home__subtitle">{{ section.settings.product_recommendations_heading }}</h2>
-              <div class="js-grid" data-grid-large="{{ recommendations.products_count }}" data-grid-small="2">
+              <div class="js-grid" data-grid-large="4" data-grid-small="2">
                 {% for product in recommendations.products %}
                   {% render 'product-grid-item', product: product %}
                 {% endfor %}

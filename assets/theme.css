@@ -19,6 +19,34 @@
 }
 
 /* ============
+  font 
+===============*/
+
+body,
+.grid__title,
+h1, h2, h3, h4, h5, h6,
+.navtext,
+.footer-quicklinks, .footer-secondary {
+  font-family: "ヒラギノ角ゴシック ProN", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.navlink--toplevel .navtext {
+  font-family: var(---font-stack-accent);
+}
+
+.title--overlay {
+  font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
+}
+
+.homepage-slideshow .title--overlay {
+}
+
+.homepage-slideshow .content--overlay {
+  font-family: "ヒラギノ角ゴシック ProN", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* ============
   home 
 ===============*/
 
@@ -34,7 +62,6 @@
 }
 
 .title--overlay {
-  font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
   text-shadow: 0 0 8px rgb(0 0 0 / 50%);
 }
 
@@ -43,6 +70,7 @@
 
 .homepage-slideshow .content--overlay {
   font-size: 14px;
+  font-weight: bold;
   text-shadow: 0 0 8px rgb(0 0 0 / 50%);
 }
 
@@ -90,6 +118,7 @@
   bottom: 0;
   color: #fff;
   font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
+  font-size: 16px;
   margin-bottom: 20px;
   margin-left: 20px;
   position: absolute;
@@ -108,13 +137,20 @@
   left: 0;
   right: 0;
   z-index: 2;
-  opacity: .65;
+  opacity: .4;
   background: linear-gradient(180deg,hsla(0,0%,100%,0),#000);
 }
 
+@media only screen and (min-width: 480px) {
+  .jw-brand-banner .jw-brand-banner-title {
+    font-size: 22px;
+  }
+}
+
+
 /* collection */
 .collection__heading--below.title--overlay {
-  text-shadow: none;
+  /* text-shadow: none; */
 }
 /* collection-grid */
 .homepage-collection-grid {
@@ -130,6 +166,16 @@
     font-size: 18px;
   }
 }
+
+/* ============
+  product-grid 
+===============*/
+@media only screen and (min-width: 480px) {
+  .grid__title {
+    font-size: 12px;
+  }
+}
+
 /* ============
   product 
 ===============*/
@@ -169,6 +215,85 @@
 
 .product__details .product__price span{
   font-size: 12px;
+}
+
+.product__details .product-spec,
+.product__details .product-spec td,
+.product__details .product-spec th {
+  font-size: 12px;
+  font-weight: normal;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+.product__details .product-spec td,
+.product__details .product-spec th {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* accordion */
+.product-description .jw-accordion {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  margin: 20px 0;
+  outline: 0;
+}
+
+.product-description .jw-accordion__item {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  margin: 0;
+}
+
+.product-description .jw-accordion__item:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.jw-accordion .jw-accordion__ttl {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0.625em 0.625em 0.625em 2em;
+  padding: 1em 1em 1em 1.5em;
+  font-size: 11px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.jw-accordion__ttl{
+  position: relative;
+}
+
+.jw-accordion__ttl:after {
+  content: "";
+  position: absolute;
+  right: 25px;
+  top: 38%;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-top: solid 1px #333;
+  border-right: solid 1px #333;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.jw-accordion__ttl.open:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 45%;
+}
+
+.jw-accordion__content {
+  display: none;
+  font-size: 11px;
+  margin: 0;
+  padding-left: 2.3125em;
+  padding-bottom: 10px;
 }
 
 /* ============
@@ -216,11 +341,16 @@
   padding-bottom: 0.4rem;
 }
 
+.product-tabs-jw .tab-content table {
+  background-color: rgba(242,242,242,0.5);
+}
+
 .product-tabs-jw .tab-content table,
 .product-tabs-jw .tab-content td,
 .product-tabs-jw .tab-content th {
   font-size: 12px;
   border: 1px solid #333;
+  border: 1px solid rgba(63,63,63,0.6);
   border-collapse: collapse;
 }
 

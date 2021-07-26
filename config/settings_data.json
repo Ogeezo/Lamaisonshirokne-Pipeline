@@ -6,7 +6,7 @@
     "color_header_text": "#8d6b3d",
     "color_nav_border": "#ededed",
     "color_body_bg": "#ffffff",
-    "color_body_text": "#000000",
+    "color_body_text": "#3f3f3f",
     "color_primary": "#8d6b3d",
     "color_secondary": "#285056",
     "color_bg_light": "#f2f2f2",
@@ -17,14 +17,14 @@
     "color_bg_accent_inverse": "#000810",
     "product_background_color": "#fcfcfc",
     "color_footer_bg": "#dde2de",
-    "color_footer_text": "#333333",
+    "color_footer_text": "#3f3f3f",
     "type_header_font": "avenir_next_n5",
     "type_heading_size": 80,
     "font_title_capitalize": false,
     "type_accent_font": "montserrat_n5",
-    "type_accent_size": 110,
+    "type_accent_size": 100,
     "type_base_font": "avenir_next_n4",
-    "type_body_size": 100,
+    "type_body_size": 90,
     "button_radius": 5,
     "animations_enable": true,
     "parallax_enable": true,
@@ -152,7 +152,6 @@
           "a2c14d08-d589-44a6-bc6e-592a267f4985"
         ],
         "settings": {
-          "footer_image": "shopify:\/\/shop_images\/logo.png",
           "footer_secondary_linklist": "",
           "footer_payment_enable": true,
           "footer_social_enable": true,
@@ -220,10 +219,10 @@
           "show_description_below": true,
           "show_image": true,
           "image_height": "use_screen_one_third",
-          "overlay_opacity": 20,
+          "overlay_opacity": 10,
           "color": "palette--contrast--dark",
-          "hide_sidebar": true,
-          "collection_custom_nav_list": "category",
+          "hide_sidebar": false,
+          "collection_custom_nav_list": "",
           "collection_standard_nav": false,
           "collection_tag_nav": false
         }
@@ -288,27 +287,27 @@
           "index-collection-grid-1": {
             "type": "featured_collection",
             "settings": {
-              "collection": "ガトー-タブレット",
+              "collection": "gateau-tablet",
               "title": "ガトー&タブレット",
               "link_text": "View products",
               "image": "shopify:\/\/shop_images\/about-content3.jpg",
-              "button_link": "shopify:\/\/collections\/ガトー-タブレット"
+              "button_link": "shopify:\/\/collections\/gateau-tablet"
             }
           },
           "index-collection-grid-2": {
             "type": "featured_collection",
             "settings": {
-              "collection": "ショコラサンド",
+              "collection": "chocolatsand",
               "title": "ショコラサンド",
               "link_text": "View products",
               "image": "shopify:\/\/shop_images\/about-content2.jpg",
-              "button_link": "shopify:\/\/collections\/ショコラサンド"
+              "button_link": "shopify:\/\/collections\/chocolatsand"
             }
           },
           "94077afc-85db-4eef-80ec-e475e2944c56": {
             "type": "featured_collection",
             "settings": {
-              "collection": "タブレットショコラ",
+              "collection": "tabletchocolat",
               "title": "タブレットショコラ",
               "link_text": "View products",
               "image": "shopify:\/\/shop_images\/about-content5.jpg",
@@ -318,7 +317,7 @@
           "f0be0545-741b-4b51-afc7-39762ffc4ee5": {
             "type": "featured_collection",
             "settings": {
-              "collection": "季節のゼリー",
+              "collection": "seasonal-jelly",
               "title": "季節のゼリー",
               "link_text": "View products",
               "image": "shopify:\/\/shop_images\/about-content6.jpg",
@@ -328,7 +327,7 @@
           "6c2207ee-8a12-4441-abf2-79113c9d6603": {
             "type": "featured_collection",
             "settings": {
-              "collection": "クリームチーズケーキ",
+              "collection": "creamcheese-cake",
               "title": "クリームチーズケーキ",
               "link_text": "View products",
               "image": "shopify:\/\/shop_images\/about-content4.jpg",
@@ -417,7 +416,7 @@
               "title": "ガトー&タブレット",
               "text": "<p>人気の焼き菓子と色鮮やかな板チョコレートの詰め合わせ<\/p>",
               "button_label": "詳しくはこちら",
-              "button_link": "shopify:\/\/collections\/ガトー-タブレット",
+              "button_link": "shopify:\/\/collections\/gateau-tablet",
               "enable_video": false,
               "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
             }
@@ -430,7 +429,7 @@
               "title": "2層のフルーツゼリー",
               "text": "<p>2種類のフルーツを使用したゼリーにフルーツの果肉を入れた、見た目にも華やかな2層のフルーツゼリー。<\/p>",
               "button_label": "詳しくはこちら",
-              "button_link": "shopify:\/\/collections\/季節のゼリー",
+              "button_link": "shopify:\/\/collections\/seasonal-jelly",
               "enable_video": false,
               "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
             }
@@ -576,31 +575,31 @@
           "f75a436d-504f-467c-b182-824195bb9683": {
             "type": "collection",
             "settings": {
-              "collection": "ガトー-タブレット"
+              "collection": "gateau-tablet"
             }
           },
           "ea9fe798-7bf6-4806-8666-fd4af5290690": {
             "type": "collection",
             "settings": {
-              "collection": "ショコラサンド"
+              "collection": "chocolatsand"
             }
           },
           "34621d0f-7c36-4a47-b86d-8f26841b7a70": {
             "type": "collection",
             "settings": {
-              "collection": "タブレットショコラ"
+              "collection": "tabletchocolat"
             }
           },
           "96dec44d-23f3-4d11-8c08-434570785c36": {
             "type": "collection",
             "settings": {
-              "collection": "季節のゼリー"
+              "collection": "seasonal-jelly"
             }
           },
           "934d6f1d-2e71-4fb6-b42e-893b8138d0b3": {
             "type": "collection",
             "settings": {
-              "collection": "クリームチーズケーキ"
+              "collection": "creamcheese-cake"
             }
           }
         },
@@ -673,7 +672,7 @@
               "description": "厳選したチーズを使用したこだわりのチーズケーキ",
               "text_align": "align--middle-center",
               "link_text": "View products",
-              "link": "shopify:\/\/collections\/クリームチーズケーキ",
+              "link": "shopify:\/\/collections\/creamcheese-cake",
               "button_style": "btn"
             }
           },
@@ -686,7 +685,7 @@
               "description": "常温でお届け可能。暑い時期の贈り物にぴったり",
               "text_align": "align--middle-left",
               "link_text": "View products",
-              "link": "shopify:\/\/collections\/季節のゼリー",
+              "link": "shopify:\/\/collections\/seasonal-jelly",
               "button_style": "btn"
             }
           }
@@ -753,7 +752,7 @@
         "settings": {
           "title": "",
           "bg": "section bg--accent",
-          "icon_size": "icon--small",
+          "icon_size": "icon--large",
           "icon_alignment": "icon--top",
           "align_text": "text-center"
         }
@@ -1124,7 +1123,7 @@
           "show": true,
           "full_width": false,
           "padding": false,
-          "scale_image": true,
+          "scale_image": false,
           "aspect_ratio": 1
         }
       },
@@ -1296,7 +1295,7 @@
           "tags": false,
           "social": true,
           "image_height": "use_screen_one_half",
-          "sidebar_tags": true,
+          "sidebar_tags": false,
           "recent": false
         }
       },
@@ -1375,7 +1374,7 @@
             "type": "icon_block",
             "settings": {
               "icon_name": "icon-shipment",
-              "icon_color": "#AAAAAA",
+              "icon_color": "#aaaaaa",
               "title": "",
               "text": "<p><a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">配送・送料について<\/a><\/p>"
             }
@@ -1384,7 +1383,7 @@
             "type": "icon_block",
             "settings": {
               "icon_name": "icon-payment",
-              "icon_color": "#AAAAAA",
+              "icon_color": "#aaaaaa",
               "title": "",
               "text": "<p>支払い方法について<\/p>"
             }
@@ -1393,7 +1392,7 @@
             "type": "icon_block",
             "settings": {
               "icon_name": "icon-send",
-              "icon_color": "#AAAAAA",
+              "icon_color": "#aaaaaa",
               "title": "",
               "text": "<p><a href=\"\/pages\/contact\" target=\"_blank\" title=\"お問合せ\">お問合せ<\/a><\/p>"
             }
