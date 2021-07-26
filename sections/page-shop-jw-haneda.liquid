@@ -1,18 +1,13 @@
 <div class="page-shop-jw-other-section__bg">
   <div class="page-shop-jw-other-section__wrapper">
-    <h2 class="page-shop-jw-other__ttl"><span>その他の取り扱い店舗</span></h2>
+    <h2 class="page-shop-jw-other__ttl"><span>{{ section.settings.title }}</span></h2>
     <div class="page-shop-jw-other__list-item">
       <div class="page-shop-jw-other__image-wrap">
-        <img class="page-shop-jw-other__image" src="https://cdn.shopify.com/s/files/1/0568/9009/7861/files/shop-haneda.jpg?v=1624422576" alt="羽田空港">
+        <img class="page-shop-jw-other__image" src="{{ section.settings.shop-image | img_url: '500x' }}" alt="{{ section.settings.shop-title }}">
       </div>
       <div class="page-shop-jw-other__info">
-        <h3 class="page-shop-jw-other__shop-name">羽田空港</h3>
-        <p class="page-shop-jw-other__shop-meta">羽田空港国内線ターミナルの管理運営を行う日本空港ビルデング株式会社とのコラボレーションによる、羽田空港オリジナルアイテムを展開しております。<br>焼きチョコを432層のパイ生地でサンドした人気の「ベイクドショコラ」や老舗珈琲ブランドとコラボレーションした「カフェショコラウィッチ」などこだわりの逸品です。</p>
-        <p class="page-shop-jw-other__shop-meta">取扱店</p>
-        <ul class="page-shop-jw-other__shop-meta">
-          <li>羽田空港第1旅客ターミナル2階<br>東京食賓館（Eゲート前）、ピア1、ピア4等</li>
-          <li>羽田空港第2旅客ターミナル2階<br>東京食賓館（時計台1番前）、東京食賓館（時計台3番前）、SMILE TOKYO等</li>
-        </ul>
+        <h3 class="page-shop-jw-other__shop-name">{{ section.settings.shop-title }}</h3>
+        <p class="page-shop-jw-other__shop-meta">{{ section.settings.shop-info }}</p>
       </div>
     </div>
   </div>
@@ -20,10 +15,41 @@
 
 
 {% schema %}
-  {
-    "name": "その他",
-    "settings": []
-  }
+{
+  "name": "その他の取り扱い店舗",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "見出し",
+      "default": "その他の取り扱い店舗"
+    },
+    {
+      "type": "image_picker",
+      "id": "shop-image",
+      "label": "店舗画像",
+      "info": "表示縦横比は2:1"
+    },
+    {
+      "type": "text",
+      "id": "shop-title",
+      "label": "店舗名",
+      "info": "h3"
+    },
+    {
+      "type": "textarea",
+      "id": "shop-info",
+      "label": "店舗情報",
+      "info": "p"
+    }
+  ],
+  "presets": [
+    {
+      "name": "その他取り扱い店舗",
+      "category": "shop"
+    }
+  ]
+}
 {% endschema %}
 
 {% stylesheet %}

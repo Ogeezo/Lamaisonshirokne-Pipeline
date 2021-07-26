@@ -1301,11 +1301,58 @@
       },
       "page-shop-jw": {
         "type": "page-shop-jw",
-        "settings": {}
+        "blocks": {
+          "3964aa3c-fb54-4890-a246-c3b15552e47a": {
+            "type": "image",
+            "settings": {
+              "shop-image": "shopify:\/\/shop_images\/shop-gran-honten.jpg",
+              "shop-title": "ラ・メゾン白金 グラン本店",
+              "shop-info": "〒108-0072 東京都港区白金 1-27-6 白金高輪ステーションビル1階<br><br>Tel : 03-6277-1115<br>10:00~19:00（時間変更有り）<br>不定休"
+            }
+          },
+          "3294cb43-6348-4b97-a4a2-98d96a85354f": {
+            "type": "image",
+            "settings": {
+              "shop-image": "shopify:\/\/shop_images\/shop-gran-denen.jpg",
+              "shop-title": "ラ・メゾン白金グラン 田園調布店",
+              "shop-info": "〒145-0071 東京都大田区田園調布2-62-4 東急スクエアガーデンサイト1階<br><br>Tel : 03-3721-3337<br>10:00~19:00（時間変更有り）<br>不定休"
+            }
+          },
+          "01e03d73-c9a3-4744-b2ea-73d2885217bb": {
+            "type": "image",
+            "settings": {
+              "shop-image": "shopify:\/\/shop_images\/shop-isetanshinjuku.jpg",
+              "shop-title": "伊勢丹新宿店",
+              "shop-info": "〒160-0022 東京都新宿区新宿3-14-1 B1F<br><br>Tel : 03-3341-2380<br>10:00〜20:00<br>\n営業時間・定休日は百貨店に準ずる"
+            }
+          },
+          "c1df2a24-7819-47e0-9834-f94d28eb8fb4": {
+            "type": "image",
+            "settings": {
+              "shop-image": "shopify:\/\/shop_images\/shop-hikarie.jpg",
+              "shop-title": "渋谷ヒカリエ ShinQs 東横のれん街店",
+              "shop-info": "〒150-8019 東京都渋谷区渋谷2-21-1 渋谷ヒカリエ ShinQs 東横のれん街 B2F<br><br>Tel : 03-6434-1850<br>10:00〜21:00<br>営業時間・定休日は渋谷ヒカリエに準ずる"
+            }
+          }
+        },
+        "block_order": [
+          "3964aa3c-fb54-4890-a246-c3b15552e47a",
+          "3294cb43-6348-4b97-a4a2-98d96a85354f",
+          "01e03d73-c9a3-4744-b2ea-73d2885217bb",
+          "c1df2a24-7819-47e0-9834-f94d28eb8fb4"
+        ],
+        "settings": {
+          "title": "直営店"
+        }
       },
       "page-shop-jw-haneda": {
         "type": "page-shop-jw-haneda",
-        "settings": {}
+        "settings": {
+          "title": "その他の取り扱い店舗",
+          "shop-image": "shopify:\/\/shop_images\/shop-haneda.jpg",
+          "shop-title": "羽田空港",
+          "shop-info": "羽田空港国内線ターミナルの管理運営を行う日本空港ビルデング株式会社とのコラボレーションによる、羽田空港オリジナルアイテムを展開しております。\n焼きチョコを432層のパイ生地でサンドした人気の「ベイクドショコラ」や老舗珈琲ブランドとコラボレーションした「カフェショコラウィッチ」などこだわりの逸品です。<br><br>取扱店<br><br>羽田空港第1旅客ターミナル2階<br>東京食賓館（Eゲート前）、ピア1、ピア4等<br>羽田空港第2旅客ターミナル2階<br>東京食賓館（時計台1番前）、東京食賓館（時計台3番前）、SMILE TOKYO等"
+        }
       },
       "1625455352a378773b": {
         "type": "jw-brand-banner",
