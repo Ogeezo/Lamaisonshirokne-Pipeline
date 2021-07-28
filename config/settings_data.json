@@ -705,10 +705,10 @@
       "cart": {
         "type": "cart",
         "settings": {
-          "enable_ajax": true,
+          "enable_ajax": false,
           "cart_vendor_enable": false,
           "cart_notes_enable": true,
-          "cart_show_quantity": false,
+          "cart_show_quantity": true,
           "cart_continue_browsing": "",
           "cart_show_additional_buttons": false
         }
@@ -739,7 +739,7 @@
             "settings": {
               "icon_name": "icon-basket-like",
               "icon_color": "#aaaaaa",
-              "title": "ラッピング・熨斗掛け可能",
+              "title": "包装済み・熨斗掛け対応可能",
               "text": ""
             }
           }
@@ -958,20 +958,44 @@
           "page-lookbook-1-image-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/about_TOP03.jpg",
+              "image": "shopify:\/\/shop_images\/about-content5.jpg",
+              "link": ""
+            }
+          },
+          "8edf499b-a457-441f-b4bc-b4742b4001dd": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about-content2.jpg",
+              "link": ""
+            }
+          },
+          "04ab79a8-eb63-4af5-b944-539d28b88ef6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about-content4.jpg",
+              "link": ""
+            }
+          },
+          "ea17b99d-fe2a-4777-b57e-43d31f6d76bf": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about-content3.jpg",
               "link": ""
             }
           }
         },
         "block_order": [
-          "page-lookbook-1-image-0"
+          "page-lookbook-1-image-0",
+          "8edf499b-a457-441f-b4bc-b4742b4001dd",
+          "04ab79a8-eb63-4af5-b944-539d28b88ef6",
+          "ea17b99d-fe2a-4777-b57e-43d31f6d76bf"
         ],
         "settings": {
-          "show": false,
+          "show": true,
           "full_width": false,
           "padding": false,
           "scale_image": true,
-          "aspect_ratio": 0.5
+          "aspect_ratio": 1
         }
       },
       "page-lookbook-1-text": {
@@ -981,9 +1005,9 @@
             "type": "text",
             "settings": {
               "title": "大人の味わいで上質なひとときを",
-              "text": "<p>高級住宅やレストランそして和と洋が融合する街、<br\/>東京・白金の洋菓子ブランド「ラ・メゾン白金」。<\/p><p><\/p><p><br\/>食材や季節感にこだわったショコラや焼き菓子など\"上質なカジュアル\"をテーマに、<br\/>自分へのご褒美や様々なギフトシーンに対応できるラインナップでお届けいたします。<br\/><br\/><br\/><br\/><\/p>",
-              "text_align": "align--top-left",
-              "width_desktop": "auto",
+              "text": "<p>高級住宅やレストランそして和と洋が融合する街、<br\/>東京・白金の洋菓子ブランド「ラ・メゾン白金」。<\/p><p><br\/>食材や季節感にこだわったショコラや焼き菓子など\"上質なカジュアル\"をテーマに、<br\/>自分へのご褒美や様々なギフトシーンに対応できるラインナップでお届けいたします。<\/p>",
+              "text_align": "align--top-center",
+              "width_desktop": "one-whole",
               "width_mobile": "auto"
             }
           }
@@ -1120,7 +1144,7 @@
           "607acca0-0a2d-4f2b-af84-fedaa28d7603"
         ],
         "settings": {
-          "show": true,
+          "show": false,
           "full_width": false,
           "padding": false,
           "scale_image": false,

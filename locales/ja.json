@@ -146,9 +146,9 @@
   },
   "contact": {
     "form": {
-      "name": "お名前（必須）",
-      "email": "メールアドレス（必須）",
-      "phone": "電話番号（任意）",
+      "name": "お名前",
+      "email": "メールアドレス",
+      "phone": "電話番号",
       "message": "メッセージ",
       "send": "送信",
       "post_success": "お問合せ頂きありがとうございます。内容を確認次第、ご連絡致します。"
@@ -348,6 +348,25 @@
     "checkout": {
       "shop_policies": {
         "shipping_policy": "配送について"
+      },
+      "general": {
+        "choose_billing_address": "ご注文者様の住所を選択してください"
+      },
+      "payment": {
+        "different_billing_address_label": "違う注文者住所を使う",
+        "billing_address_title": "注文者住所",
+        "billing_address_not_supported_for_payment_method_error": "この注文者住所と通貨には、指定の決済方法をご利用いただけません。別の決済方法で試してみてください。"
+      },
+      "payment_summary": {
+        "billing_address_title": "注文者住所"
+      },
+      "thank_you": {
+        "billing_address_title": "注文者住所"
+      },
+      "review": {
+        "blocks": {
+          "change_billing_address_link_label": "注文者住所を変更"
+        }
       }
     }
   }
