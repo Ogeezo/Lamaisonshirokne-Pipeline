@@ -18,8 +18,8 @@
     "newsletter_form": {
       "email": "Email",
       "newsletter_email": "your-email@example.com",
-      "submit": "Join",
-      "subscribed": "Thank you for joining our mailing list!"
+      "submit": "登録",
+      "subscribed": "メールマガジンへのご登録ありがとうございます！"
     },
     "accessibility": {
       "menu": "Menu",
@@ -181,9 +181,9 @@
       "company": "会社名",
       "address1": "住所１",
       "address2": "住所２",
-      "city": "City",
-      "country": "Country",
-      "province": "Province",
+      "city": "市区町村",
+      "country": "国",
+      "province": "都道府県",
       "zip": "郵便番号",
       "phone": "電話番号",
       "set_default": "デフォルトの住所にする",
@@ -368,6 +368,9 @@
           "change_billing_address_link_label": "注文者住所を変更"
         }
       }
+    },
+    "addresses": {
+      "province": "都道府県"
     }
   }
 }

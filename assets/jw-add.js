@@ -6,3 +6,15 @@ jQuery(function ($) {
       $(this).toggleClass('open', 200);
     });
 });
+
+jQuery(function ($) {
+    var topBtn = $('#page-top');
+    // topBtn.hide();
+    $(window).scroll(function(){
+      if($(this).scrollTop() > 1000) {
+        topBtn.addClass('isActive');
+      } else {
+        topBtn.removeClass('isActive');
+      }
+    });
+});

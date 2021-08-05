@@ -10,13 +10,13 @@
             {{ form.errors | default_errors }}
 
             <div class="float__wrapper">
-              <label for="FirstName">{{ 'customer.register.first_name' | t }}</label>
-              <input type="text" name="customer[first_name]" id="FirstName" placeholder="{{ 'customer.register.first_name' | t }}" {% if form.first_name %}value="{{ form.first_name }}"{% endif %} autofocus>
+              <label for="LastName">{{ 'customer.register.last_name' | t }}</label>
+              <input type="text" name="customer[last_name]" id="LastName" placeholder="{{ 'customer.register.last_name' | t }}" {% if form.last_name %}value="{{ form.last_name }}"{% endif %}>
             </div>
 
             <div class="float__wrapper">
-              <label for="LastName">{{ 'customer.register.last_name' | t }}</label>
-              <input type="text" name="customer[last_name]" id="LastName" placeholder="{{ 'customer.register.last_name' | t }}" {% if form.last_name %}value="{{ form.last_name }}"{% endif %}>
+              <label for="FirstName">{{ 'customer.register.first_name' | t }}</label>
+              <input type="text" name="customer[first_name]" id="FirstName" placeholder="{{ 'customer.register.first_name' | t }}" {% if form.first_name %}value="{{ form.first_name }}"{% endif %} autofocus>
             </div>
 
             <div class="float__wrapper">

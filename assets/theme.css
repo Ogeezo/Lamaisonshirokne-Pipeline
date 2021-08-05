@@ -147,10 +147,13 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
+.newsletter__contain .contact-form em{
+  color: red;
+}
+
 
 /* collection */
 .collection__heading--below.title--overlay {
-  /* text-shadow: none; */
 }
 /* collection-grid */
 .homepage-collection-grid {
@@ -1204,4 +1207,245 @@ body .shopify-policy__container {
 
 .page-contact-jw .rte p {
   font-size: 16px;
+}
+
+
+/* ============
+  guide 
+=============== */
+.jw-guide {
+
+}
+
+#page-top {
+  bottom: -100px;
+  position: fixed;
+  right: 20px;
+  transition: ease-in-out .6s;
+  z-index: 10;
+}
+
+#page-top.isActive {
+  bottom: 20px;
+  right: 20px;
+}
+
+#page-top a {
+  background: #8d6b3d;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  opacity: .8;
+  position: relative;
+  transition: .3s;
+}
+
+#page-top a:hover {
+  opacity: .6;
+}
+
+#page-top a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent transparent #fff #fff;
+  border-radius: 2px;
+  margin: 20px auto 0;
+  transform: rotate(135deg);
+}
+
+.jw-guide h1 {
+  
+}
+
+.guide-nav-wrap {
+
+}
+
+.guide-section-wrap {
+
+}
+
+.guide-nav {
+ margin: 40px 0;
+}
+
+.guide-nav__item {
+  border: 1px solid #707070;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 auto 10px;
+  text-align: center;
+  transition: .3s;
+}
+
+.guide-nav__item:hover {
+  opacity: .7;
+}
+
+.guide-nav__item a {
+  display: block;
+  padding: 10px;
+}
+
+.guide-section {
+
+}
+
+.guide-section__ttl {
+  background: #707070;
+  color: #fff;
+  font-size: 18px;
+  margin: 50px 0 20px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.guide-section__subttl {
+  border-bottom: 1px solid #707070;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  padding: 0 0 10px;
+}
+
+.guide-section__minttl {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 25px 0 15px;
+}
+
+/* .guide-section ul {
+  list-style: disc inside;
+}
+
+.guide-section li {
+  margin: 0 0 10px;
+} */
+
+.guide-section {
+  margin: 30px 0 80px;
+}
+
+.order-step-list {
+  counter-reset: step-count;
+  margin: 0;
+}
+
+.order-step-list__item {
+  list-style: none;
+  padding: 0 0 0 30px;
+  position: relative;
+  margin: 0 0 25px 0;
+}
+
+.order-step-list__item::before {
+  content: counter(step-count);
+  counter-increment: step-count;
+  background-color: #707070;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 22px;
+  width: 22px;
+  font-size: 14px;
+  line-height: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.order-step-list__item:last-child {
+  padding: 0;
+}
+
+.order-step-list__item:last-child:before {
+  display: none;
+}
+
+.order-step-list__ttl {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.order-step-list__item:last-child .order-step-list__ttl{
+  color: #ff0000;
+}
+
+.order-step-list__item p {
+
+}
+
+.guide-banner_btn {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.guide-banner_btn a {
+  border: 1px solid #707070;
+  color: #707070;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  transition: .4s;
+}
+
+.guide-banner_btn a:hover {
+  opacity: .6;
+}
+
+.guide-banner_btn a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 20px;
+  width: 10px;
+  height: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #707070 #707070 transparent transparent;
+  border-radius: 2px;
+  margin: auto;
+  transform: rotate(45deg);
+}
+
+
+@media only screen and (min-width: 480px) { 
+  .guide-nav {
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: .3s;
+   }
+   
+  .guide-nav__item {
+    font-size: 14px;
+    font-weight: bold;
+    width: 48%;  
+    max-width: none;
+    min-width: 200px;
+    margin: 0 0 20px;
+    transition: .3s;
+  }
+
+  .guide-section__subttl {
+    font-size: 16px;
+    margin: 40px 0 20px;
+    padding: 0 0 10px;
+  }
 }

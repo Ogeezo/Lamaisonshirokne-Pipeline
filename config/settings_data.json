@@ -114,7 +114,7 @@
           "main_menu_linklist": "globalmenu",
           "enable_search": false,
           "enable_account": true,
-          "use_icons": false,
+          "use_icons": true,
           "header_sticky": "directional",
           "transparent_home": false,
           "transparent_collection": false,
@@ -566,7 +566,7 @@
         "settings": {
           "related_products_enable": true,
           "limit": 4,
-          "product_recommendations_heading": "関連商品"
+          "product_recommendations_heading": "こちらもオススメ"
         }
       },
       "list-collections": {
@@ -1447,25 +1447,25 @@
               "icon_name": "icon-shipment",
               "icon_color": "#aaaaaa",
               "title": "",
-              "text": "<p><a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">配送・送料について<\/a><\/p>"
+              "text": "<p><a href=\"\/pages\/guide#guide-delivery\" target=\"_blank\" title=\"\/pages\/guide#guide-delivery\">お届けについて<\/a><\/p>"
             }
           },
           "35e508dc-5a26-4058-bd3e-37160ae0089e": {
             "type": "icon_block",
             "settings": {
-              "icon_name": "icon-payment",
+              "icon_name": "icon-shipment-world",
               "icon_color": "#aaaaaa",
               "title": "",
-              "text": "<p>支払い方法について<\/p>"
+              "text": "<p><a href=\"\/pages\/guide#guide-massorder\" target=\"_blank\" title=\"\/pages\/guide#guide-massorder\">大口注文について<\/a><\/p>"
             }
           },
           "4a1b201e-efc8-4803-8a73-ad3d16c0eee8": {
             "type": "icon_block",
             "settings": {
-              "icon_name": "icon-send",
+              "icon_name": "icon-basket-like",
               "icon_color": "#aaaaaa",
               "title": "",
-              "text": "<p><a href=\"\/pages\/contact\" target=\"_blank\" title=\"お問合せ\">お問合せ<\/a><\/p>"
+              "text": "<p><a href=\"\/pages\/guide#guide-gift\" target=\"_blank\" title=\"\/pages\/guide#guide-gift\">ギフト注文ついて<\/a><\/p>"
             }
           }
         },
@@ -1475,7 +1475,7 @@
           "4a1b201e-efc8-4803-8a73-ad3d16c0eee8"
         ],
         "settings": {
-          "title": "guide",
+          "title": "ご利用ガイド",
           "bg": "section",
           "icon_size": "icon--large",
           "icon_alignment": "icon--top",
