@@ -513,24 +513,72 @@ h1, h2, h3, h4, h5, h6,
 /* ============
   page.lookbook-jw 
 =============== */
-.page-lookbook-jw h1 {
+.page-lookbook-jw h1,
+.page-lookbook-jw h2 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 50px;
   text-align: center;
 }
 
-.page-lookbook-jw h1 span{
+.page-lookbook-jw h2 {
+  margin: 40px 0;
+}
+
+.page-lookbook-jw h1 span,
+.page-lookbook-jw h2 span {
   border-bottom: 2px solid #8d6b3d;
   display: inline-block;
   padding: 0 20px 15px;
 }
-.page-lookbook-jw .lookbook__rte p {
+
+.page-lookbook-jw p {
   font-size: 16px;
   max-width: 900px;
   margin: 20px auto;
 }
 
+.page-lookbook-jw__visualwrap {
+  margin: 0 auto 30px;
+}
+
+.page-lookbook-jw__visual {
+  max-width: 100%;
+  margin: 0 0 20px;
+}
+
+.page-lookbook-jw__txtwrap {
+  background-color: rgba(255,255,255,.7);
+}
+
+.page-lookbook-jw__txtwrap p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 480px) {
+  .page-lookbook-jw__visualwrap {
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .page-lookbook-jw__visualwrap.jw-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .page-lookbook-jw__visual {
+    margin: 0;
+    width: 48%;
+  }
+  
+  .page-lookbook-jw__txtwrap {
+    padding: 0;
+    width: 50%;
+  }
+}
 /* ============
   blog 
 =============== */

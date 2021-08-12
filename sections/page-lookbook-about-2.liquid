@@ -1,0 +1,29 @@
+<div class="gallery__item one-whole">
+    <h2><span>{{section.settings.title}}</span></h2>
+    <p>{{section.settings.txt1}}</p>
+</div>
+
+{% schema %}
+{
+  "name": "後半",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "見出し",
+      "default": "日常に寄り添う"
+    },
+    {
+      "type": "textarea",
+      "id": "txt1",
+      "label": "段落",
+      "default": "東京・白金の路面店を始め、百貨店やショッピングモール、お手土産売り場などを通じて全国の皆様に私たちのスイーツをお届けできるまでになりました。<br>ラ・メゾン白金グラン本店・田園調布店では、パティシエが世界中からセレクトした食材を掛け合わせ、手間を惜しまず作り上げた、こだわりの洋菓子をご用意しております。"
+    }
+  ],
+  "presets": [
+    {
+      "name": "後半"
+    }
+  ]
+}
+{% endschema %}

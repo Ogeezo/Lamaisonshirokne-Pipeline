@@ -975,25 +975,17 @@
               "image": "shopify:\/\/shop_images\/about-content4.jpg",
               "link": ""
             }
-          },
-          "ea17b99d-fe2a-4777-b57e-43d31f6d76bf": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/about-content3.jpg",
-              "link": ""
-            }
           }
         },
         "block_order": [
           "page-lookbook-1-image-0",
           "8edf499b-a457-441f-b4bc-b4742b4001dd",
-          "04ab79a8-eb63-4af5-b944-539d28b88ef6",
-          "ea17b99d-fe2a-4777-b57e-43d31f6d76bf"
+          "04ab79a8-eb63-4af5-b944-539d28b88ef6"
         ],
         "settings": {
           "show": true,
           "full_width": false,
-          "padding": false,
+          "padding": true,
           "scale_image": true,
           "aspect_ratio": 1
         }
@@ -1480,6 +1472,31 @@
           "icon_size": "icon--large",
           "icon_alignment": "icon--top",
           "align_text": "text-center"
+        }
+      },
+      "page-lookbook-about-1": {
+        "type": "page-lookbook-about-1",
+        "settings": {
+          "title": "笑顔溢れるスイーツ",
+          "image1": "shopify:\/\/shop_images\/re_4298da93-dfe0-4f0c-9fcc-156f6c9db1b5.jpg",
+          "image1-alt": "笑顔溢れるスイーツ",
+          "txt1": "美味しさの秘訣は素材へのこだわりにあります。<br>ベルギー産クーベルチュールを使用した、甘く愛しい口溶けのショコラは、さくっとしたクッキーと相性ばっちり。<br>リッチな味わいを堪能出来る、絶妙なバランスで仕上げました。",
+          "image2": "shopify:\/\/shop_images\/re.jpg",
+          "txt2": "1枚1枚の味を想像して、贈る相手の笑顔を思い浮かべながら、思わず手にしたくなるショコラ。<br>色彩だけでなく、組み合わせる素材、食感にもこだわりました。<br>手のひらサイズのショコラに広がる世界をお楽しみください。"
+        }
+      },
+      "page-lookbook-about": {
+        "type": "page-lookbook-about",
+        "settings": {
+          "title": "大人の味わいで上質なひとときを。",
+          "txt1": "高級住宅やレストランそして和と洋が融合する街、東京・白金の洋菓子ブランド「ラ・メゾン白金」。<br><br>食材や季節感にこだわったショコラや焼き菓子など\"上質なカジュアル\"をテーマに、 自分へのご褒美や様々なギフトシーンに対応できるラインナップでお届けいたします。"
+        }
+      },
+      "page-lookbook-about-2": {
+        "type": "page-lookbook-about-2",
+        "settings": {
+          "title": "日常に寄り添う",
+          "txt1": "東京・白金の路面店を始め、百貨店やショッピングモール、お手土産売り場などを通じて全国の皆様に私たちのスイーツをお届けできるまでになりました。<br>ラ・メゾン白金グラン本店・田園調布店では、パティシエが世界中からセレクトした食材を掛け合わせ、手間を惜しまず作り上げた、こだわりの洋菓子をご用意しております。"
         }
       }
     },

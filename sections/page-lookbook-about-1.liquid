@@ -1,0 +1,66 @@
+<div class="gallery__item one-whole">
+  <h2><span>{{section.settings.title}}</span></h2>
+  <div class="page-lookbook-jw__visualwrap">
+    <img class="page-lookbook-jw__visual" src="{{section.settings.image1 | img_url: "master"}}" alt="{{section.settings.image1-alt}}">
+    <div class="page-lookbook-jw__txtwrap">
+      <p>{{section.settings.txt1}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="gallery__item one-whole">
+  <div class="page-lookbook-jw__visualwrap jw-reverse">
+    <img class="page-lookbook-jw__visual" src="{{section.settings.image2 | img_url: "master"}}" alt="{{section.settings.image2-alt}}">
+    <div class="page-lookbook-jw__txtwrap">
+      <p>{{section.settings.txt2}}</p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "2カラムセクション",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "見出し",
+      "default": "笑顔溢れるスイーツ"
+    },
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "画像1"
+    },
+    {
+      "type": "text",
+      "id": "image1-alt",
+      "label": "画像1alt"
+    },
+
+    {
+      "type": "textarea",
+      "id": "txt1",
+      "label": "段落",
+      "default": "美味しさの秘訣は素材へのこだわりにあります。<br>ベルギー産クーベルチュールを使用した、甘く愛しい口溶けのショコラは、さくっとしたクッキーと相性ばっちり。<br>リッチな味わいを堪能出来る、絶妙なバランスで仕上げました。"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "画像2"
+    },
+    {
+      "type": "textarea",
+      "id": "txt2",
+      "label": "段落",
+      "default": "1枚1枚の味を想像して、贈る相手の笑顔を思い浮かべながら、思わず手にしたくなるショコラ。<br>色彩だけでなく、組み合わせる素材、食感にもこだわりました。<br>手のひらサイズのショコラに広がる世界をお楽しみください。"
+    }
+  ],
+  "presets": [
+    {
+      "name": "前段",
+      "category": "shop"
+    }
+  ]
+}
+{% endschema %}

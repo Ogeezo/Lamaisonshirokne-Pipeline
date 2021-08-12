@@ -1,0 +1,29 @@
+<div class="gallery__item one-whole">
+    <h1><span>{{section.settings.title}}</span></h1>
+    <p>{{section.settings.txt1}}</p>
+</div>
+
+{% schema %}
+{
+  "name": "前段",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "見出し",
+      "default": "大人の味わいで上質なひとときを。"
+    },
+    {
+      "type": "textarea",
+      "id": "txt1",
+      "label": "段落",
+      "default": "高級住宅やレストランそして和と洋が融合する街、東京・白金の洋菓子ブランド「ラ・メゾン白金」。<br><br>食材や季節感にこだわったショコラや焼き菓子など「上質なカジュアル」をテーマに、 自分へのご褒美や様々なギフトシーンに対応できるラインナップでお届けいたします。"
+    }
+  ],
+  "presets": [
+    {
+      "name": "前段"
+    }
+  ]
+}
+{% endschema %}
