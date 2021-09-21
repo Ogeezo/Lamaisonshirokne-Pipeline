@@ -31,7 +31,7 @@
           <li class="info-list--items">
             <article>
                 <a href="{{ article.url }}" class="article__link">
-                  <p class="info-article__date">{{ article.created_at | date: "%Y.%m.%d" }}</p>
+                  <p class="info-article__date">{{ article.published_at | date: "%Y.%m.%d" }}</p>
                   <h3 class="info-article__title">{{ article.title }}</h3>
                 </a>
             </article>

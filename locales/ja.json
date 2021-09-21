@@ -120,7 +120,7 @@
       "grid_view": "グリッド表示",
       "list_view": "リスト表示",
       "sort": "並び替え",
-      "catalog": "ITEMS",
+      "catalog": "ITEM \/ ONLINESHOP",
       "items_with_count": {
         "one": "個",
         "other": "個"
@@ -367,6 +367,9 @@
         "blocks": {
           "change_billing_address_link_label": "注文者住所を変更"
         }
+      },
+      "contact": {
+        "optional_first_name_label": "名"
       }
     },
     "addresses": {

@@ -134,7 +134,8 @@
 
       <ul class="footer-secondary inline-list">
       {%- assign company_name = 'J’s Co .Ltd' -%}
-          <li>&copy; {{ company_name | link_to: routes.root_url }} {{ 'now' | date: "%Y" }}</li>
+          <li>&copy; {{ company_name }} {{ 'now' | date: "%Y" }}</li>
+          {% comment %} <li>&copy; {{ company_name | link_to: routes.root_url }} {{ 'now' | date: "%Y" }}</li> {% endcomment %}
         {% for link in linklists[section.settings.footer_secondary_linklist].links %}
           <li><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}

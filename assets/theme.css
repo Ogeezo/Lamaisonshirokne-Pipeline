@@ -513,6 +513,11 @@ h1, h2, h3, h4, h5, h6,
 /* ============
   page.lookbook-jw 
 =============== */
+#shopify-section-page-images-jw .image__hero__frame {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .page-lookbook-jw h1,
 .page-lookbook-jw h2 {
   font-size: 18px;
@@ -553,6 +558,10 @@ h1, h2, h3, h4, h5, h6,
 
 .page-lookbook-jw__txtwrap p {
   margin: 0;
+}
+
+#shopify-section-page-lookbook-1-image .wrapper {
+  max-width: 900px;
 }
 
 @media only screen and (min-width: 480px) {
@@ -1168,72 +1177,25 @@ body .shopify-policy__container {
 }
 
 .shipping-polisy-table tr:first-child td {
-  text-align: center;
+  font-weight: bold;
 }
 
 .shipping-polisy-table td {
   border: 1px solid #ccc;
   font-size: 12px;
   padding: 5px 10px;
+  text-align: center;
   min-width: 4em;
 }
 
 
 @media only screen and (min-width: 480px) { 
-  body .shopify-policy__container {
-
-  }
-  
-  .shopify-policy__title {
-  
-  }
-  
-  .shopify-policy__title h1 {
-  }
-  
-  .shopify-policy__body {
-  }
-  
-  .shopify-policy__body .rte {
-  
-  }
-  
-  .shopify-policy__body .rte h2 {
-  }
-  
-  .shopify-policy__body .rte h3,
-  .shopify-policy__body .rte h4,
-  .shopify-policy__body .rte h5 {
-  }
-  
-  .shopify-policy__body .rte p {
-  }
-  
-  .shopify-policy__body .rte ul {
-  }
-  
-  .shopify-policy__body .rte ol {
-  }
-  
-  .shopify-policy__body .polisy-table {
-  }
-  
-  .shopify-policy__body .rte dl {
-  }
-  
-  .shopify-policy__body .rte dt,
-  .shopify-policy__body .rte dd {
-  }
-  
   .shopify-policy__body .rte dt {
     min-width: 10em;
   }
-  
-  .shopify-policy__body .rte dd {
-  }
 
   .shipping-polisy-table td {
-    min-width: 7em;
+    min-width: 9em;
   }
 }
 
@@ -1434,9 +1396,18 @@ body .shopify-policy__container {
 
 }
 
+.guide-payment-logo {
+
+}
+
+.guide-payment-logo img {
+  max-height: 45px;
+  margin: 5px;
+}
+
 .guide-banner_btn {
   max-width: 500px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .guide-banner_btn a {
@@ -1445,7 +1416,7 @@ body .shopify-policy__container {
   display: block;
   font-size: 14px;
   font-weight: bold;
-  padding: 15px;
+  padding: 15px 30px;
   position: relative;
   text-align: center;
   transition: .4s;

@@ -51,7 +51,7 @@
     "share_enable_facebook": true,
     "share_enable_pinterest": false,
     "share_enable_twitter": true,
-    "favicon": "",
+    "favicon": "shopify:\/\/shop_images\/LMS_PC.png",
     "checkout_header_image": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
     "checkout_logo_position": "center",
@@ -153,7 +153,7 @@
         ],
         "settings": {
           "footer_secondary_linklist": "",
-          "footer_payment_enable": true,
+          "footer_payment_enable": false,
           "footer_social_enable": true,
           "show_locale_selector": false,
           "show_currency_selector": false
@@ -290,7 +290,7 @@
               "collection": "gateau-tablet",
               "title": "ガトー&タブレット",
               "link_text": "View products",
-              "image": "shopify:\/\/shop_images\/about-content3.jpg",
+              "image": "shopify:\/\/shop_images\/L03.jpg",
               "button_link": "shopify:\/\/collections\/gateau-tablet"
             }
           },
@@ -300,7 +300,7 @@
               "collection": "chocolatsand",
               "title": "ショコラサンド",
               "link_text": "View products",
-              "image": "shopify:\/\/shop_images\/about-content2.jpg",
+              "image": "shopify:\/\/shop_images\/10_03.jpg",
               "button_link": "shopify:\/\/collections\/chocolatsand"
             }
           },
@@ -310,7 +310,37 @@
               "collection": "tabletchocolat",
               "title": "タブレットショコラ",
               "link_text": "View products",
-              "image": "shopify:\/\/shop_images\/about-content5.jpg",
+              "image": "shopify:\/\/shop_images\/10_03_4c16352e-a595-4adf-ba26-a1548db641db.jpg",
+              "button_link": "shopify:\/\/collections\/tabletchocolat"
+            }
+          },
+          "6c2207ee-8a12-4441-abf2-79113c9d6603": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "creamcheese-cake",
+              "title": "ロイヤルショコラサンド",
+              "link_text": "View products",
+              "image": "shopify:\/\/shop_images\/10_03_1bd18a7b-2598-416d-afd8-02772cc0f1ba.jpg",
+              "button_link": "shopify:\/\/collections\/r-chocolatsand"
+            }
+          },
+          "fda476bb-6aa1-4e81-ab88-9fa693ccea29": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "",
+              "title": "焼きモンブラン",
+              "link_text": "View products",
+              "image": "shopify:\/\/shop_images\/6_03.jpg",
+              "button_link": "shopify:\/\/collections\/montblanc"
+            }
+          },
+          "9d7a63ba-6c9c-46d5-811d-bef8d8e7ba44": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "halloween",
+              "title": "ハロウィンコレクション",
+              "link_text": "View products",
+              "image": "shopify:\/\/shop_images\/TB6_1.jpg",
               "button_link": ""
             }
           },
@@ -321,17 +351,7 @@
               "title": "季節のゼリー",
               "link_text": "View products",
               "image": "shopify:\/\/shop_images\/about-content6.jpg",
-              "button_link": ""
-            }
-          },
-          "6c2207ee-8a12-4441-abf2-79113c9d6603": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "creamcheese-cake",
-              "title": "クリームチーズケーキ",
-              "link_text": "View products",
-              "image": "shopify:\/\/shop_images\/about-content4.jpg",
-              "button_link": ""
+              "button_link": "shopify:\/\/collections\/seasonal-jelly"
             }
           }
         },
@@ -339,8 +359,10 @@
           "index-collection-grid-1",
           "index-collection-grid-2",
           "94077afc-85db-4eef-80ec-e475e2944c56",
-          "f0be0545-741b-4b51-afc7-39762ffc4ee5",
-          "6c2207ee-8a12-4441-abf2-79113c9d6603"
+          "6c2207ee-8a12-4441-abf2-79113c9d6603",
+          "fda476bb-6aa1-4e81-ab88-9fa693ccea29",
+          "9d7a63ba-6c9c-46d5-811d-bef8d8e7ba44",
+          "f0be0545-741b-4b51-afc7-39762ffc4ee5"
         ],
         "settings": {
           "title": "category",
@@ -584,10 +606,28 @@
               "collection": "chocolatsand"
             }
           },
+          "f2e8ead7-84dd-4768-8b93-7fd007239537": {
+            "type": "collection",
+            "settings": {
+              "collection": "r-chocolatsand"
+            }
+          },
           "34621d0f-7c36-4a47-b86d-8f26841b7a70": {
             "type": "collection",
             "settings": {
               "collection": "tabletchocolat"
+            }
+          },
+          "a7b1f3e8-1afb-4f9a-939e-40ce246f133c": {
+            "type": "collection",
+            "settings": {
+              "collection": "montblanc"
+            }
+          },
+          "c780a0f0-2ca1-498c-9535-0c9428f18331": {
+            "type": "collection",
+            "settings": {
+              "collection": "halloween"
             }
           },
           "96dec44d-23f3-4d11-8c08-434570785c36": {
@@ -595,20 +635,16 @@
             "settings": {
               "collection": "seasonal-jelly"
             }
-          },
-          "934d6f1d-2e71-4fb6-b42e-893b8138d0b3": {
-            "type": "collection",
-            "settings": {
-              "collection": "creamcheese-cake"
-            }
           }
         },
         "block_order": [
           "f75a436d-504f-467c-b182-824195bb9683",
           "ea9fe798-7bf6-4806-8666-fd4af5290690",
+          "f2e8ead7-84dd-4768-8b93-7fd007239537",
           "34621d0f-7c36-4a47-b86d-8f26841b7a70",
-          "96dec44d-23f3-4d11-8c08-434570785c36",
-          "934d6f1d-2e71-4fb6-b42e-893b8138d0b3"
+          "a7b1f3e8-1afb-4f9a-939e-40ce246f133c",
+          "c780a0f0-2ca1-498c-9535-0c9428f18331",
+          "96dec44d-23f3-4d11-8c08-434570785c36"
         ],
         "settings": {
           "style": "product",
@@ -653,11 +689,11 @@
           "1622702964211cac9f-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/TOP.jpg",
-              "overlay_opacity": 10,
+              "image": "shopify:\/\/shop_images\/top1.jpg",
+              "overlay_opacity": 0,
               "title": "大人の味わいで上質なひとときを。",
               "description": "",
-              "text_align": "align--middle-center",
+              "text_align": "align--middle-left",
               "link_text": "VIEW PRODUCTs",
               "link": "shopify:\/\/collections",
               "button_style": "btn"
@@ -666,26 +702,66 @@
           "1622702964211cac9f-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/content.jpg",
-              "overlay_opacity": 10,
-              "title": "クリームチーズケーキ",
-              "description": "厳選したチーズを使用したこだわりのチーズケーキ",
-              "text_align": "align--middle-center",
+              "image": "shopify:\/\/shop_images\/top2.jpg",
+              "overlay_opacity": 0,
+              "title": "ガトー&タブレット",
+              "description": "贈って、贈られてうれしい、一度食べたら癖になる美味しさ。",
+              "text_align": "align--middle-left",
               "link_text": "View products",
-              "link": "shopify:\/\/collections\/creamcheese-cake",
+              "link": "shopify:\/\/collections\/gateau-tablet",
               "button_style": "btn"
             }
           },
-          "0f31543d-71ed-40e9-9ca5-5990ebb4fb98": {
+          "12bb112d-aed3-45ea-9e56-f33d77fb9015": {
             "type": "image",
+            "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/2_914b3bc1-8641-46f0-a060-57f694a009fe.jpg",
-              "overlay_opacity": 10,
-              "title": "2層のフルーツゼリー",
-              "description": "常温でお届け可能。暑い時期の贈り物にぴったり",
+              "image": "shopify:\/\/shop_images\/top2_6a26da71-6f6f-4152-8e44-4406cf7d3794.jpg",
+              "overlay_opacity": 0,
+              "title": "ショコラサンド",
+              "description": "サクッと食感、なめらかな口どけ",
               "text_align": "align--middle-left",
               "link_text": "View products",
-              "link": "shopify:\/\/collections\/seasonal-jelly",
+              "link": "shopify:\/\/collections\/chocolatsand",
+              "button_style": "btn"
+            }
+          },
+          "a9cf4922-349e-4580-b1fd-4d10d297a071": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/top3.jpg",
+              "overlay_opacity": 0,
+              "title": "ロイヤルショコラサンド",
+              "description": "ベルギー産クーベルチュールを使用したショコラの中にキャラメルソースを忍ばせ、クッキー生地でサンドした”ロイヤルショコラサンド”。",
+              "text_align": "align--middle-left",
+              "link_text": "View products",
+              "link": "shopify:\/\/collections\/r-chocolatsand",
+              "button_style": "btn"
+            }
+          },
+          "df7b1dbf-c3a0-4bed-9455-9c66284dcd44": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/top4.jpg",
+              "overlay_opacity": 0,
+              "title": "焼きモンブラン",
+              "description": "フランス製マロンペーストを使用した、豊かな香りと味わいを堪能出来る”焼きモンブラン”。",
+              "text_align": "align--middle-left",
+              "link_text": "View products",
+              "link": "shopify:\/\/products\/montblanc-6",
+              "button_style": "btn"
+            }
+          },
+          "58fbbc36-f2cb-4cba-a6d0-adee11ffb74c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/top5.jpg",
+              "overlay_opacity": 0,
+              "title": "ハロウィンコレクション",
+              "description": "秋の一大イベント・ハロウィンをイメージした期間限定のタブレットショコラ",
+              "text_align": "align--middle-left",
+              "link_text": "View products",
+              "link": "shopify:\/\/collections\/halloween",
               "button_style": "btn"
             }
           }
@@ -693,11 +769,14 @@
         "block_order": [
           "1622702964211cac9f-0",
           "1622702964211cac9f-1",
-          "0f31543d-71ed-40e9-9ca5-5990ebb4fb98"
+          "12bb112d-aed3-45ea-9e56-f33d77fb9015",
+          "a9cf4922-349e-4580-b1fd-4d10d297a071",
+          "df7b1dbf-c3a0-4bed-9455-9c66284dcd44",
+          "58fbbc36-f2cb-4cba-a6d0-adee11ffb74c"
         ],
         "settings": {
-          "autoplay": false,
-          "autoplay_speed": 6,
+          "autoplay": true,
+          "autoplay_speed": 5,
           "height": "use_screen_full",
           "color": "palette--contrast--dark"
         }
@@ -740,7 +819,7 @@
               "icon_name": "icon-basket-like",
               "icon_color": "#aaaaaa",
               "title": "包装済み・熨斗掛け対応可能",
-              "text": ""
+              "text": "<p>※一部商品を除く<\/p>"
             }
           }
         },
@@ -909,18 +988,10 @@
           "d3dca6f1-53c8-4128-aaba-80489f79dd20": {
             "type": "tab_description",
             "settings": {}
-          },
-          "4acf1311-ef1c-426a-a86e-f6abd3b070bf": {
-            "type": "tab_page",
-            "settings": {
-              "title": "父の日の贈り物に",
-              "raw_content": "fathers-day-gift2021"
-            }
           }
         },
         "block_order": [
-          "d3dca6f1-53c8-4128-aaba-80489f79dd20",
-          "4acf1311-ef1c-426a-a86e-f6abd3b070bf"
+          "d3dca6f1-53c8-4128-aaba-80489f79dd20"
         ],
         "settings": {
           "image_width": "half",
@@ -955,32 +1026,32 @@
       "page-lookbook-1-image": {
         "type": "page-lookbook-1-image",
         "blocks": {
-          "page-lookbook-1-image-0": {
+          "02d130d1-6866-435e-b423-083264150823": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/about-content5.jpg",
+              "image": "shopify:\/\/shop_images\/about_01.jpg",
               "link": ""
             }
           },
-          "8edf499b-a457-441f-b4bc-b4742b4001dd": {
+          "efcf1fbb-173b-4923-9edc-b956a63061a7": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/about-content2.jpg",
+              "image": "shopify:\/\/shop_images\/about_02.jpg",
               "link": ""
             }
           },
-          "04ab79a8-eb63-4af5-b944-539d28b88ef6": {
+          "3465fab1-3e40-46cb-a674-9937250ca00f": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/about-content4.jpg",
+              "image": "shopify:\/\/shop_images\/about_03.jpg",
               "link": ""
             }
           }
         },
         "block_order": [
-          "page-lookbook-1-image-0",
-          "8edf499b-a457-441f-b4bc-b4742b4001dd",
-          "04ab79a8-eb63-4af5-b944-539d28b88ef6"
+          "02d130d1-6866-435e-b423-083264150823",
+          "efcf1fbb-173b-4923-9edc-b956a63061a7",
+          "3465fab1-3e40-46cb-a674-9937250ca00f"
         ],
         "settings": {
           "show": true,
@@ -1222,7 +1293,7 @@
             "type": "text",
             "settings": {
               "title": "ギフト用にしたいのですが包装やリボン、熨斗紙など対応していますか？",
-              "content": "<p>ラ・メゾン白金の商品は全て包装紙でお包みしてお届けいたします。リボン掛けは対応しておりません。<\/p><p>熨斗紙やメッセージカードをお付けすることが可能ですので、ご注文時にプルダウンよりご選択ください。<\/p>"
+              "content": "<p>ラ・メゾン白金の商品は、一部商品を除いて、包装紙でお包みしてお届けいたします。リボン掛けは対応しておりません。<\/p><p>熨斗紙やメッセージカードをお付けすることが可能ですので、ご注文時にプルダウンよりご選択ください。<\/p><p>※一部熨斗掛けが出来ない商品がございます<br\/>※一部商品は標準でリボン掛けをしております。<\/p>"
             }
           }
         },
@@ -1240,14 +1311,14 @@
             "type": "text",
             "settings": {
               "title": "会員にならないとお買い物はできないのでしょうか？",
-              "content": "<p>ご登録いただかなくてもお買い物をしていただけます。<br\/>会員登録をしていただきますと、次回からご住所のご入力をせずにご注文することができます。<br\/><\/p>"
+              "content": "<p>ご登録いただかなくてもお買い物をしていただけます。<br\/>会員登録をしていただきますと、次回からご住所の入力をせずにご注文することができます。<br\/>また、過去の注文履歴を参照頂けます。<br\/><\/p>"
             }
           },
           "page-faq-jw2-1": {
             "type": "text",
             "settings": {
-              "title": "新規会員登録で仮登録しましたが、メールが届きません",
-              "content": "<p>新規会員登録画面でメールアドレスを入力し、送信を押して頂くと仮登録されます。入力頂いたメールアドレス宛に本登録を行うurlが記載されたメールが届きます。<\/p><p>メールが届かない場合は、アドレスの入力間違いもしくは、メール設定により受信されなかった可能性がございます。「@lamaisonshirokane.jp」を受信できるよう、メール設定をお願い致します。<\/p><p>お手数をおかけしますが、メール設定後に再度、仮登録からお試しください。<\/p>"
+              "title": "アカウントを作成しましたが、メールが届きません",
+              "content": "<p>アカウントを作成画面でお名前、メールアドレス、パスワードを入力し、「作成」を押すと、登録したメールアドレスに認証メールが届きます。メールを開いてアカウントを有効化すれば会員登録が完了します。<\/p><p>メールが届かない場合は、アドレスの入力間違いもしくは、メール設定により受信されなかった可能性がございます。「@lamaisonshirokane.jp」を受信できるよう、メール設定をお願い致します。<\/p><p>お手数をおかけしますが、メール設定後に再度、仮登録からお試しください。<\/p>"
             }
           },
           "page-faq-jw2-2": {
@@ -1256,12 +1327,76 @@
               "title": "注文ができたかわかりません。",
               "content": "<p>ご注文完了後、ご入力いただきましたメールアドレスに確認メールを送信させていただきます。<\/p><p>確認メールが届かない場合、アドレスの入力間違いもしくは、メール設定により受信されなかった可能性がございます。「@lamaisonshirokane.jp」を受信できるよう、メール設定をお願い致します。<\/p><p>なお、メールアドレスの間違いにより注文確認メールが届いていない場合でも、決済処理が既にお済みの際は、ご注文いただいた内容で商品を発送させていただきますので、予めご了承ください。<\/p><p><strong>オンラインショップ専用お問い合わせ窓口<\/strong><br\/><a href=\"tel:03-4500-4375\">03-4500-4375<\/a>（土日祝除く10:00〜12:00 13:00~17:00）<br\/><\/p>"
             }
+          },
+          "92356f91-460d-4b95-aecb-696bdb4c1d5b": {
+            "type": "text",
+            "settings": {
+              "title": "注文内容の変更・キャンセルをしたいのですが…",
+              "content": "<p>ご注文完了後のお客様都合によるご注文内容の変更、キャンセル、配送日指定の変更等は受け付けておりません。あらかじめご了承ください。<\/p>"
+            }
+          },
+          "94229501-8aa9-4685-9810-3483f6bd17ce": {
+            "type": "text",
+            "settings": {
+              "title": "オンラインショップで購入する際、商品の詰め合わせ内容を変更することは可能でしょうか？",
+              "content": "<p>大変申し訳ございませんが、現在、オンラインショップにてそのようなご要望にはお応えできませんので何卒御了承くださいませ。<\/p>"
+            }
+          },
+          "0e5f4c3d-f7eb-4db2-859f-ebccfc53bac1": {
+            "type": "text",
+            "settings": {
+              "title": "手提げ袋をつけていただきたいのですがどのようにすれば良いでしょうか？",
+              "content": "<p>商品1点につき手提げ袋を1枚お付けしております。<br\/>小分け袋やまとめ袋のご用意は出来かねますので、ご了承ください。<\/p>"
+            }
+          },
+          "99f8289d-2f8f-4c78-8419-42f6c386bca4": {
+            "type": "text",
+            "settings": {
+              "title": "納品書・領収書を発行してもらえますか？",
+              "content": "<p>当店はエコ（自然環境保全）の観点から納品書・領収書を電子化にし、必要なお客様にご自身でダウンロードして頂くシステムを採用しております。<br\/>商品の発送手配が完了後、発送完了メールとは別にダウンロードのurlを記載したメールをお送りいたします。<\/p><p><\/p><p>※宛名・但し書きはお客様自身でご変更頂けます。ご希望の宛名・但し書きにご変更後、「発行」ボタンよりダウンロードをお願い致します。<br\/>※ダウンロードは1回まで可能です。<\/p>"
+            }
+          },
+          "31fd0daa-bbbd-45fd-8ac5-13179450ae29": {
+            "type": "text",
+            "settings": {
+              "title": "注文した商品は発送されていますか？",
+              "content": "<p>発送が完了すると、ご注文者様宛に配送伝票番号がメールで通知されます。<br\/>※ご注文時に入力したメールアドレスに誤りがある場合や、お客様のメール設定でなりすましや迷惑メールと判断された場合は、発送完了メールが届かない可能性がございます。<\/p><p><br\/>また、会員登録をすると、マイページで注文情報の履歴が確認頂けます。 発送が完了すると、発送状態が未発送から発送済になります。<br\/>※発送が完了していても、発送済のステータスに切替るのにお時間がかかる場合がございます。ご了承くださいますようお願い申し上げます。<\/p>"
+            }
+          },
+          "5542d8e2-6dd9-4356-a661-7e15d15cf1f6": {
+            "type": "text",
+            "settings": {
+              "title": "届いたときにチョコレートが溶けていないか心配です。",
+              "content": "<p>4月中旬頃から10月中旬頃は、一部商品を除きクール便にてお届けしております。送料は、クール便料金となります。<\/p>"
+            }
+          },
+          "11a79c6e-c33a-4b37-8a39-d06df0ad0aa7": {
+            "type": "text",
+            "settings": {
+              "title": "大口での注文は可能でしょうか？",
+              "content": "<p>大口でのご注文も承っております。<br\/><a href=\"\/pages\/contact\" title=\"お問合せ\">お問い合わせフォーム<\/a>またはお電話にてご相談ください。<br\/><br\/>オンラインショップ専用お問い合わせ窓口<br\/>03-4500-4375（土日祝除く10:00〜12:00 13:00~17:00）<\/p>"
+            }
+          },
+          "b3233f35-86b2-4e00-a7c7-b4f80e526cd7": {
+            "type": "text",
+            "settings": {
+              "title": "複数へ配送したい場合は、どのように注文すればいいですか？",
+              "content": "<p>複数へ配送される場合は、お手数をおかけしますが、配送先ごとにご注文をお願い致します。<br\/>配送先ごとに、10,800円以上（税込）お買い上げの場合、送料無料になります。<\/p>"
+            }
           }
         },
         "block_order": [
           "page-faq-jw2-0",
           "page-faq-jw2-1",
-          "page-faq-jw2-2"
+          "page-faq-jw2-2",
+          "92356f91-460d-4b95-aecb-696bdb4c1d5b",
+          "94229501-8aa9-4685-9810-3483f6bd17ce",
+          "0e5f4c3d-f7eb-4db2-859f-ebccfc53bac1",
+          "99f8289d-2f8f-4c78-8419-42f6c386bca4",
+          "31fd0daa-bbbd-45fd-8ac5-13179450ae29",
+          "5542d8e2-6dd9-4356-a661-7e15d15cf1f6",
+          "11a79c6e-c33a-4b37-8a39-d06df0ad0aa7",
+          "b3233f35-86b2-4e00-a7c7-b4f80e526cd7"
         ],
         "settings": {
           "title": "ご注文について"
@@ -1274,14 +1409,14 @@
             "type": "text",
             "settings": {
               "title": "贈答用でお送りしたいので、送り先に金額がわからないようにしてほしいのですが…",
-              "content": "<p>商品自体に金額の表記はございません。また、贈り物の場合に金額の入った明細書が同梱されることもございませんので、ご安心下さいませ。<\/p><p>当店は2020年12月15日よりエコ（自然環境保全）の観点から納品書・領収書を電子化にし、必要なお客様自身がダウンロード出来るシステムを採用しております。<\/p>"
+              "content": "<p>商品自体に金額の表記はございません。また、贈り物の場合に金額の入った明細書が同梱されることもございませんので、ご安心下さいませ。<\/p><p>当店は2020年12月15日よりエコ（自然環境保全）の観点から納品書・領収書を電子化にし、必要なお客様にご自身でダウンロードして頂くシステムを採用しております。<\/p>"
             }
           },
           "53cd4aec-a5b6-4ed3-a6a1-61d8a1f5576a": {
             "type": "text",
             "settings": {
-              "title": "メールアドレスが変わったのですがどこで変更したら良いですか？",
-              "content": "<p>メールアドレスが変更になった場合は、マイアカウントページへログイン後「会員情報」よりメールアドレスの変更を行ってください。<\/p>"
+              "title": "海外に送ることは可能ですか？",
+              "content": "<p>申し訳ございませんが海外へのご配送は行っておりません。<\/p>"
             }
           }
         },
@@ -1323,7 +1458,7 @@
             "settings": {
               "shop-image": "shopify:\/\/shop_images\/shop-gran-honten.jpg",
               "shop-title": "ラ・メゾン白金 グラン本店",
-              "shop-info": "〒108-0072 東京都港区白金 1-27-6 白金高輪ステーションビル1階<br><br>Tel : 03-6277-1115<br>10:00~19:00（時間変更有り）<br>不定休"
+              "shop-info": "〒108-0072 東京都港区白金 1-27-6 白金高輪ステーションビル1階<br><br>Tel : 03-6277-1115<br>10:00~19:00（時間変更有り）<br>定休日：毎週水曜日 (祝日の場合は木曜日)"
             }
           },
           "3294cb43-6348-4b97-a4a2-98d96a85354f": {
@@ -1331,7 +1466,7 @@
             "settings": {
               "shop-image": "shopify:\/\/shop_images\/shop-gran-denen.jpg",
               "shop-title": "ラ・メゾン白金グラン 田園調布店",
-              "shop-info": "〒145-0071 東京都大田区田園調布2-62-4 東急スクエアガーデンサイト1階<br><br>Tel : 03-3721-3337<br>10:00~19:00（時間変更有り）<br>不定休"
+              "shop-info": "〒145-0071 東京都大田区田園調布2-62-4 東急スクエアガーデンサイト1階<br><br>Tel : 03-3721-3337<br>10:00~19:00（時間変更有り）<br>定休日：毎週水曜日 (祝日の場合は木曜日)"
             }
           },
           "01e03d73-c9a3-4744-b2ea-73d2885217bb": {
@@ -1367,7 +1502,7 @@
           "title": "その他の取り扱い店舗",
           "shop-image": "shopify:\/\/shop_images\/shop-haneda.jpg",
           "shop-title": "羽田空港",
-          "shop-info": "羽田空港国内線ターミナルの管理運営を行う日本空港ビルデング株式会社とのコラボレーションによる、羽田空港オリジナルアイテムを展開しております。\n焼きチョコを432層のパイ生地でサンドした人気の「ベイクドショコラ」や老舗珈琲ブランドとコラボレーションした「カフェショコラウィッチ」などこだわりの逸品です。<br><br>取扱店<br><br>羽田空港第1旅客ターミナル2階<br>東京食賓館（Eゲート前）、ピア1、ピア4等<br>羽田空港第2旅客ターミナル2階<br>東京食賓館（時計台1番前）、東京食賓館（時計台3番前）、SMILE TOKYO等"
+          "shop-info": "羽田空港国内線ターミナルの管理運営を行う日本空港ビルデング株式会社とのコラボレーションによる、羽田空港オリジナルアイテムを展開しております。\n焼きチョコを432層のパイ生地でサンドした人気の「ベイクドショコラ」や老舗珈琲ブランドとコラボレーションした「カフェショコラウィッチ」などこだわりの逸品です。<br><br>取扱店<br><br>・羽田空港第1旅客ターミナル2階<br>　東京食賓館（Eゲート前）、ピア1、ピア4等<br>・羽田空港第2旅客ターミナル2階<br>　東京食賓館（時計台1番前）<br>　東京食賓館（時計台3番前）、SMILE TOKYO等<br><br>お問合せ：03-6428-0888"
         }
       },
       "1625455352a378773b": {
@@ -1376,7 +1511,7 @@
           "33ae1204-6cea-4223-86b0-1ad9a70670e5": {
             "type": "image",
             "settings": {
-              "banner-image": "shopify:\/\/shop_images\/top_about.jpg",
+              "banner-image": "shopify:\/\/shop_images\/about_0909.jpg",
               "banner-title": "ABOUT",
               "banner-link": "shopify:\/\/pages\/about"
             }
@@ -1384,7 +1519,7 @@
           "70005320-d93a-45f5-8112-366c2fd8e550": {
             "type": "image",
             "settings": {
-              "banner-image": "shopify:\/\/shop_images\/top_shop.jpg",
+              "banner-image": "shopify:\/\/shop_images\/shop.jpg",
               "banner-title": "SHOP",
               "banner-link": "shopify:\/\/pages\/shop"
             }
@@ -1408,24 +1543,16 @@
             "settings": {
               "block_page": "about",
               "block_show_title": false,
-              "image": "shopify:\/\/shop_images\/about_TOP01.jpg"
-            }
-          },
-          "18d204b3-0b18-4562-9906-1c076255d6c5": {
-            "type": "page_image",
-            "settings": {
-              "block_page": "",
-              "block_show_title": true
+              "image": "shopify:\/\/shop_images\/about_top.jpg"
             }
           }
         },
         "block_order": [
-          "38dd10b4-1e1e-479b-a0dd-e1da63ac63b3",
-          "18d204b3-0b18-4562-9906-1c076255d6c5"
+          "38dd10b4-1e1e-479b-a0dd-e1da63ac63b3"
         ],
         "settings": {
           "image_height": "use_screen_one_half",
-          "overlay_opacity": 20,
+          "overlay_opacity": 0,
           "palette": "palette--contrast--dark",
           "text_align": "align--middle-center"
         }
@@ -1489,7 +1616,7 @@
         "type": "page-lookbook-about",
         "settings": {
           "title": "大人の味わいで上質なひとときを。",
-          "txt1": "高級住宅やレストランそして和と洋が融合する街、東京・白金の洋菓子ブランド「ラ・メゾン白金」。<br><br>食材や季節感にこだわったショコラや焼き菓子など\"上質なカジュアル\"をテーマに、 自分へのご褒美や様々なギフトシーンに対応できるラインナップでお届けいたします。"
+          "txt1": "高級住宅やレストランそして和と洋が融合する街、東京・白金の洋菓子店「ラ・メゾン白金」。<br><br>食材や季節感にこだわったショコラや焼き菓子など\"上質なカジュアル\"をテーマに、 自分へのご褒美や様々なギフトシーンに対応できるラインナップでお届けいたします。"
         }
       },
       "page-lookbook-about-2": {
